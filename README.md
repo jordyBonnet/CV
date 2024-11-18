@@ -1,5 +1,6 @@
-# CV
+# Jordy Bonnet
 curriculum vitae
+![Alternative text](https://lh3.google.com/u/0/d/1pl1KjJ1TpGFYQN_Ot6in-o9FdK-opswq=w1920-h998-iv1" class="a-b-ta-Ua" alt="Affichage de _DSC3303-3.jpg)
 
 ## Hello
 Here are some of my small personnal python projects:
