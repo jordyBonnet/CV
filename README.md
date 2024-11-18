@@ -1,6 +1,5 @@
 # Jordy Bonnet
-curriculum vitae
-![A cute cat](jordy_bonnet.jpg)
+<img src="jordy_bonnet.jpg" width="200" height="150" alt="JordyBonnet">
 
 ## Hello
 Here are some of my small personnal python projects:
