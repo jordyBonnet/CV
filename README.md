@@ -1,6 +1,6 @@
 # Jordy Bonnet
 curriculum vitae
-![A cute cat](https://example.com/cute-cat.jpg)
+![A cute cat](jordy_bonnet.jpg)
 
 ## Hello
 Here are some of my small personnal python projects:
