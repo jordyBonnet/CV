@@ -1,5 +1,6 @@
 # Jordy Bonnet
-<img src="jordy_bonnet.jpg" width="300" alt="JordyBonnet">
+<img src="image.jpg" width="250" alt="JordyBonnet" style="float: right; margin: 0 10px 10px 0;" alt="Image description">
+This is some text that will wrap around the image on the right side.
 
 ## Hello
 Here are some of my small personnal python projects:
