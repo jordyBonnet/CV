@@ -1,5 +1,5 @@
 # Jordy Bonnet
-<img src="jordy_bonnet.jpg" width="250" alt="JordyBonnet" style="float: right; margin: 0 20px 10px 0;" alt="Image description"><br>
+<img src="jordy_bonnet.jpg" width="290" alt="JordyBonnet" style="float: right; margin: 0 20px 10px 0;" alt="Image description"><br>
 
 Starting my career at the [Laboratory of the Future - LoF](https://www.lof.cnrs.fr/) (2009 - Bordeaux, France) as a **laboratory technician**, I quickly trained myself in programming with **Matlab**.<br>
 I then became fascinated by the power of programming, starting with basic tasks like processing spectrometer data and moving on to more advanced techniques like building machine learning models for image classification. I rapidly understood that to fully manage the **data lifecycle** in an R&D environment, programming skills are indispensable.<br>
@@ -10,7 +10,8 @@ While transitioning to **Python** (which has since become a standard thanks to A
 - Instrumentation (sensors / actuators)
 - User interface
 - Data visualization
-- Electronic boards (Arduino)<br>
+- Electronic boards (Arduino)
+- CAD & 3D printing<br>
 
 <div style="width: 100%; clear: both;">
  <br>
@@ -18,11 +19,8 @@ While transitioning to **Python** (which has since become a standard thanks to A
 
 <img src="ageing_setup.png" width="350" alt="JordyBonnet" style="float: left; margin: 0 20px 10px 0;" alt="Global design of an ageing setup that mimic environment weather">
 <img src="robotic_plateforme1.gif" width="350" alt="JordyBonnet" style="float: right; margin: 0 20px 10px 0;" alt="Contact angle robotic platform"><br>
-⬅️ From simple ageing setups with advanced image analysis caracterisation<br> <br>to<br> <br> more sophisticated robotised plateforms ➡️
-
-Using robots like: xArm, UR5e/UR3e, Doosan A0509s, MECA500.
-
-And also using **CAD** and **3D printing** to accelerate the prototyping phase.
+⬅️ From simple ageing setups with advanced image analysis caracterisation<br> <br>to<br> <br> more sophisticated robotised plateforms ➡️<br>
+[xArm, UR5e/UR3e, Doosan A0509s, MECA500]
 
 <div style="width: 100%; clear: both;">
  <br>
