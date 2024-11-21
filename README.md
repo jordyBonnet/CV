@@ -20,7 +20,7 @@ While transitioning to **Python** (which has since become a standard thanks to A
 From simple ageing setups (that mimic weather) with advanced image analysis caracterisation...<br>
 <img src="ageing_setup.png" width="400"><br>
 ...to more sophisticated robotised plateforms:<br>
-<img src="robotic_plateforme1.gif" width="400"><img src="Surfu2.gif" width="465"><br>
+<img src="robotic_plateforme1.gif" width="400"><img src="Surfu2.gif" width="485"><br>
 I have worked with a variety of robotic platforms, including the UR5e, UR3e, Doosan-A0509s, MECA500, xArm, and uArm.
 
 <div style="width: 100%; clear: both;">
@@ -40,10 +40,11 @@ I have examples on every items of this list, but here are two of them:
 
 As a first example, in 2023, I built a POC of an intelligent shampoo formulation platform, with autonomous decision-making through [**Bayesian optimization**](https://en.wikipedia.org/wiki/Bayesian_optimization#:~:text=Bayesian%20optimization%20is%20a%20sequential,expensive%2Dto%2Devaluate%20functions.), showing the effectiveness of these algorithms compared to a classic approach of experimental design ([DOE](https://asq.org/quality-resources/design-of-experiments)) and human reasoning.<br>
 We have shown that when working with tertiaries (3 products in the same formulation), the Bayesian optimization approach allowed us to discover 5 times more good candidates in 3 times fewer created formulations.<br>
-<img src="bayesian_optim_01.png" width="513"> <img src="bayesian_optim_02.png" width="500"><br>
+<img src="bayesian_optim_01.png" width="750"><br>
+<img src="bayesian_optim_02.png" width="750"><br>
  <br>
 As a second example, in 2019, I built a [**chemoinformatic**](https://en.wikipedia.org/wiki/Cheminformatics) tool for predicting the optimal salinity of surfactant mixtures in the field of oil recovery (EOR). Designed with [TensorFlow](https://www.tensorflow.org/?hl=fr), combining a [CNN](https://en.wikipedia.org/wiki/Convolutional_neural_network) and [NN](https://en.wikipedia.org/wiki/Neural_network), deployed on Dataiku.<br>
-<img src="CNN_NN_EOR.png" width="500" alt="JordyBonnet" alt="Machine learning model layout"><br>
+<img src="CNN_NN_EOR.png" width="700" ><br>
 
 I successfully led and delivered numerous data-driven projects, leveraging my expertise to build **full package projects**, from data acquisition and analysis to visualization and UI with tools like Dash Plotly mostly.<br>
 I like to share my knowledge of the professions of **robotics mechatronics engineer** and **data scientist** and I have participated, as a Python trainer, in several trainings throughout my career.
