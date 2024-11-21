@@ -1,7 +1,7 @@
 # Jordy Bonnet
 <img src="jordy_bonnet.jpg" width="290" alt="JordyBonnet" style="float: right; margin: 0 20px 10px 0;" alt="Image description"><br>
 
-Starting my career at the [Laboratory of the Future - LoF](https://www.lof.cnrs.fr/) (2009 - Bordeaux, France) as a **laboratory technician**, I quickly trained myself in programming with **Matlab**.<br>
+Starting my career at the [Laboratory of the Future - LoF](https://www.lof.cnrs.fr/) (2009 - Bordeaux, France) as a **laboratory technician** in chemistry and formualtion, I quickly trained myself in programming with **Matlab**.<br>
 I then became fascinated by the power of programming, starting with basic tasks like processing spectrometer data and moving on to more advanced techniques like building machine learning models for image classification. I rapidly understood that to fully manage the **data lifecycle** in an R&D environment, programming skills are indispensable.<br>
 Given the LoF's focus on miniaturizing and automating lab processes, I joined a newly created team in 2014 to build and develop customized automated laboratory systems.<br>
 While transitioning to **Python** (which has since become a standard thanks to AI) and by building these systems, I acquired skills in the following areas:
