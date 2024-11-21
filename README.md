@@ -39,7 +39,7 @@ Being very curious about cutting-edge algorithmic technologies, in 2018 I joined
 I have examples on every items of this list, but here are two of them:
 
 As a first example, in 2023, I built a POC of an intelligent shampoo formulation platform, with autonomous decision-making through [**Bayesian optimization**](https://en.wikipedia.org/wiki/Bayesian_optimization#:~:text=Bayesian%20optimization%20is%20a%20sequential,expensive%2Dto%2Devaluate%20functions.), showing the effectiveness of these algorithms compared to a classic approach of experimental design ([DOE](https://asq.org/quality-resources/design-of-experiments)) and human reasoning.<br>
-We have shown that when working with tertiaries (3 products in the same formulation), the Bayesian optimization approach allowed us to discover 5 times more good candidates in 3 times fewer created formulations.
+We have shown that when working with tertiaries (3 products in the same formulation), the Bayesian optimization approach allowed us to discover 5 times more good candidates in 3 times fewer created formulations.<br>
 <img src="bayesian_optim_01.png" width="513"> <img src="bayesian_optim_02.png" width="500"><br>
  <br>
 As a second example, in 2019, I built a [**chemoinformatic**](https://en.wikipedia.org/wiki/Cheminformatics) tool for predicting the optimal salinity of surfactant mixtures in the field of oil recovery (EOR). Designed with [TensorFlow](https://www.tensorflow.org/?hl=fr), combining a [CNN](https://en.wikipedia.org/wiki/Convolutional_neural_network) and [NN](https://en.wikipedia.org/wiki/Neural_network), deployed on Dataiku.<br>
@@ -57,7 +57,7 @@ In addition to my professional experience, I have continued to learn and grow by
 <table style="width:100%; table-layout:fixed;">
   <tr>
     <td style="width:33%; height:300px;">
-      Automatic cycling route planning generator
+      Your next cycling adventure, Bayesian-optimized
       <img src="https://miro.medium.com/v2/resize:fit:640/format:webp/1*YlrMPAsnb8J43YLvJawTJw.png" width="450" alt="JordyBonnet" alt="Machine learning model layout"><br>
       <a href="https://medium.com/@jordy.bonnet_67692/automatic-route-planning-generator-16a266d468a5">Article</a> - 2021<br>
       Using geospatial data and Bayesian optimization.<br>
@@ -65,7 +65,7 @@ In addition to my professional experience, I have continued to learn and grow by
       </a>
     </td>
     <td style="width:33%; height:300px;">
-      Automated video editing based on music rhythm
+      AI-powered video editing with music rhythm matching
       <img src="robot_video.png" height="230" alt="JordyBonnet" alt="Machine learning model layout"><br>
       <a href="https://medium.com/@jordy.bonnet_67692/automatic-route-planning-generator-16a266d468a5">Article</a> - 2021<br>
       Using music information retrieval (MIR) and MoviePy<br>
@@ -73,7 +73,7 @@ In addition to my professional experience, I have continued to learn and grow by
       </a>
     </td>
     <td style="width:33%; height:300px;">
-      One prompt to create a Full Trading Card Game
+      Single-prompt LLM-powered Trading Card Game (TCG) creation
       <img src="shards_of_gaia.webp" height="230" alt="JordyBonnet" alt="Machine learning model layout"><br>
       <a href="https://www.reddit.com/r/ollama/comments/1f9geso/how_to_create_a_fully_ai_generated_tcg/">Article</a> - 2024<br>
       Using locally installed LLM (Mixtral) & FLUX.1 to generate images<br>
