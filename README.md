@@ -28,7 +28,7 @@ I have worked with a variety of robotic platforms, including the UR5e, UR3e, Doo
 </div>
 
 Being very curious about cutting-edge algorithmic technologies, in 2018 I joined the data scientist team of the group for a part of my time, and I started working on data science topics since :
-- web scraping
+- Web scraping
 - Machine learning / Deep Learning
 - Image Analysis with AI
 - Integrating LLMs into robotic platforms
