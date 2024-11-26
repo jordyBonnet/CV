@@ -37,7 +37,7 @@ Being very curious about cutting-edge algorithmic technologies, in 2018 I joined
 
 I have examples on every items of this list, but here are two of them:
 
-As a first example, in 2023, I built a POC of an intelligent shampoo formulation platform, with autonomous decision-making through [**Bayesian optimization**](https://en.wikipedia.org/wiki/Bayesian_optimization#:~:text=Bayesian%20optimization%20is%20a%20sequential,expensive%2Dto%2Devaluate%20functions.), showing the effectiveness of these algorithms compared to a classic approach of experimental design ([DOE](https://asq.org/quality-resources/design-of-experiments)) and human reasoning.<br>
+As a first example, in 2023, I built a POC of an intelligent shampoo formulation platform (Self-Driving Labs), with autonomous decision-making through [**Bayesian optimization**](https://en.wikipedia.org/wiki/Bayesian_optimization#:~:text=Bayesian%20optimization%20is%20a%20sequential,expensive%2Dto%2Devaluate%20functions.), showing the effectiveness of these algorithms compared to a classic approach of experimental design ([DOE](https://asq.org/quality-resources/design-of-experiments)) and human reasoning.<br>
 We have shown that when working with tertiaries (3 products in the same formulation), the Bayesian optimization approach allowed us to discover 5 times more good candidates in 3 times fewer created formulations.<br>
 <img src="bayesian_optim_01.png" width="750"><br>
 <img src="bayesian_optim_02.png" width="750"><br>
