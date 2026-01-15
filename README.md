@@ -1,4 +1,4 @@
-# Jordy Bonnet
+<img width="2560" height="1269" alt="image" src="https://github.com/user-attachments/assets/5a34fcfe-f577-43bc-ba14-85f19db5105a" /># Jordy Bonnet
 <img src="jordy_bonnet.jpg" width="290" style="float: right; margin: 0 90px 30px 0;" alt="Image description"><br>
 
 Starting my career at the [Laboratory of the Future (LoF) - Syensqo](https://www.lof.cnrs.fr/) (2009 - Bordeaux, France) as a **laboratory technician** in chemistry and formualtion, I quickly trained myself in programming with **Matlab**.<br>
@@ -56,7 +56,7 @@ In addition to my professional experience, I have continued to learn and grow by
  <br> <br>
 <table style="width:100%; table-layout:fixed;">
   <tr>
-    <td style="width:33%; height:300px;">
+    <td style="width:30%; height:300px;">
       Your next cycling adventure, Bayesian-optimized
       <img src="https://miro.medium.com/v2/resize:fit:640/format:webp/1*YlrMPAsnb8J43YLvJawTJw.png" width="450" alt="JordyBonnet" alt="Machine learning model layout"><br>
       <a href="https://medium.com/@jordy.bonnet_67692/automatic-route-planning-generator-16a266d468a5">Article</a> - 2021<br>
@@ -64,20 +64,20 @@ In addition to my professional experience, I have continued to learn and grow by
       <a href="https://colab.research.google.com/drive/1fGgB_teBZbIgSAxNsGE26UVEav00Ehg6">Google Colab code
       </a>
     </td>
-    <td style="width:33%; height:300px;">
+    <td style="width:30%; height:300px;">
       AI-powered video editing with music rhythm matching
-      <img src="robot_video.png" height="230" alt="JordyBonnet" alt="Machine learning model layout"><br>
+      <img src="robot_video.png" height="230" alt="JordyBonnet"><br>
       <a href="https://medium.com/@jordy.bonnet_67692/automatic-route-planning-generator-16a266d468a5">Article</a> - 2021<br>
       Using music information retrieval (MIR) and MoviePy<br>
       <a href="https://colab.research.google.com/drive/1Axstvp1KfwQxhqdDhQJdRBd0RpA_ME-n?usp=sharing">Google Colab code
       </a>
     </td>
-    <td style="width:33%; height:300px;">
-      Single-prompt LLM-powered Trading Card Game (TCG) creation
-      <img src="shards_of_gaia.webp" height="230" alt="JordyBonnet" alt="Machine learning model layout"><br>
-      <a href="https://www.reddit.com/r/ollama/comments/1f9geso/how_to_create_a_fully_ai_generated_tcg/">Article</a> - 2024<br>
-      Using locally installed LLM (Mixtral) & FLUX.1 to generate images<br>
-      <a href="https://github.com/jordyBonnet/LLM_TCG/blob/main/LLM_TCG.ipynb">Github Notebook
+    <td style="width:40%; height:300px;">
+      Free (Open sourced) Print and Play (PnP) deck building card game
+      <img src="https://jordybonnet-globerunners.hf.space/cards_assets/GlobeRunners_large_logo.png" height="230" alt="JordyBonnet"><br>
+      <a href="https://huggingface.co/spaces/jordyBonnet/GlobeRunners">Webpage</a> - 2025<br>
+      Using local LLM & Wan2.2 to generate 7500+ illustrations<br>
+      <a href="https://github.com/jordyBonnet/GlobeRunners_dev">Github
       </a>
     </td>
   </tr>
