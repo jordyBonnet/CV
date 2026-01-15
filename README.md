@@ -1,4 +1,3 @@
-<img width="2560" height="1269" alt="image" src="https://github.com/user-attachments/assets/5a34fcfe-f577-43bc-ba14-85f19db5105a" /># Jordy Bonnet
 <img src="jordy_bonnet.jpg" width="290" style="float: right; margin: 0 90px 30px 0;" alt="Image description"><br>
 
 Starting my career at the [Laboratory of the Future (LoF) - Syensqo](https://www.lof.cnrs.fr/) (2009 - Bordeaux, France) as a **laboratory technician** in chemistry and formualtion, I quickly trained myself in programming with **Matlab**.<br>
