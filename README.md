@@ -30,9 +30,9 @@ Being very curious about cutting-edge algorithmic technologies, in 2018 I joined
 - Web scraping
 - Machine learning / Deep Learning
 - Image Analysis with AI
-- Integrating LLMs into robotic platforms
 - Bayesian optimization
-- Intrinsic curiosity algorithms<br>
+- Intrinsic curiosity algorithms
+- Creation of agentic (RAG, GraphRAG, stats, ...) chatbot<br>
 
 I have examples on every items of this list, but here are two of them:
 
