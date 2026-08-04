@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Excalidraw Test</title>
+  <!-- FIX: load Excalidraw CSS directly from the real file path -->
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@excalidraw/excalidraw@0.18.0/dist/prod/index.css" />
+</head>
+<body>
+  <h1>Excalidraw Local Test</h1>
+
+  <div id="excalidraw-root" style="width: 100%; height: 600px; border: 1px solid red;"></div>
+
+  <script>
+    window.EXCALIDRAW_ASSET_PATH =
+      "https://esm.sh/@excalidraw/excalidraw@0.18.0/dist/prod/";
+  </script>
+
+  <script type="module">
+    import React from "https://esm.sh/react@19";
+    import ReactDOM from "https://esm.sh/react-dom@19/client";
+    import { Excalidraw, restore } from "https://esm.sh/@excalidraw/excalidraw@0.18.0?deps=react@19,react-dom@19";
+    // NOTE: the `import cssText from "...index.css?css"` line is GONE
+
+    const diagramSrc = "jordy_bonnet.excalidraw";
+
+    const initialData = async () => {
+      const res = await fetch(diagramSrc);
+      if (!res.ok) throw new Error(`Failed to load ${diagramSrc}: ${res.status}`);
+      const raw = await res.json();
+      const restored = restore(raw, null, null);
+      return {
+        elements: restored.elements,
+        appState: {
+          ...restored.appState,
+          viewBackgroundColor: restored.appState?.viewBackgroundColor ?? "#ffffff",
+        },
+        scrollToContent: true,
+      };
+    };
+
+    const root = ReactDOM.createRoot(document.getElementById("excalidraw-root"));
+    root.render(
+      React.createElement(Excalidraw, {
+        initialData,
+        viewModeEnabled: true,
+        zenModeEnabled: true,
+      })
+    );
+  </script>
+</body>
+</html>
