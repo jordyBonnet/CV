@@ -1,75 +1,453 @@
-<!doctype html><meta charset=utf-8><body><p><img src="jordy_bonnet.jpg" width="170" style="float: right; margin: 0 90px 30px 0;" alt="Image description"><br></p>
-<p>Starting my career at the <a href="https://www.lof.cnrs.fr/">Laboratory of the Future (LoF) - Syensqo</a> (2009 - Bordeaux, France) as a <strong>laboratory technician</strong> in chemistry and formualtion, I quickly trained myself in programming with <strong>Matlab</strong>.<br>
-I then became fascinated by the power of programming, starting with basic tasks like processing spectrometer data and moving on to more advanced techniques like building machine learning models for image classification. I rapidly understood that to fully manage the <strong>data lifecycle</strong> in an R&amp;D environment, programming skills are key.<br>
-Given the LoF's focus on miniaturizing and automating lab processes, I joined a newly created team in 2014 to build and develop highly customized automated laboratory systems.<br>
-While transitioning to <strong>Python</strong> (which has since become a standard thanks to AI) and by building these systems, I acquired skills in the following areas:
-- Image analysis
-- Signal processing
-- Lab equipment instrumentation (cameras, pHmeters, syringe-pumps, viscometer, Peltier modules, flowmeters, spectrometers and much more)
-- User interface
-- Data visualization
-- Electronic boards (Arduino / Raspberry Pi)
-- CAD (SolidWorks, Open-scad, Freecad) &amp; 3D printing (Raise3D, UltiMaker)<br></p>
-<div style="width: 100%; clear: both;">
- <br>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jordy Bonnet — CV</title>
+
+  <!-- Excalidraw CSS -->
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@excalidraw/excalidraw@0.18.0/dist/prod/index.css" />
+
+  <style>
+    /* ── Reset & base ─────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Segoe UI', Roboto, Arial, sans-serif;
+      background: #ffffff;
+      color: #1a2744;
+      line-height: 1.65;
+    }
+
+    /* ── Colour tokens ────────────────────────────── */
+    :root {
+      --blue-dark:   #0d3b6e;
+      --blue-mid:    #1a5fa0;
+      --blue-light:  #dce8f7;
+      --white:       #ffffff;
+      --grey:        #f4f6f9;
+      --text:        #1a2744;
+      --muted:       #5c6e85;
+    }
+
+    /* ── Layout helpers ───────────────────────────── */
+    .container { max-width: 1080px; margin: 0 auto; padding: 0 24px; }
+    .section   { margin-bottom: 48px; }
+    .divider   { height: 3px; background: var(--blue-dark); border-radius: 2px; width: 60px; margin-bottom: 24px; }
+
+    /* ── Header / Hero ────────────────────────────── */
+    header {
+      display: flex;
+      align-items: center;
+      gap: 32px;
+      padding: 56px 0 40px;
+      border-bottom: 2px solid var(--blue-light);
+    }
+    header img.avatar {
+      width: 140px; height: 160px;
+      object-fit: cover;
+      object-position: top center;   /* ← ajoute cette ligne */
+      border-radius: 16px;
+      box-shadow: 0 4px 16px rgba(13,59,110,.2);
+    }
+    header h1 { font-size: 2.4rem; color: var(--blue-dark); margin-bottom: 4px; }
+    header p.tagline { font-size: 1.15rem; color: var(--muted); max-width: 680px; margin-top: 16px; }
+
+    /* ── Language visibility ─────────────────────── */
+    [data-lang="en"], [data-lang="fr"] { display: none; }
+    body.show-fr [data-lang="fr"] { display: inline; }
+    body.show-fr [data-lang="fr"] ol,
+    body.show-fr [data-lang="fr"] ul,
+    body.show-fr [data-lang="fr"] p,
+    body.show-fr [data-lang="fr"] span {
+      display: block;
+    }
+    body:not(.show-fr) [data-lang="en"] { display: inline; }
+    body:not(.show-fr) [data-lang="en"] ol,
+    body:not(.show-fr) [data-lang="en"] ul,
+    body:not(.show-fr) [data-lang="en"] p,
+    body:not(.show-fr) [data-lang="en"] span {
+      display: block;
+    }
+
+    /* ── Cards ─────────────────────────────────────── */
+    .card-grid { display: grid; gap: 24px; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
+    .card {
+      background: var(--grey);
+      border-left: 4px solid var(--blue-dark);
+      border-radius: 8px;
+      padding: 24px 28px;
+      box-shadow: 0 2px 8px rgba(13,59,110,.07);
+    }
+    .card h3 { color: var(--blue-dark); margin-bottom: 8px; font-size: 1.1rem; }
+    .card p  { color: var(--text); font-size: .95rem; }
+
+    /* ── Skills list ──────────────────────────────── */
+    .skills-list { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+    .skill-tag {
+      background: var(--blue-light);
+      color: var(--blue-dark);
+      padding: 4px 14px;
+      border-radius: 999px;
+      font-size: .85rem;
+      font-weight: 600;
+    }
+
+    /* ── Timeline ─────────────────────────────────── */
+    .timeline-item { position: relative; padding-left: 28px; margin-bottom: 24px; }
+    .timeline-item::before {
+      content: '';
+      position: absolute; left: 0; top: 6px;
+      width: 12px; height: 12px;
+      border-radius: 50%;
+      background: var(--blue-dark);
+    }
+    .timeline-item::after {
+      content: '';
+      position: absolute; left: 4.5px; top: 20px;
+      width: 3px; height: calc(100% - 8px);
+      background: var(--blue-light);
+    }
+    .timeline-item:last-child::after { display: none; }
+    .timeline-item h4 { color: var(--blue-dark); font-size: 1rem; margin-bottom: 2px; }
+    .timeline-item span.date { font-size: .85rem; color: var(--muted); }
+
+    /* ── Excalidraw embed ─────────────────────────── */
+    #excalidraw-root {
+      width: 100%;
+      height: 700px;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 20px rgba(13,59,110,.1);
+    }
+
+    /* ── Footer ───────────────────────────────────── */
+    footer {
+      text-align: center;
+      padding: 32px 0;
+      color: var(--muted);
+      font-size: .85rem;
+      border-top: 1px solid var(--blue-light);
+      margin-top: 48px;
+    }
+
+    /* ── Language switch ─────────────────────────── */
+    .lang-switch {
+      position: fixed; top: 16px; right: 24px;
+      z-index: 999;
+      display: flex; gap: 4px;
+      background: var(--white);
+      border: 2px solid var(--blue-dark);
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 2px 8px rgba(13,59,110,.15);
+    }
+    .lang-switch button {
+      background: transparent; color: var(--blue-dark);
+      border: none; padding: 6px 14px;
+      font-size: .85rem; font-weight: 700; cursor: pointer;
+      transition: background .2s, color .2s;
+    }
+    .lang-switch button.active {
+      background: var(--blue-dark); color: var(--white);
+    }
+
+    /* ── Responsive ───────────────────────────────── */
+    @media (max-width: 640px) {
+      header { flex-direction: column; text-align: center; gap: 16px; padding: 56px 0 24px; }
+      header h1 { font-size: 1.8rem; }
+      .lang-switch { top: auto; bottom: 16px; right: 16px; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- ════════ HEADER ════════ -->
+  <header>
+    <img src="jordy_bonnet.jpg" alt="Jordy Bonnet" class="avatar" height="220" />
+    <div>
+      <h1>Jordy Bonnet</h1>
+      <p class="tagline">
+        <span data-lang="en">17+ years at the intersection of physical chemistry, lab automation, AI, and data-driven R&amp;D innovation</span>
+        <span data-lang="fr">17+ ans à l'intersection de la chimie physique, de l'automatisation en laboratoire, de l'IA et de l'innovation R&amp;D data-driven</span>
+      </p>
+    </div>
+  </header>
+
+  <!-- ════════ ABOUT ════════ -->
+  <section class="section">
+    <div class="divider"></div>
+    <h2>
+      <span data-lang="en">About</span>
+      <span data-lang="fr">À propos</span>
+    </h2>
+    <p style="margin-top:16px; max-width:780px;">
+      <span data-lang="en">
+        Starting my career at the <strong>Laboratory of the Future (LoF) — Syensqo / CNRS / Université de Bordeaux</strong> as a laboratory technician in chemistry and formulation, I quickly trained myself in programming with <strong>Matlab</strong>. Fascinated by the power of code, I progressed from basic spectrometer data processing to building machine-learning models for image classification.
+        <br/><br/>
+        Transitioning to <strong>Python</strong>, I joined a newly created team in 2014 to build highly customized automated laboratory systems — and later contributed to the group's data-science initiatives from 2018 onward.
+      </span>
+      <span data-lang="fr">
+        Débutant ma carrière au <strong>Laboratoire du Futur (LoF) — Syensqo / CNRS / Université de Bordeaux</strong> comme technicien en chimie et formulation, je me suis rapidement formé à la programmation avec <strong>Matlab</strong>. Fasciné par le pouvoir du code, je suis passé du traitement basique des données de spectromètre à la construction de modèles de machine-learning pour la classification d'images.
+        <br/><br/>
+        En passant à <strong>Python</strong>, j'ai rejoint une équipe nouvellement créée en 2014 pour construire des systèmes automatisés de laboratoire hautement personnalisés — et contribué par la suite aux initiatives data-science du groupe depuis 2018.
+      </span>
+    </p>
+  </section>
+
+  <!-- ════════ SKILLS ════════ -->
+  <section class="section">
+    <div class="divider"></div>
+    <h2>
+      <span data-lang="en">Skills</span>
+      <span data-lang="fr">Compétences</span>
+    </h2>
+    <div class="card-grid" style="margin-top:16px;">
+      <div class="card">
+        <h3>
+          <span data-lang="en">🤖 Lab Automation &amp; Robotics</span>
+          <span data-lang="fr">🤖 Automatisation Labo &amp; Robotique</span>
+        </h3>
+        <p>UR5e, UR3e, Doosan-A0509s, MECA500, xArm, uArm · CAD (SolidWorks, OpenSCAD, FreeCAD) · 3D printing (Raise3D, UltiMaker) · Arduino / Raspberry Pi</p>
+      </div>
+      <div class="card">
+        <h3>
+          <span data-lang="en">📊 Data Science &amp; AI</span>
+          <span data-lang="fr">📊 Data Science &amp; IA</span>
+        </h3>
+        <p>Machine Learning / Deep Learning · Bayesian Optimization · Web Scraping · Agentic AI (RAG, GraphRAG, LangChain) · Chemoinformatics</p>
+      </div>
+      <div class="card">
+        <h3>
+          <span data-lang="en">🔬 Instrumentation &amp; Analysis</span>
+          <span data-lang="fr">🔬 Instrumentation &amp; Analyse</span>
+        </h3>
+        <p>Image analysis · Signal processing · Cameras, pH-meters, spectrometers, Peltier modules, flowmeters, viscometers</p>
+      </div>
+      <div class="card">
+        <h3>
+          <span data-lang="en">💻 Software &amp; UI</span>
+          <span data-lang="fr">💻 Logiciels &amp; UI</span>
+        </h3>
+        <p>Python (primary) · MATLAB · Plotly Dash · Streamlit · TensorFlow · Dataiku · OpenCV · scikit-image</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════ KEY PROJECTS ════════ -->
+  <section class="section">
+    <div class="divider"></div>
+    <h2>
+      <span data-lang="en">Key Projects</span>
+      <span data-lang="fr">Projets Phares</span>
+    </h2>
+    <div style="margin-top:16px;">
+      <div class="timeline-item">
+        <h4>
+          <span data-lang="en">Intelligent Shampoo Formulation Platform (Self-Driving Labs)</span>
+          <span data-lang="fr">Plateforme de Formulation Intelligente de Shampoing (Self-Driving Labs)</span>
+        </h4>
+        <span class="date">2023 · Bayesian Optimization</span>
+        <p style="margin-top:8px; color:var(--muted); font-size:.95rem;">
+          <span data-lang="en">Autonomous decision-making via Bayesian optimization on a robotic platform (Doosan arm + electronic pipette). Discovered <strong>5× more good candidates in 3× fewer formulations</strong> vs. classic DOE for tertiary mixtures.</span>
+          <span data-lang="fr">Décision autonome par optimisation bayésienne sur une plateforme robotique (bras Doosan + pipette électronique). Découverte de <strong>5× plus de bons candidats avec 3× moins de formulations</strong> vs. DOE classique pour mélanges tertiaires.</span>
+        </p>
+      </div>
+      <div class="timeline-item">
+        <h4>
+          <span data-lang="en">EOR Surfactant Salinity Predictor (Chemoinformatics)</span>
+          <span data-lang="fr">Prédicteur de Salinité pour Tensioactifs EOR (Chimioinformatique)</span>
+        </h4>
+        <span class="date">2019 · TensorFlow CNN + NN</span>
+        <p style="margin-top:8px; color:var(--muted); font-size:.95rem;">
+          <span data-lang="en">Predicted optimal salinity for surfactant mixtures in Enhanced Oil Recovery using molecular SMILES and process parameters. Deployed on Dataiku.</span>
+          <span data-lang="fr">Prédiction de la salinité optimale pour des mélanges tensioactifs en Récupération Assistée du Pétrole (EOR) à partir de SMILES moléculaires et paramètres de procédé. Déployé sur Dataiku.</span>
+        </p>
+      </div>
+      <div class="timeline-item">
+        <h4>
+          <span data-lang="en">HSE Chatbot Assistant (GraphRAG)</span>
+          <span data-lang="fr">Assistant Chatbot HSE (GraphRAG)</span>
+        </h4>
+        <span class="date">2025–2026 · LLM, RAG, Agent Orchestration</span>
+        <p style="margin-top:8px; color:var(--muted); font-size:.95rem;">
+          <span data-lang="en">Webapp assistant for HSE teams built on tens of thousands of natural-language researcher feedback entries. Pipeline: translation → anonymization → entity extraction → GraphRAG → specialized agents.</span>
+          <span data-lang="fr">Assistant webapp pour les équipes HSE basé sur des dizaines de milliers d'entrées de feedback chercheurs en langage naturel. Pipeline : traduction → anonymisation → extraction d'entités → GraphRAG → agents spécialisés.</span>
+        </p>
+      </div>
+      <div class="timeline-item">
+        <h4>
+          <span data-lang="en">Contact-Angle Measurement Robot</span>
+          <span data-lang="fr">Robot de Mesure d'Angle de Contact</span>
+        </h4>
+        <span class="date">2022 · MECA500 + Plotly-Dash + Computer Vision</span>
+        <p style="margin-top:8px; color:var(--muted); font-size:.95rem;">
+          <span data-lang="en">Robotic platform for high-throughput surface-energy measurement on metal plates. Handles 10 plates × 12 solvents — no equivalent solution existed at the time.</span>
+          <span data-lang="fr">Plateforme robotique pour la mesure à haut débit de l'énergie de surface sur plaques métalliques. Gère 10 plaques × 12 solvants — aucune solution équivalente n'existait à l'époque.</span>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════ PERSONAL PROJECTS ════════ -->
+  <section class="section">
+    <div class="divider"></div>
+    <h2>
+      <span data-lang="en">Personal Projects</span>
+      <span data-lang="fr">Projets Personnels</span>
+    </h2>
+    <div class="card-grid" style="margin-top:16px;">
+      <div class="card">
+        <h3>
+          <span data-lang="en">🚴 Bayesian-Optimized Cycling Routes</span>
+          <span data-lang="fr">🚴 Itinéraires Cyclistes par Optimisation Bayésienne</span>
+        </h3>
+        <p>
+          <span data-lang="en">Geospatial data + Bayesian optimization for route planning.</span>
+          <span data-lang="fr">Données géospatiales + optimisation bayésienne pour la planification d'itinéraires.</span>
+        </p>
+        <a href="https://medium.com/@jordy.bonnet_67692/automatic-route-planning-generator-16a266d468a5" style="color:var(--blue-mid);">
+          <span data-lang="en">Article</span>
+          <span data-lang="fr">Article</span>
+        </a> ·
+        <a href="https://colab.research.google.com/drive/1fGgB_teBZbIgSAxNsGE26UVEav00Ehg6" style="color:var(--blue-mid);">
+          <span data-lang="en">Colab</span>
+          <span data-lang="fr">Colab</span>
+        </a> — 2021
+      </div>
+      <div class="card">
+        <h3>
+          <span data-lang="en">🎵 AI Video Editing with Music Rhythm</span>
+          <span data-lang="fr">🎵 Montage Vidéo IA avec Rythme Musical</span>
+        </h3>
+        <p>
+          <span data-lang="en">Music information retrieval (MIR) + MoviePy for rhythm-synced editing.</span>
+          <span data-lang="fr">Recherche d'information musicale (MIR) + MoviePy pour un montage synchronisé au rythme.</span>
+        </p>
+        <a href="https://medium.com/@jordy.bonnet_67692/automatic-route-planning-generator-16a266d468a5" style="color:var(--blue-mid);">
+          <span data-lang="en">Article</span>
+          <span data-lang="fr">Article</span>
+        </a> ·
+        <a href="https://colab.research.google.com/drive/1Axstvp1KfwQxhqdDhQJdRBd0RpA_ME-n?usp=sharing" style="color:var(--blue-mid);">
+          <span data-lang="en">Colab</span>
+          <span data-lang="fr">Colab</span>
+        </a> — 2021
+      </div>
+      <div class="card">
+        <h3>
+          <span data-lang="en">🃏 GlobeRunners — PnP Card Game</span>
+          <span data-lang="fr">🃏 GlobeRunners — Jeu de Cartes PnP</span>
+        </h3>
+        <p>
+          <span data-lang="en">Open-source deck-building game with 7500+ AI-generated illustrations (local LLM + Wan2.2).</span>
+          <span data-lang="fr">Jeu de construction de decks open-source avec 7500+ illustrations générées par IA (LLM local + Wan2.2).</span>
+        </p>
+        <a href="https://huggingface.co/spaces/jordyBonnet/GlobeRunners" style="color:var(--blue-mid);">
+          <span data-lang="en">Webpage</span>
+          <span data-lang="fr">Page Web</span>
+        </a> ·
+        <a href="https://github.com/jordyBonnet/GlobeRunners_dev" style="color:var(--blue-mid);">
+          <span data-lang="en">GitHub</span>
+          <span data-lang="fr">GitHub</span>
+        </a> — 2025
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════ DOWNLOAD BUTTONS ════════ -->
+  <section class="section" style="text-align:center;">
+    <a href="Jordy Bonnet CV Data.pdf" download style="display:inline-block; background:var(--blue-dark); color:#fff; padding:14px 32px; border-radius:8px; text-decoration:none; font-weight:600; margin:0 12px;">
+      📄
+      <span data-lang="en">Download — CV Data (PDF)</span>
+      <span data-lang="fr">Télécharger — CV Data (PDF)</span>
+    </a>
+    <a href="Jordy Bonnet CV Mécatronicien.pdf" download style="display:inline-block; background:var(--blue-dark); color:#fff; padding:14px 32px; border-radius:8px; text-decoration:none; font-weight:600; margin:0 12px;">
+      📄
+      <span data-lang="en">Download — CV Mécatronicien (PDF)</span>
+      <span data-lang="fr">Télécharger — CV Mécatronicien (PDF)</span>
+    </a>
+  </section>
+
+  <!-- ════════ EXCALIDRAW MIND MAP ════════ -->
+  <section class="section">
+    <div class="divider"></div>
+    <h2>
+      <span data-lang="en">Mind Map</span>
+      <span data-lang="fr">Carte Mentale</span>
+    </h2>
+    <p style="margin-top:8px; color:var(--muted); font-size:.95rem;">
+      <span data-lang="en">Interactive CV mind map generated from Excalidraw.</span>
+      <span data-lang="fr">Carte mentale interactive du CV générée depuis Excalidraw.</span>
+    </p>
+    <div id="excalidraw-root"></div>
+  </section>
+
+</div><!-- /container -->
+
+<!-- ════════ LANGUAGE SWITCH ════════ -->
+<div class="lang-switch">
+  <button id="btn-en" onclick="setLang('en')">EN</button>
+  <button id="btn-fr" onclick="setLang('fr')">FR</button>
 </div>
 
-<p>From simple ageing setups (that mimic weather) with advanced image analysis caracterisation...<br>
-<img src="ageing_setup.png" width="400"><br>
-...to more sophisticated robotised plateforms:<br>
-<img src="robotic_plateforme1.gif" width="400"><img src="Surfu2.gif" width="485"><br>
-I have worked with a variety of robotic platforms, including the UR5e, UR3e, Doosan-A0509s, MECA500, xArm, and uArm.</p>
-<div style="width: 100%; clear: both;">
- <br>
-</div>
+<!-- ════════ SCRIPTS ════════ -->
+<script>
+  /* ── Language switch ─────────────────────────── */
+  function setLang(lang) {
+    document.body.classList.toggle('show-fr', lang === 'fr');
+    localStorage.setItem('cv-lang', lang);
+    document.getElementById('btn-en').classList.toggle('active', lang === 'en');
+    document.getElementById('btn-fr').classList.toggle('active', lang === 'fr');
+  }
+  (function init() {
+    const saved = localStorage.getItem('cv-lang') || 'en';
+    setLang(saved);
+  })();
+</script>
 
-<p>Being very curious about cutting-edge algorithmic technologies, in 2018 I joined the data scientist team of the group for a part of my time, and I started working on data science topics since :
-- Web scraping
-- Machine learning / Deep Learning
-- AI assited imagery analysis
-- Bayesian optimization
-- Intrinsic curiosity algorithms
-- Agentic AI assistant (RAG, GraphRAG, LangChain, LLM Knowledge Bases, ...)<br></p>
-<p>I have examples on every items of this list, but here are two of them:</p>
-<p>As a first example, in 2023, I built an intelligent shampoo formulation platform (Self-Driving Labs), with autonomous decision-making through <a href="https://en.wikipedia.org/wiki/Bayesian_optimization#:~:text=Bayesian%20optimization%20is%20a%20sequential,expensive%2Dto%2Devaluate%20functions."><strong>Bayesian optimization</strong></a>, showing the effectiveness of these algorithms compared to a classic approach of experimental design (<a href="https://asq.org/quality-resources/design-of-experiments">DOE</a>) and human reasoning.<br>
-We have shown that when working with tertiaries (3 products in the same formulation), the Bayesian optimization approach allowed us to discover 5 times more good candidates in 3 times fewer created formulations.<br>
-<img src="bayesian_optim_01.png" width="750"><br>
-<img src="bayesian_optim_02.png" width="750"><br>
- <br>
-As a second example, in 2019, I built a <a href="https://en.wikipedia.org/wiki/Cheminformatics"><strong>chemoinformatic</strong></a> tool for predicting the optimal salinity of surfactant mixtures in the field of oil recovery (EOR). Designed with <a href="https://www.tensorflow.org/?hl=fr">TensorFlow</a>, combining a <a href="https://en.wikipedia.org/wiki/Convolutional_neural_network">CNN</a> and <a href="https://en.wikipedia.org/wiki/Neural_network">NN</a>, deployed on Dataiku.<br>
-<img src="CNN_NN_EOR.png" width="700" ><br></p>
-<p>I successfully led and delivered numerous data-driven projects, leveraging my expertise to build <strong>full package projects</strong>, from data acquisition and analysis to visualization and UI with tools like Dash Plotly mostly.<br>
-I like to share my knowledge of the professions of <strong>robotics mechatronics engineer</strong> and <strong>data scientist</strong> and I have participated, as a Python trainer, in several trainings throughout my career.
- <br> <br></p>
-<hr />
-<p><br>
-In addition to my professional experience, I have continued to learn and grow by undertaking personal Python projects:
- <br> <br></p>
-<table style="width:100%; table-layout:fixed;">
-  <tr>
-    <td style="width:30%; height:300px;">
-      Your next cycling adventure, Bayesian-optimized
-      <img src="https://miro.medium.com/v2/resize:fit:640/format:webp/1*YlrMPAsnb8J43YLvJawTJw.png" width="450" alt="JordyBonnet" alt="Machine learning model layout"><br>
-      <a href="https://medium.com/@jordy.bonnet_67692/automatic-route-planning-generator-16a266d468a5">Article</a> - 2021<br>
-      Using geospatial data and Bayesian optimization.<br>
-      <a href="https://colab.research.google.com/drive/1fGgB_teBZbIgSAxNsGE26UVEav00Ehg6">Google Colab code
-      </a>
-    </td>
-    <td style="width:30%; height:300px;">
-      AI-powered video editing with music rhythm matching
-      <img src="robot_video.png" height="230" alt="JordyBonnet"><br>
-      <a href="https://medium.com/@jordy.bonnet_67692/automatic-route-planning-generator-16a266d468a5">Article</a> - 2021<br>
-      Using music information retrieval (MIR) and MoviePy<br>
-      <a href="https://colab.research.google.com/drive/1Axstvp1KfwQxhqdDhQJdRBd0RpA_ME-n?usp=sharing">Google Colab code
-      </a>
-    </td>
-    <td style="width:40%; height:300px;">
-      Free (Open sourced) Print and Play (PnP) deck building card game
-      <img src="https://jordybonnet-globerunners.hf.space/cards_assets/GlobeRunners_large_logo.png" height="230" alt="JordyBonnet"><br>
-      <a href="https://huggingface.co/spaces/jordyBonnet/GlobeRunners">Webpage</a> - 2025<br>
-      Using local LLM & Wan2.2 to generate 7500+ illustrations<br>
-      <a href="https://github.com/jordyBonnet/GlobeRunners_dev">Github
-      </a>
-    </td>
-  </tr>
-</table>
+<script>
+  window.EXCALIDRAW_ASSET_PATH = "https://esm.sh/@excalidraw/excalidraw@0.18.0/dist/prod/";
+</script>
+<script type="module">
+  import React from "https://esm.sh/react@19";
+  import ReactDOM from "https://esm.sh/react-dom@19/client";
+  import { Excalidraw, restore } from "https://esm.sh/@excalidraw/excalidraw@0.18.0?deps=react@19,react-dom@19";
+
+  const diagramSrc = "jordy_bonnet.excalidraw";
+
+  const initialData = async () => {
+    const res = await fetch(diagramSrc);
+    if (!res.ok) throw new Error(`Failed to load ${diagramSrc}: ${res.status}`);
+    const raw = await res.json();
+    const restored = restore(raw, null, null);
+    return {
+      elements: restored.elements,
+      appState: {
+        ...restored.appState,
+        viewBackgroundColor: restored.appState?.viewBackgroundColor ?? "#ffffff",
+      },
+      files: restored.files,
+      scrollToContent: true,
+    };
+  };
+
+  const root = ReactDOM.createRoot(document.getElementById("excalidraw-root"));
+  root.render(
+    React.createElement(Excalidraw, {
+      initialData,
+      viewModeEnabled: true,
+      zenModeEnabled: true,
+    })
+  );
+</script>
+
+<footer>
+  <span data-lang="en">© 2026 Jordy Bonnet — All rights reserved.</span>
+  <span data-lang="fr">© 2026 Jordy Bonnet — Tous droits réservés.</span>
+</footer>
+
+</body>
+</html>
