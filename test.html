@@ -2,52 +2,286 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <title>Excalidraw Test</title>
-  <!-- FIX: load Excalidraw CSS directly from the real file path -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jordy Bonnet — CV</title>
+
+  <!-- Excalidraw CSS -->
   <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/@excalidraw/excalidraw@0.18.0/dist/prod/index.css" />
+
+  <style>
+    /* ── Reset & base ─────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Segoe UI', Roboto, Arial, sans-serif;
+      background: #ffffff;
+      color: #1a2744;
+      line-height: 1.65;
+    }
+
+    /* ── Colour tokens ────────────────────────────── */
+    :root {
+      --blue-dark:   #0d3b6e;
+      --blue-mid:    #1a5fa0;
+      --blue-light:  #dce8f7;
+      --white:       #ffffff;
+      --grey:        #f4f6f9;
+      --text:        #1a2744;
+      --muted:       #5c6e85;
+    }
+
+    /* ── Layout helpers ───────────────────────────── */
+    .container { max-width: 1080px; margin: 0 auto; padding: 0 24px; }
+    .section   { margin-bottom: 48px; }
+    .divider   { height: 3px; background: var(--blue-dark); border-radius: 2px; width: 60px; margin-bottom: 24px; }
+
+    /* ── Header / Hero ────────────────────────────── */
+    header {
+      display: flex;
+      align-items: center;
+      gap: 32px;
+      padding: 56px 0 40px;
+      border-bottom: 2px solid var(--blue-light);
+    }
+    header img.avatar {
+      width: 140px; height: 160px;
+      object-fit: cover;
+      object-position: top center;   /* ← ajoute cette ligne */
+      border-radius: 16px;
+      box-shadow: 0 4px 16px rgba(13,59,110,.2);
+    }
+    header h1 { font-size: 2.4rem; color: var(--blue-dark); margin-bottom: 4px; }
+    header p.tagline { font-size: 1.15rem; color: var(--muted); max-width: 680px; }
+
+    /* ── Cards ─────────────────────────────────────── */
+    .card-grid { display: grid; gap: 24px; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
+    .card {
+      background: var(--grey);
+      border-left: 4px solid var(--blue-dark);
+      border-radius: 8px;
+      padding: 24px 28px;
+      box-shadow: 0 2px 8px rgba(13,59,110,.07);
+    }
+    .card h3 { color: var(--blue-dark); margin-bottom: 8px; font-size: 1.1rem; }
+    .card p  { color: var(--text); font-size: .95rem; }
+
+    /* ── Skills list ──────────────────────────────── */
+    .skills-list { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+    .skill-tag {
+      background: var(--blue-light);
+      color: var(--blue-dark);
+      padding: 4px 14px;
+      border-radius: 999px;
+      font-size: .85rem;
+      font-weight: 600;
+    }
+
+    /* ── Timeline ─────────────────────────────────── */
+    .timeline-item { position: relative; padding-left: 28px; margin-bottom: 24px; }
+    .timeline-item::before {
+      content: '';
+      position: absolute; left: 0; top: 6px;
+      width: 12px; height: 12px;
+      border-radius: 50%;
+      background: var(--blue-dark);
+    }
+    .timeline-item::after {
+      content: '';
+      position: absolute; left: 4.5px; top: 20px;
+      width: 3px; height: calc(100% - 8px);
+      background: var(--blue-light);
+    }
+    .timeline-item:last-child::after { display: none; }
+    .timeline-item h4 { color: var(--blue-dark); font-size: 1rem; margin-bottom: 2px; }
+    .timeline-item span.date { font-size: .85rem; color: var(--muted); }
+
+    /* ── Excalidraw embed ─────────────────────────── */
+    #excalidraw-root {
+      width: 100%;
+      height: 700px;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 20px rgba(13,59,110,.1);
+    }
+
+    /* ── Footer ───────────────────────────────────── */
+    footer {
+      text-align: center;
+      padding: 32px 0;
+      color: var(--muted);
+      font-size: .85rem;
+      border-top: 1px solid var(--blue-light);
+      margin-top: 48px;
+    }
+
+    /* ── Responsive ───────────────────────────────── */
+    @media (max-width: 640px) {
+      header { flex-direction: column; text-align: center; gap: 16px; padding: 32px 0 24px; }
+      header h1 { font-size: 1.8rem; }
+    }
+  </style>
 </head>
 <body>
-  <h1>Excalidraw Local Test</h1>
 
-  <div id="excalidraw-root" style="width: 100%; height: 600px; border: 1px solid red;"></div>
+<div class="container">
 
-  <script>
-    window.EXCALIDRAW_ASSET_PATH =
-      "https://esm.sh/@excalidraw/excalidraw@0.18.0/dist/prod/";
-  </script>
+  <!-- ════════ HEADER ════════ -->
+  <header>
+    <img src="jordy_bonnet.jpg" alt="Jordy Bonnet" class="avatar" height="220" />
+    <div>
+      <h1>Jordy Bonnet</h1>
+      <p class="tagline">
+        17+ years at the intersection of physical chemistry, lab automation, AI, and data-driven R&D innovation
+      </p>
+    </div>
+  </header>
 
-  <script type="module">
-    import React from "https://esm.sh/react@19";
-    import ReactDOM from "https://esm.sh/react-dom@19/client";
-    import { Excalidraw, restore } from "https://esm.sh/@excalidraw/excalidraw@0.18.0?deps=react@19,react-dom@19";
-    // NOTE: the `import cssText from "...index.css?css"` line is GONE
+  <!-- ════════ ABOUT ════════ -->
+  <section class="section">
+    <div class="divider"></div>
+    <h2>About</h2>
+    <p style="margin-top:16px; max-width:780px;">
+      Starting my career at the <strong>Laboratory of the Future (LoF) — Syensqo / CNRS / Université de Bordeaux</strong> as a laboratory technician in chemistry and formulation, I quickly trained myself in programming with <strong>Matlab</strong>. Fascinated by the power of code, I progressed from basic spectrometer data processing to building machine-learning models for image classification.
+      <br/><br/>
+      Transitioning to <strong>Python</strong>, I joined a newly created team in 2014 to build highly customized automated laboratory systems — and later contributed to the group's data-science initiatives from 2018 onward.
+    </p>
+  </section>
 
-    const diagramSrc = "jordy_bonnet.excalidraw";
+  <!-- ════════ SKILLS ════════ -->
+  <section class="section">
+    <div class="divider"></div>
+    <h2>Skills</h2>
+    <div class="card-grid" style="margin-top:16px;">
+      <div class="card">
+        <h3>🤖 Lab Automation &amp; Robotics</h3>
+        <p>UR5e, UR3e, Doosan-A0509s, MECA500, xArm, uArm · CAD (SolidWorks, OpenSCAD, FreeCAD) · 3D printing (Raise3D, UltiMaker) · Arduino / Raspberry Pi</p>
+      </div>
+      <div class="card">
+        <h3>📊 Data Science &amp; AI</h3>
+        <p>Machine Learning / Deep Learning · Bayesian Optimization · Web Scraping · Agentic AI (RAG, GraphRAG, LangChain) · Chemoinformatics</p>
+      </div>
+      <div class="card">
+        <h3>🔬 Instrumentation &amp; Analysis</h3>
+        <p>Image analysis · Signal processing · Cameras, pH-meters, spectrometers, Peltier modules, flowmeters, viscometers</p>
+      </div>
+      <div class="card">
+        <h3>💻 Software &amp; UI</h3>
+        <p>Python (primary) · MATLAB · Plotly Dash · Streamlit · TensorFlow · Dataiku · OpenCV · scikit-image</p>
+      </div>
+    </div>
+  </section>
 
-    const initialData = async () => {
-      const res = await fetch(diagramSrc);
-      if (!res.ok) throw new Error(`Failed to load ${diagramSrc}: ${res.status}`);
-      const raw = await res.json();
-      const restored = restore(raw, null, null);
-      return {
-        elements: restored.elements,
-        appState: {
-          ...restored.appState,
-          viewBackgroundColor: restored.appState?.viewBackgroundColor ?? "#ffffff",
-        },
-        scrollToContent: true,
-      };
+  <!-- ════════ KEY PROJECTS ════════ -->
+  <section class="section">
+    <div class="divider"></div>
+    <h2>Key Projects</h2>
+    <div style="margin-top:16px;">
+      <div class="timeline-item">
+        <h4>Intelligent Shampoo Formulation Platform (Self-Driving Labs)</h4>
+        <span class="date">2023 · Bayesian Optimization</span>
+        <p style="margin-top:8px; color:var(--muted); font-size:.95rem;">
+          Autonomous decision-making via Bayesian optimization on a robotic platform (Doosan arm + electronic pipette). Discovered <strong>5× more good candidates in 3× fewer formulations</strong> vs. classic DOE for tertiary mixtures.
+        </p>
+      </div>
+      <div class="timeline-item">
+        <h4>EOR Surfactant Salinity Predictor (Chemoinformatics)</h4>
+        <span class="date">2019 · TensorFlow CNN + NN</span>
+        <p style="margin-top:8px; color:var(--muted); font-size:.95rem;">
+          Predicted optimal salinity for surfactant mixtures in Enhanced Oil Recovery using molecular SMILES and process parameters. Deployed on Dataiku.
+        </p>
+      </div>
+      <div class="timeline-item">
+        <h4>HSE Chatbot Assistant (GraphRAG)</h4>
+        <span class="date">2025–2026 · LLM, RAG, Agent Orchestration</span>
+        <p style="margin-top:8px; color:var(--muted); font-size:.95rem;">
+          Webapp assistant for HSE teams built on tens of thousands of natural-language researcher feedback entries. Pipeline: translation → anonymization → entity extraction → GraphRAG → specialized agents.
+        </p>
+      </div>
+      <div class="timeline-item">
+        <h4>Contact-Angle Measurement Robot</h4>
+        <span class="date">2022 · MECA500 + Plotly-Dash + Computer Vision</span>
+        <p style="margin-top:8px; color:var(--muted); font-size:.95rem;">
+          Robotic platform for high-throughput surface-energy measurement on metal plates. Handles 10 plates × 12 solvents — no equivalent solution existed at the time.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════ PERSONAL PROJECTS ════════ -->
+  <section class="section">
+    <div class="divider"></div>
+    <h2>Personal Projects</h2>
+    <div class="card-grid" style="margin-top:16px;">
+      <div class="card">
+        <h3>🚴 Bayesian-Optimized Cycling Routes</h3>
+        <p>Geospatial data + Bayesian optimization for route planning.</p>
+        <a href="https://medium.com/@jordy.bonnet_67692/automatic-route-planning-generator-16a266d468a5" style="color:var(--blue-mid);">Article</a> · 
+        <a href="https://colab.research.google.com/drive/1fGgB_teBZbIgSAxNsGE26UVEav00Ehg6" style="color:var(--blue-mid);">Colab</a> — 2021
+      </div>
+      <div class="card">
+        <h3>🎵 AI Video Editing with Music Rhythm</h3>
+        <p>Music information retrieval (MIR) + MoviePy for rhythm-synced editing.</p>
+        <a href="https://medium.com/@jordy.bonnet_67692/automatic-route-planning-generator-16a266d468a5" style="color:var(--blue-mid);">Article</a> · 
+        <a href="https://colab.research.google.com/drive/1Axstvp1KfwQxhqdDhQJdRBd0RpA_ME-n?usp=sharing" style="color:var(--blue-mid);">Colab</a> — 2021
+      </div>
+      <div class="card">
+        <h3>🃏 GlobeRunners — PnP Card Game</h3>
+        <p>Open-source deck-building game with 7500+ AI-generated illustrations (local LLM + Wan2.2).</p>
+        <a href="https://huggingface.co/spaces/jordyBonnet/GlobeRunners" style="color:var(--blue-mid);">Webpage</a> · 
+        <a href="https://github.com/jordyBonnet/GlobeRunners_dev" style="color:var(--blue-mid);">GitHub</a> — 2025
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════ EXCALIDRAW MIND MAP ════════ -->
+  <section class="section">
+    <div class="divider"></div>
+    <h2>Mind Map</h2>
+    <p style="margin-top:8px; color:var(--muted); font-size:.95rem;">Interactive CV mind map generated from Excalidraw.</p>
+    <div id="excalidraw-root"></div>
+  </section>
+
+</div><!-- /container -->
+
+<!-- ════════ SCRIPTS ════════ -->
+<script>
+  window.EXCALIDRAW_ASSET_PATH = "https://esm.sh/@excalidraw/excalidraw@0.18.0/dist/prod/";
+</script>
+<script type="module">
+  import React from "https://esm.sh/react@19";
+  import ReactDOM from "https://esm.sh/react-dom@19/client";
+  import { Excalidraw, restore } from "https://esm.sh/@excalidraw/excalidraw@0.18.0?deps=react@19,react-dom@19";
+
+  const diagramSrc = "jordy_bonnet.excalidraw";
+
+  const initialData = async () => {
+    const res = await fetch(diagramSrc);
+    if (!res.ok) throw new Error(`Failed to load ${diagramSrc}: ${res.status}`);
+    const raw = await res.json();
+    const restored = restore(raw, null, null);
+    return {
+      elements: restored.elements,
+      appState: {
+        ...restored.appState,
+        viewBackgroundColor: restored.appState?.viewBackgroundColor ?? "#ffffff",
+      },
+      files: restored.files,
+      scrollToContent: true,
     };
+  };
 
-    const root = ReactDOM.createRoot(document.getElementById("excalidraw-root"));
-    root.render(
-      React.createElement(Excalidraw, {
-        initialData,
-        viewModeEnabled: true,
-        zenModeEnabled: true,
-      })
-    );
-  </script>
+  const root = ReactDOM.createRoot(document.getElementById("excalidraw-root"));
+  root.render(
+    React.createElement(Excalidraw, {
+      initialData,
+      viewModeEnabled: true,
+      zenModeEnabled: true,
+    })
+  );
+</script>
+
+<footer>© 2026 Jordy Bonnet — All rights reserved.</footer>
+
 </body>
 </html>
