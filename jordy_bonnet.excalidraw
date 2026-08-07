@@ -297,9 +297,9 @@
       "id": "BVKIfVhbt1OTRPAniDgOh",
       "type": "arrow",
       "x": 209.38680198597163,
-      "y": 32.066540892974395,
+      "y": 32.066540892974416,
       "width": 78.02076115982763,
-      "height": 11.451560997393749,
+      "height": 11.451560997393742,
       "angle": 0,
       "strokeColor": "#343a40",
       "backgroundColor": "transparent",
@@ -315,11 +315,11 @@
         "type": 2
       },
       "seed": 1732868921,
-      "version": 3257,
-      "versionNonce": 1754259199,
+      "version": 3289,
+      "versionNonce": 1281470673,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1786029838798,
+      "updated": 1786109530021,
       "link": null,
       "locked": false,
       "points": [
@@ -329,11 +329,11 @@
         ],
         [
           -31.874890005271283,
-          11.451560997393749
+          11.451560997393742
         ],
         [
           -78.02076115982763,
-          3.7093561668449624
+          3.7093561668449553
         ]
       ],
       "lastCommittedPoint": null,
@@ -565,8 +565,8 @@
         "type": 3
       },
       "seed": 28837209,
-      "version": 1446,
-      "versionNonce": 1839807743,
+      "version": 1450,
+      "versionNonce": 785225311,
       "isDeleted": false,
       "boundElements": [
         {
@@ -586,7 +586,7 @@
           "type": "arrow"
         }
       ],
-      "updated": 1786029838792,
+      "updated": 1786109524793,
       "link": null,
       "locked": false
     },
@@ -610,11 +610,11 @@
       "index": "b01",
       "roundness": null,
       "seed": 1059058233,
-      "version": 1259,
-      "versionNonce": 1280899473,
+      "version": 1263,
+      "versionNonce": 1990816383,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1786029838792,
+      "updated": 1786109524793,
       "link": null,
       "locked": false,
       "text": "Tracking de daphnies pour des tests\néco-toxicologiques de produits chimiques",
@@ -649,11 +649,11 @@
         "type": 2
       },
       "seed": 1723286297,
-      "version": 4318,
-      "versionNonce": 624861663,
+      "version": 4320,
+      "versionNonce": 951859441,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1786029838797,
+      "updated": 1786109524793,
       "link": null,
       "locked": false,
       "points": [
@@ -783,8 +783,8 @@
         "type": 3
       },
       "seed": 1626115513,
-      "version": 1854,
-      "versionNonce": 946007263,
+      "version": 1883,
+      "versionNonce": 1093908209,
       "isDeleted": false,
       "boundElements": [
         {
@@ -796,7 +796,7 @@
           "type": "arrow"
         }
       ],
-      "updated": 1786029838792,
+      "updated": 1786109530020,
       "link": null,
       "locked": false
     },
@@ -820,11 +820,11 @@
       "index": "b06",
       "roundness": null,
       "seed": 1801744025,
-      "version": 1882,
-      "versionNonce": 258093119,
+      "version": 1911,
+      "versionNonce": 1715219615,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1786029838792,
+      "updated": 1786109530020,
       "link": null,
       "locked": false,
       "text": "     --- Partage de la connaissance ---\n\nExpert métier pour le workshop ai4industry depuis\n2023 (20 étudiants sur une semaine)\n\nConception et animation de la formation Python pour\nl'ensemble du personnel du laboratoire (~30\ncollaborateurs)\n\nAccompagnement et mentorat d'une apprentie\ningénieure mécatronicienne (ENSIM — sur 3 ans)\n\nSupervision et accompagnement de la montée en\ncompétences de nombreux stagiaires\n(CentraleSupélec, University of Waterloo, ...)",
@@ -3087,8 +3087,8 @@
       "index": "b1L",
       "roundness": null,
       "seed": 530081489,
-      "version": 178,
-      "versionNonce": 1827899377,
+      "version": 186,
+      "versionNonce": 658490239,
       "isDeleted": false,
       "boundElements": [
         {
@@ -3100,7 +3100,7 @@
           "type": "arrow"
         }
       ],
-      "updated": 1786029850947,
+      "updated": 1786109525820,
       "link": null,
       "locked": false,
       "text": "à détailler",
@@ -3116,10 +3116,10 @@
     {
       "id": "zDdTj7JyoZgVEWuWnUlWE",
       "type": "arrow",
-      "x": -1020.6282483953137,
+      "x": -1020.6072882831058,
       "y": 560.1362294896825,
-      "width": 26.616118942080448,
-      "height": 77.95342135163105,
+      "width": 26.38817015644213,
+      "height": 77.953421351631,
       "angle": 0,
       "strokeColor": "#343a40",
       "backgroundColor": "#ffffff",
@@ -3135,11 +3135,11 @@
         "type": 2
       },
       "seed": 1821772991,
-      "version": 353,
-      "versionNonce": 1912562129,
+      "version": 363,
+      "versionNonce": 1480413649,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1786029850947,
+      "updated": 1786109525820,
       "link": null,
       "locked": false,
       "points": [
@@ -3148,8 +3148,8 @@
           0
         ],
         [
-          -26.616118942080448,
-          -77.95342135163105
+          -26.38817015644213,
+          -77.953421351631
         ]
       ],
       "lastCommittedPoint": null,
@@ -3170,10 +3170,10 @@
     {
       "id": "cAU-YUsiWdMqTWJnUE20F",
       "type": "arrow",
-      "x": -1010.2549507688584,
-      "y": 589.9602548667052,
-      "width": 86.84738816393303,
-      "height": 41.44066552499305,
+      "x": -1010.2549507688586,
+      "y": 589.5760082101439,
+      "width": 86.84738816393326,
+      "height": 40.40509369209428,
       "angle": 0,
       "strokeColor": "#343a40",
       "backgroundColor": "#ffffff",
@@ -3189,11 +3189,11 @@
         "type": 2
       },
       "seed": 1773958431,
-      "version": 359,
-      "versionNonce": 3473329,
+      "version": 371,
+      "versionNonce": 1381380031,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1786029850947,
+      "updated": 1786109525820,
       "link": null,
       "locked": false,
       "points": [
@@ -3202,8 +3202,8 @@
           0
         ],
         [
-          86.84738816393303,
-          41.44066552499305
+          86.84738816393326,
+          40.40509369209428
         ]
       ],
       "lastCommittedPoint": null,

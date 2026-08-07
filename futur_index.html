@@ -41,8 +41,8 @@
       display: flex;
       align-items: center;
       gap: 32px;
-      padding: 56px 0 40px;
-      border-bottom: 2px solid var(--blue-light);
+      padding: 56px 0 16px;
+      /* border-bottom: 2px solid var(--blue-light); */
     }
     header img.avatar {
       width: 140px; height: 160px;
@@ -56,20 +56,52 @@
 
     /* ── Language visibility ─────────────────────── */
     [data-lang="en"], [data-lang="fr"] { display: none; }
-    body.show-fr [data-lang="fr"] { display: inline; }
-    body.show-fr [data-lang="fr"] ol,
-    body.show-fr [data-lang="fr"] ul,
-    body.show-fr [data-lang="fr"] p,
-    body.show-fr [data-lang="fr"] span {
+    body:not(.show-en) [data-lang="fr"] { display: inline; }
+    body:not(.show-en) [data-lang="fr"] ol,
+    body:not(.show-en) [data-lang="fr"] ul,
+    body:not(.show-en) [data-lang="fr"] p,
+    body:not(.show-en) [data-lang="fr"] span {
       display: block;
     }
-    body:not(.show-fr) [data-lang="en"] { display: inline; }
-    body:not(.show-fr) [data-lang="en"] ol,
-    body:not(.show-fr) [data-lang="en"] ul,
-    body:not(.show-fr) [data-lang="en"] p,
-    body:not(.show-fr) [data-lang="en"] span {
+    body.show-en [data-lang="en"] { display: inline; }
+    body.show-en [data-lang="en"] ol,
+    body.show-en [data-lang="en"] ul,
+    body.show-en [data-lang="en"] p,
+    body.show-en [data-lang="en"] span {
       display: block;
     }
+
+    /* ── Expandable text (About section) ─────────── */
+    .expandable-text { position: relative; max-width: 100%; }
+    .expandable-text.collapsed {
+      display: -webkit-box;
+      -webkit-line-clamp: 8;
+      line-clamp: 8;  /* ← ajouter cette ligne */
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    .expandable-text.collapsed::after {
+      content: '';
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      height: 80px;
+      background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, #ffffff 100%);
+      pointer-events: none;
+    }
+    .expandable-text p { text-align: justify; }
+    .expand-btn {
+      display: block;
+      margin: 8px auto 0;
+      background: var(--blue-dark);
+      color: #fff;
+      border: none;
+      padding: 6px 16px;
+      border-radius: 6px;
+      font-size: .9rem;
+      cursor: pointer;
+      transition: opacity .2s;
+    }
+    .expand-btn:hover { opacity: .85; }
 
     /* ── Cards ─────────────────────────────────────── */
     .card-grid { display: grid; gap: 24px; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
@@ -112,6 +144,25 @@
     .timeline-item:last-child::after { display: none; }
     .timeline-item h4 { color: var(--blue-dark); font-size: 1rem; margin-bottom: 2px; }
     .timeline-item span.date { font-size: .85rem; color: var(--muted); }
+
+    /* ── Contact bar (inside header) ───────────── */
+    .contact-bar {
+      background: var(--grey);
+      border-radius: 8px;
+      padding: 8px 24px;
+      display: flex;
+      justify-content: center;
+      gap: 32px;
+      flex-wrap: wrap;
+      margin-top: 16px;
+    }
+    .contact-bar a,
+    .contact-bar span {
+      color: var(--blue-dark);
+      font-size: .85rem;
+      text-decoration: none;
+    }
+    .contact-bar a:hover { opacity: .7; }
 
     /* ── Excalidraw embed ─────────────────────────── */
     #excalidraw-root {
@@ -171,11 +222,22 @@
     <div>
       <h1>Jordy Bonnet</h1>
       <p class="tagline">
-        <span data-lang="en">17+ years at the intersection of physical chemistry, lab automation, AI, and data-driven R&amp;D innovation</span>
-        <span data-lang="fr">17+ ans à l'intersection de la chimie physique, de l'automatisation en laboratoire, de l'IA et de l'innovation R&amp;D data-driven</span>
+        <span data-lang="en">17 years at the intersection of physical chemistry, lab automation, AI, and data-driven R&amp;D innovation</span>
+        <span data-lang="fr">17 ans à l'intersection de la Physique-chimie, de l'IA, de l'automatisation en laboratoire, et de l'innovation R&amp;D</span>
       </p>
+      <div class="contact-bar">
+        <a href="tel:+33606 76 76 80 93">06 76 76 80 93</a>
+        <a href="mailto:jordy.bonnet@gmail.com">jordy.bonnet@gmail.com</a>
+        <span>St Jean d'Illac, Gironde</span>
+      </div>
     </div>
   </header>
+
+  <!-- ════════ DOWNLOAD BUTTONS ════════ -->
+  <section class="section" style="text-align:center;">
+    <a href="Jordy Bonnet CV Data.pdf" download style="display:inline-block; background:var(--blue-dark); color:#fff; padding:8px 24px; border-radius:6px; text-decoration:none; font-weight:600; margin:0 12px;">CV orienté IA & Data (PDF)</a>
+    <a href="Jordy Bonnet CV Mécatronicien.pdf" download style="display:inline-block; background:var(--blue-dark); color:#fff; padding:8px 24px; border-radius:6px; text-decoration:none; font-weight:600; margin:0 12px;">CV orienté Robotique et Instrumentation (PDF)</a>
+  </section>
 
   <!-- ════════ ABOUT ════════ -->
   <section class="section">
@@ -184,18 +246,46 @@
       <span data-lang="en">About</span>
       <span data-lang="fr">À propos</span>
     </h2>
-    <p style="margin-top:16px; max-width:780px;">
-      <span data-lang="en">
-        Starting my career at the <strong>Laboratory of the Future (LoF) — Syensqo / CNRS / Université de Bordeaux</strong> as a laboratory technician in chemistry and formulation, I quickly trained myself in programming with <strong>Matlab</strong>. Fascinated by the power of code, I progressed from basic spectrometer data processing to building machine-learning models for image classification.
-        <br/><br/>
-        Transitioning to <strong>Python</strong>, I joined a newly created team in 2014 to build highly customized automated laboratory systems — and later contributed to the group's data-science initiatives from 2018 onward.
-      </span>
-      <span data-lang="fr">
-        Débutant ma carrière au <strong>Laboratoire du Futur (LoF) — Syensqo / CNRS / Université de Bordeaux</strong> comme technicien en chimie et formulation, je me suis rapidement formé à la programmation avec <strong>Matlab</strong>. Fasciné par le pouvoir du code, je suis passé du traitement basique des données de spectromètre à la construction de modèles de machine-learning pour la classification d'images.
-        <br/><br/>
-        En passant à <strong>Python</strong>, j'ai rejoint une équipe nouvellement créée en 2014 pour construire des systèmes automatisés de laboratoire hautement personnalisés — et contribué par la suite aux initiatives data-science du groupe depuis 2018.
-      </span>
-    </p>
+    <div class="expandable-text collapsed" id="aboutText">
+      <p style="margin-top:16px;">
+        <span data-lang="en">
+          Starting my career at the <strong>Laboratory of the Future (LoF) — Syensqo / CNRS / Université de Bordeaux</strong> as a laboratory technician in chemistry and formulation, I quickly trained myself in programming with <strong>Matlab</strong>. Fascinated by the power of code, I progressed from basic spectrometer data processing to building machine-learning models for image classification.
+          <br/><br/>
+          Transitioning to <strong>Python</strong>, I joined a newly created team in 2014 to build highly customized automated laboratory systems — and later contributed to the group's data-science initiatives from 2018 onward.
+        </span>
+        <span data-lang="fr">
+          Débutant ma carrière au <strong>Laboratory of the Future</strong> (LoF) — <strong>Syensqo</strong> (ex-Solvay, ex-Rhodia), 
+          une <a href="https://www.lof.cnrs.fr/en/">unité mixte de recherche</a> (CNRS / Université de Bordeaux), 
+          comme technicien en chimie et formulation, je me suis rapidement formé à la programmation en autodidacte, fasciné par le pouvoir qu'offrait 
+          le code pour maîtriser toute la chaine de la donnée dans un environnement R&D : de l'acquisition à l'analyse, en passant par son stockage et comment la visualiser. 
+          <br/><br/>
+          Pendant ces 22 ans d'existence (2004-2026), ce laboratoire de taille modeste (moins de 70 personnes), axé sur la miniaturisation et 
+          le haut débit, m'a permis d'élargir le spectre de mes compétences. J'ai ainsi commencé par de simples programmes de <strong>traitement de données</strong>, 
+          et d'<strong>instrumentation</strong> d'équipements de laboratoire (spectromètres, caméras, pH-mètres, modules Peltier, viscosimètres, etc.), avant d'intégrer 
+          une équipe locale dédiée, nouvellement créée en 2012, pour concevoir des systèmes automatisés sur-mesure.
+          <br/><br/>
+          Cette époque marque une forte croissance dans la digitalisation des laboratoires du groupe, notamment avec l'arrivée des <strong>cobots 6 axes</strong> 
+          (Doosan, Universal Robots, uFactory). Notre petite équipe de 3 personnes, à Bordeaux, passe à une 20aine de collaborateurs à l'international,
+          en 2022 (Shenghai - Chine, Bristol - US et Lyon) où en plus des projets qui me sont attribués, j'<strong>assiste mes collègues</strong> dans 
+          la méthodologie, le mindset et les bonnes pratiques pour la conception de systèmes robotisés, ainsi que dans le développement d'outils 
+          logiciels.<br>
+          On parle ici de platformes développées dans des architectures robustes et évolutives codées en Python, avec des interfaces
+          utilisateurs souvent construites avec Plotly Dash, avec une forte composante prototypage (CAO, 3D printing) et instrumentation.
+          <br/><br/>
+          En parrallèle, ma curiosité pour les algorithmes de pointes dans le traitement des données m'a conduit à me former sur les techniques de 
+          <strong>Machine Learning et Deep Learning</strong>, ainsi que sur les outils pour rendre nos systèmes robotisés plus intelligents et autonomes, 
+          notamment via l'<strong>optimisation bayésienne</strong> et les algorithmes de <strong><a href="https://flowers.inria.fr/" target="_blank">
+          motivation intrinsèque</a></strong>.<br>
+          J'intègre donc, en 2018, pour une partie de mon temps, l'équipe Data Science du groupe pour contribuer à la mise en place de solutions 
+          d'<strong>IA et d'agentic AI (LLMs)</strong> pour différents services du groupe.<br>
+          <br/><br/>
+          D'un tempérament enthousiaste, curieux et pragmatique, j'aime le partage de la connaissance. J'ai ainsi eu l'opportunité de former et 
+          d'encadrer des stagiaires, alternants et une apprentie ingénieur (ENSIM), et d'intervenir comme expert métier pour le workshop ai4industry 
+          depuis 2023 (20 étudiants sur une semaine).
+        </span>
+      </p>
+    </div>
+    <button class="expand-btn" id="aboutBtn" onclick="toggleAbout()">+</button>
   </section>
 
   <!-- ════════ SKILLS ════════ -->
@@ -357,20 +447,6 @@
     </div>
   </section>
 
-  <!-- ════════ DOWNLOAD BUTTONS ════════ -->
-  <section class="section" style="text-align:center;">
-    <a href="Jordy Bonnet CV Data.pdf" download style="display:inline-block; background:var(--blue-dark); color:#fff; padding:14px 32px; border-radius:8px; text-decoration:none; font-weight:600; margin:0 12px;">
-      📄
-      <span data-lang="en">Download — CV Data (PDF)</span>
-      <span data-lang="fr">Télécharger — CV Data (PDF)</span>
-    </a>
-    <a href="Jordy Bonnet CV Mécatronicien.pdf" download style="display:inline-block; background:var(--blue-dark); color:#fff; padding:14px 32px; border-radius:8px; text-decoration:none; font-weight:600; margin:0 12px;">
-      📄
-      <span data-lang="en">Download — CV Mécatronicien (PDF)</span>
-      <span data-lang="fr">Télécharger — CV Mécatronicien (PDF)</span>
-    </a>
-  </section>
-
   <!-- ════════ EXCALIDRAW MIND MAP ════════ -->
   <section class="section">
     <div class="divider"></div>
@@ -389,23 +465,38 @@
 
 <!-- ════════ LANGUAGE SWITCH ════════ -->
 <div class="lang-switch">
-  <button id="btn-en" onclick="setLang('en')">EN</button>
   <button id="btn-fr" onclick="setLang('fr')">FR</button>
+  <button id="btn-en" onclick="setLang('en')">EN</button>
 </div>
 
 <!-- ════════ SCRIPTS ════════ -->
 <script>
   /* ── Language switch ─────────────────────────── */
   function setLang(lang) {
-    document.body.classList.toggle('show-fr', lang === 'fr');
+    document.body.classList.toggle('show-en', lang === 'en');
     localStorage.setItem('cv-lang', lang);
-    document.getElementById('btn-en').classList.toggle('active', lang === 'en');
     document.getElementById('btn-fr').classList.toggle('active', lang === 'fr');
+    document.getElementById('btn-en').classList.toggle('active', lang === 'en');
   }
   (function init() {
-    const saved = localStorage.getItem('cv-lang') || 'en';
+    const saved = localStorage.getItem('cv-lang') || 'fr';
     setLang(saved);
   })();
+
+  /* ── About expand/collapse ─────────────────────── */
+  let aboutExpanded = false;
+  function toggleAbout() {
+    const textEl = document.getElementById('aboutText');
+    const btn = document.getElementById('aboutBtn');
+    aboutExpanded = !aboutExpanded;
+    if (aboutExpanded) {
+      textEl.classList.remove('collapsed');
+      btn.textContent = '−';
+    } else {
+      textEl.classList.add('collapsed');
+      btn.textContent = '+';
+    }
+  }
 </script>
 
 <script>
