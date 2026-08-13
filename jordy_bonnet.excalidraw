@@ -6,10 +6,10 @@
     {
       "id": "H9u-o_SMgGUL9opOy7L-i",
       "type": "arrow",
-      "x": -417.9553899537063,
-      "y": 478.3854971731194,
+      "x": -420.1725603652263,
+      "y": 501.16526597887764,
       "width": 121.89080441439364,
-      "height": 449.0802025260645,
+      "height": 426.3004337203063,
       "angle": 0,
       "strokeColor": "#343a40",
       "backgroundColor": "transparent",
@@ -25,11 +25,11 @@
         "type": 2
       },
       "seed": 21048503,
-      "version": 1642,
-      "versionNonce": 1707322207,
+      "version": 1707,
+      "versionNonce": 1970637378,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1786029838798,
+      "updated": 1786364667361,
       "link": null,
       "locked": false,
       "points": [
@@ -38,23 +38,23 @@
           0
         ],
         [
-          -16.160038972627206,
-          156.05804557678726
+          -13.942868561107218,
+          133.27827677102903
         ],
         [
-          105.73076544176644,
-          449.0802025260645
+          107.94793585328642,
+          426.3004337203063
         ]
       ],
       "lastCommittedPoint": null,
       "startBinding": {
         "elementId": "aH68rXkbTtkZRjmRReQQB",
-        "focus": 0.9036715806013476,
-        "gap": 2.4973816733217973
+        "focus": 0.9018191144639635,
+        "gap": 5.237919726441987
       },
       "endBinding": {
         "elementId": "OtJmE8n_5lIXi-zE5S0aw",
-        "focus": -0.6074142163447381,
+        "focus": -0.6074142163447382,
         "gap": 1
       },
       "startArrowhead": null,
@@ -238,10 +238,10 @@
     {
       "id": "iaiZvxwM-EfkHki9cIDW9",
       "type": "arrow",
-      "x": 208.34240680836675,
-      "y": 63.83181860738047,
-      "width": 55.44031786634844,
-      "height": 76.83472477908602,
+      "x": 208.3424068083624,
+      "y": 63.83181860737149,
+      "width": 55.1294206458644,
+      "height": 75.72622171759907,
       "angle": 0,
       "strokeColor": "#343a40",
       "backgroundColor": "transparent",
@@ -257,11 +257,11 @@
         "type": 2
       },
       "seed": 1251913305,
-      "version": 2699,
-      "versionNonce": 1912000145,
+      "version": 2700,
+      "versionNonce": 730108930,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1786029838798,
+      "updated": 1786364667360,
       "link": null,
       "locked": false,
       "points": [
@@ -270,12 +270,12 @@
           0
         ],
         [
-          -36.17575104150151,
-          32.53062511477536
+          -36.175751041497165,
+          32.53062511478434
         ],
         [
-          -55.44031786634844,
-          76.83472477908602
+          -55.1294206458644,
+          75.72622171759907
         ]
       ],
       "lastCommittedPoint": null,
@@ -412,10 +412,10 @@
     {
       "id": "2KgsRpTac6PhPtAmCKWvt",
       "type": "arrow",
-      "x": -417.6119095101023,
-      "y": 430.87514967461476,
-      "width": 59.1117309412885,
-      "height": 276.74714430072066,
+      "x": -417.29299304469066,
+      "y": 456.8397394022815,
+      "width": 59.58367346347535,
+      "height": 252.53586580988195,
       "angle": 0,
       "strokeColor": "#343a40",
       "backgroundColor": "transparent",
@@ -431,11 +431,11 @@
         "type": 2
       },
       "seed": 394892985,
-      "version": 3499,
-      "versionNonce": 2026311089,
+      "version": 3559,
+      "versionNonce": 194429890,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1786029838797,
+      "updated": 1786364667360,
       "link": null,
       "locked": false,
       "points": [
@@ -444,24 +444,24 @@
           0
         ],
         [
-          -25.148993137015907,
-          43.6228041312242
+          -41.02346515798308,
+          39.88043662577962
         ],
         [
-          -59.1117309412885,
-          276.74714430072066
+          -59.58367346347535,
+          252.53586580988195
         ]
       ],
       "lastCommittedPoint": null,
       "startBinding": {
         "elementId": "aH68rXkbTtkZRjmRReQQB",
-        "focus": 0.6334955053384814,
-        "gap": 2.071467639451214
+        "focus": 0.4145086970288581,
+        "gap": 1.6722170606158215
       },
       "endBinding": {
         "elementId": "gv5B0UhCl56QU7YV1A-kW",
-        "focus": 0.6192398726473463,
-        "gap": 7.593232034134417
+        "focus": 0.6526746751392438,
+        "gap": 2.6673634551627856
       },
       "startArrowhead": null,
       "endArrowhead": "arrow",
@@ -630,10 +630,10 @@
     {
       "id": "T0WYBUPduAeZBYpWy5H7K",
       "type": "arrow",
-      "x": -417.5133214093193,
-      "y": 408.7382340495362,
-      "width": 92.20034337261887,
-      "height": 193.84333766130868,
+      "x": -418.111517536855,
+      "y": 429.81967085170663,
+      "width": 91.98384083007022,
+      "height": 174.19466559169837,
       "angle": 0,
       "strokeColor": "#343a40",
       "backgroundColor": "transparent",
@@ -649,11 +649,11 @@
         "type": 2
       },
       "seed": 1723286297,
-      "version": 4320,
-      "versionNonce": 951859441,
+      "version": 4388,
+      "versionNonce": 1363999618,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1786109524793,
+      "updated": 1786364667360,
       "link": null,
       "locked": false,
       "points": [
@@ -662,24 +662,24 @@
           0
         ],
         [
-          -34.662918646392484,
-          34.88732184868201
+          -55.17583362996794,
+          36.02810726873372
         ],
         [
-          -92.20034337261887,
-          193.84333766130868
+          -91.98384083007022,
+          174.19466559169837
         ]
       ],
       "lastCommittedPoint": null,
       "startBinding": {
         "elementId": "aH68rXkbTtkZRjmRReQQB",
-        "focus": 0.5175404394306404,
-        "gap": 1.9492455696443471
+        "focus": 0.34085701672282226,
+        "gap": 2.684740070943917
       },
       "endBinding": {
         "elementId": "hiYmesjb5i5atui9WEoSI",
-        "focus": 0.8361524982293713,
-        "gap": 6.834767241292182
+        "focus": 0.8705575156173363,
+        "gap": 4.2741556361075315
       },
       "startArrowhead": null,
       "endArrowhead": "arrow",
@@ -729,7 +729,7 @@
       "type": "text",
       "x": -1100.0055455819274,
       "y": -408.09109920633955,
-      "width": 626.6795043945312,
+      "width": 606.9595947265625,
       "height": 250,
       "angle": 0,
       "strokeColor": "#1e1e1e",
@@ -744,20 +744,20 @@
       "index": "b04",
       "roundness": null,
       "seed": 1272058073,
-      "version": 2446,
-      "versionNonce": 20646943,
+      "version": 2448,
+      "versionNonce": 413483564,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1786029838792,
+      "updated": 1786612624440,
       "link": null,
       "locked": false,
-      "text": "Chatbot assistant (webapp) pour les équipes HSE, construit sur\nla base de dizaines de milliers de retours de chercheurs exprimés\nen langage naturel.\nIl est fondé sur un pipeline de traduction, d’anonymisation et\nd’extraction d’entités pour alimenter un GraphRAG et\norchestrer des agents spécialisés.\nIl permet in fine de retrouver instantanément les informations\nHSE pertinentes, de synthétiser les enseignements issus des\nretours terrain, et de proposer des recommandations de\nprévention contextualisées. 2025-2026",
+      "text": "Chatbot assistant pour les équipes HSE, construit sur la base\nde dizaines de milliers de retours de chercheurs exprimés en\nlangage naturel.\nIl est fondé sur un pipeline de traduction, d’anonymisation et\nd’extraction d’entités pour alimenter un GraphRAG et\norchestrer des agents spécialisés.\nIl permet in fine de retrouver instantanément les informations\nHSE pertinentes, de synthétiser les enseignements issus des\nretours terrain, et de proposer des recommandations de\nprévention contextualisées. 2025-2026",
       "fontSize": 20,
       "fontFamily": 5,
       "textAlign": "left",
       "verticalAlign": "middle",
       "containerId": "2ESuOWzaVGbiLBqxzM_iS",
-      "originalText": "Chatbot assistant (webapp) pour les équipes HSE, construit sur la base de dizaines de milliers de retours de chercheurs exprimés en langage naturel.\nIl est fondé sur un pipeline de traduction, d’anonymisation et d’extraction d’entités pour alimenter un GraphRAG et orchestrer des agents spécialisés.\nIl permet in fine de retrouver instantanément les informations HSE pertinentes, de synthétiser les enseignements issus des retours terrain, et de proposer des recommandations de prévention contextualisées. 2025-2026",
+      "originalText": "Chatbot assistant pour les équipes HSE, construit sur la base de dizaines de milliers de retours de chercheurs exprimés en langage naturel.\nIl est fondé sur un pipeline de traduction, d’anonymisation et d’extraction d’entités pour alimenter un GraphRAG et orchestrer des agents spécialisés.\nIl permet in fine de retrouver instantanément les informations HSE pertinentes, de synthétiser les enseignements issus des retours terrain, et de proposer des recommandations de prévention contextualisées. 2025-2026",
       "autoResize": true,
       "lineHeight": 1.25
     },
@@ -924,10 +924,10 @@
     {
       "id": "k-qtDMDLtsCNK7tEeVGIU",
       "type": "arrow",
-      "x": -417.45533664278815,
-      "y": 383.99556590803826,
-      "width": 358.0347736489877,
-      "height": 80.17344876508423,
+      "x": -416.7492003061085,
+      "y": 403.76207733429476,
+      "width": 358.7662652530438,
+      "height": 60.411595764728474,
       "angle": 0,
       "strokeColor": "#343a40",
       "backgroundColor": "transparent",
@@ -943,11 +943,11 @@
         "type": 2
       },
       "seed": 265251129,
-      "version": 4841,
-      "versionNonce": 1289498513,
+      "version": 4921,
+      "versionNonce": 988166978,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1786029838797,
+      "updated": 1786364667360,
       "link": null,
       "locked": false,
       "points": [
@@ -956,24 +956,24 @@
           0
         ],
         [
-          -49.073425555929816,
-          11.186580300686899
+          -70.89067300372056,
+          6.975624429985942
         ],
         [
-          -358.0347736489877,
-          80.17344876508423
+          -358.7662652530438,
+          60.411595764728474
         ]
       ],
       "lastCommittedPoint": null,
       "startBinding": {
         "elementId": "aH68rXkbTtkZRjmRReQQB",
-        "focus": 0.20251622176468498,
-        "gap": 1.8773660087232429
+        "focus": -0.008784960312399196,
+        "gap": 1
       },
       "endBinding": {
         "elementId": "CBPYBDjK7pATVRk_b82u_",
-        "focus": 0.8134167436730265,
-        "gap": 2.3967704722612058
+        "focus": 0.7911374066770568,
+        "gap": 2.3711071736300506
       },
       "startArrowhead": null,
       "endArrowhead": "arrow",
@@ -1032,10 +1032,10 @@
     {
       "id": "hrXrmkpC_hXeQys8NXFUj",
       "type": "arrow",
-      "x": -417.3735410406867,
-      "y": 231.40509516606056,
-      "width": 103.797345923862,
-      "height": 374.5941184064101,
+      "x": -417.37690345721325,
+      "y": 230.99960657208058,
+      "width": 103.79398350733544,
+      "height": 374.1886298124301,
       "angle": 0,
       "strokeColor": "#343a40",
       "backgroundColor": "transparent",
@@ -1051,11 +1051,11 @@
         "type": 2
       },
       "seed": 299013047,
-      "version": 4294,
-      "versionNonce": 569183743,
+      "version": 4295,
+      "versionNonce": 1723958018,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1786029838797,
+      "updated": 1786364667361,
       "link": null,
       "locked": false,
       "points": [
@@ -1064,12 +1064,12 @@
           0
         ],
         [
-          -43.0583057092648,
-          -28.361618913299424
+          -43.054943292738244,
+          -27.956130319319442
         ],
         [
-          -103.797345923862,
-          -374.5941184064101
+          -103.79398350733544,
+          -374.1886298124301
         ]
       ],
       "lastCommittedPoint": null,
@@ -1166,10 +1166,10 @@
     {
       "id": "gnuXTfpJAPzgGXMR60sGz",
       "type": "arrow",
-      "x": -418.8906842223324,
-      "y": 231.21213083451485,
-      "width": 163.54731158197944,
-      "height": 94.4204550371874,
+      "x": -418.897568384221,
+      "y": 231.0905831707035,
+      "width": 163.54042742009085,
+      "height": 94.29890737337604,
       "angle": 0,
       "strokeColor": "#343a40",
       "backgroundColor": "transparent",
@@ -1185,11 +1185,11 @@
         "type": 2
       },
       "seed": 2047787545,
-      "version": 4339,
-      "versionNonce": 162665841,
+      "version": 4340,
+      "versionNonce": 1331548866,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1786029838797,
+      "updated": 1786364667361,
       "link": null,
       "locked": false,
       "points": [
@@ -1198,12 +1198,12 @@
           0
         ],
         [
-          -37.883624209576794,
-          -0.3369078380893882
+          -37.8767400476882,
+          -0.21536017427803245
         ],
         [
-          -163.54731158197944,
-          -94.4204550371874
+          -163.54042742009085,
+          -94.29890737337604
         ]
       ],
       "lastCommittedPoint": null,
@@ -1394,9 +1394,9 @@
       "id": "aH68rXkbTtkZRjmRReQQB",
       "type": "rectangle",
       "x": -415.9396924494865,
-      "y": 141.25626048052493,
+      "y": 140.14514936941384,
       "width": 635.0070999571329,
-      "height": 463.1428571428571,
+      "height": 485,
       "angle": 0,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "#ffffff",
@@ -1412,8 +1412,8 @@
         "type": 3
       },
       "seed": 1565331929,
-      "version": 2550,
-      "versionNonce": 2093052369,
+      "version": 2556,
+      "versionNonce": 1641535874,
       "isDeleted": false,
       "boundElements": [
         {
@@ -1453,7 +1453,7 @@
           "type": "arrow"
         }
       ],
-      "updated": 1786029838792,
+      "updated": 1786364668799,
       "link": null,
       "locked": false
     },
@@ -1461,9 +1461,9 @@
       "id": "90A32wnn5ZvV_utGSv6bJ",
       "type": "text",
       "x": -410.9396924494865,
-      "y": 147.82768905195348,
-      "width": 621.819580078125,
-      "height": 450,
+      "y": 145.14514936941384,
+      "width": 604.9395751953125,
+      "height": 475,
       "angle": 0,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "#ffec99",
@@ -1477,20 +1477,20 @@
       "index": "b0T",
       "roundness": null,
       "seed": 1490134871,
-      "version": 2666,
-      "versionNonce": 1499839775,
+      "version": 2689,
+      "versionNonce": 463823298,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1786029838792,
+      "updated": 1786364668799,
       "link": null,
       "locked": false,
-      "text": "     --- Ingénierie de l'IA & Analyse Avancée de la Donnée ---\n\nAssistants LLM agentiques — RAG, GraphRAG, Bases de\nconnaissances \n\nModèle d'IA pour la prédiction des performances de mélanges de\nproduits chimiques en Récupération Assistée du Pétrole (EOR)\n\nComputer Vision\n    ↳ Segment Anything (SAM) pipelines\n    ↳ Detectron 2 — annotation → training → segmentation\n    ↳ Analyse d'image — opencv, scikit-image, Matlab\n\nOptimisation bayésienne sur plateforme robotique (Self-driving\nlabs) pour la formulation de shampoings\n\nTravaille exploratoire dans le domaine des Intrinsically\nMotivated Goal Exploration Processes",
+      "text": "     --- Ingénierie de l'IA & Analyse Avancée de la Donnée ---\n\nAssistants LLM agentiques — RAG, GraphRAG, Bases de\nconnaissances \n\nModèle d'IA de chémoinformatique pour la prédiction des\nperformances de mélanges de produits chimiques en\nRécupération Assistée du Pétrole (EOR)\n\nComputer Vision\n    ↳ Segment Anything (SAM) pipelines\n    ↳ Detectron 2 — annotation → training → segmentation\n    ↳ Analyse d'image — opencv, scikit-image, Matlab\n\nOptimisation bayésienne sur plateforme robotique (Self-driving\nlabs) pour la formulation de shampoings\n\nTravaille exploratoire dans le domaine des algorithmes de\nmotivation intrinsèque",
       "fontSize": 20,
       "fontFamily": 5,
       "textAlign": "left",
       "verticalAlign": "middle",
       "containerId": "aH68rXkbTtkZRjmRReQQB",
-      "originalText": "     --- Ingénierie de l'IA & Analyse Avancée de la Donnée ---\n\nAssistants LLM agentiques — RAG, GraphRAG, Bases de connaissances \n\nModèle d'IA pour la prédiction des performances de mélanges de produits chimiques en Récupération Assistée du Pétrole (EOR)\n\nComputer Vision\n    ↳ Segment Anything (SAM) pipelines\n    ↳ Detectron 2 — annotation → training → segmentation\n    ↳ Analyse d'image — opencv, scikit-image, Matlab\n\nOptimisation bayésienne sur plateforme robotique (Self-driving labs) pour la formulation de shampoings\n\nTravaille exploratoire dans le domaine des Intrinsically Motivated Goal Exploration Processes",
+      "originalText": "     --- Ingénierie de l'IA & Analyse Avancée de la Donnée ---\n\nAssistants LLM agentiques — RAG, GraphRAG, Bases de connaissances \n\nModèle d'IA de chémoinformatique pour la prédiction des performances de mélanges de produits chimiques en Récupération Assistée du Pétrole (EOR)\n\nComputer Vision\n    ↳ Segment Anything (SAM) pipelines\n    ↳ Detectron 2 — annotation → training → segmentation\n    ↳ Analyse d'image — opencv, scikit-image, Matlab\n\nOptimisation bayésienne sur plateforme robotique (Self-driving labs) pour la formulation de shampoings\n\nTravaille exploratoire dans le domaine des algorithmes de motivation intrinsèque",
       "autoResize": true,
       "lineHeight": 1.25
     },
@@ -1498,7 +1498,7 @@
       "id": "Pawcs7TzrVSDSnogD2KjY",
       "type": "line",
       "x": -415.8021834708993,
-      "y": 385.0048531927648,
+      "y": 408.0048531927648,
       "width": 34.454395848433194,
       "height": 0.6264435608804888,
       "angle": 0,
@@ -1516,11 +1516,11 @@
         "type": 2
       },
       "seed": 1689069911,
-      "version": 496,
-      "versionNonce": 649554001,
+      "version": 509,
+      "versionNonce": 2137077378,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1786029838792,
+      "updated": 1786363220194,
       "link": null,
       "locked": false,
       "points": [
@@ -1543,7 +1543,7 @@
       "id": "VuPLDSLZYwrYnxtNRuvcA",
       "type": "line",
       "x": -417.0550705926605,
-      "y": 410.44684256575874,
+      "y": 433.44684256575874,
       "width": 33.51473050711229,
       "height": 0.3132217804404718,
       "angle": 0,
@@ -1561,11 +1561,11 @@
         "type": 2
       },
       "seed": 1983319383,
-      "version": 596,
-      "versionNonce": 1359921471,
+      "version": 609,
+      "versionNonce": 190114462,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1786029838792,
+      "updated": 1786363220194,
       "link": null,
       "locked": false,
       "points": [
@@ -1588,7 +1588,7 @@
       "id": "zAX0EK2d1r5ouZgUfYbgI",
       "type": "line",
       "x": -415.6934586704612,
-      "y": 435.096121390965,
+      "y": 458.096121390965,
       "width": 32.88828694623169,
       "height": 0.6264435608807162,
       "angle": 0,
@@ -1606,11 +1606,11 @@
         "type": 2
       },
       "seed": 1283600089,
-      "version": 647,
-      "versionNonce": 489174577,
+      "version": 660,
+      "versionNonce": 817567298,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1786029838792,
+      "updated": 1786363220194,
       "link": null,
       "locked": false,
       "points": [
@@ -1930,8 +1930,8 @@
     {
       "id": "h4wl_rLjbnohq5vWHPC51",
       "type": "rectangle",
-      "x": -305.62779115001297,
-      "y": 633.2794587300434,
+      "x": -292.2944578166797,
+      "y": 642.1683476189323,
       "width": 554.5787376602157,
       "height": 253,
       "angle": 0,
@@ -1949,8 +1949,8 @@
         "type": 3
       },
       "seed": 1119571511,
-      "version": 4332,
-      "versionNonce": 617338993,
+      "version": 4352,
+      "versionNonce": 1803633246,
       "isDeleted": false,
       "boundElements": [
         {
@@ -1962,15 +1962,15 @@
           "type": "arrow"
         }
       ],
-      "updated": 1786029838792,
+      "updated": 1786364699393,
       "link": null,
       "locked": false
     },
     {
       "id": "2fbkbk_6EulscaihJp7yt",
       "type": "text",
-      "x": -300.62779115001297,
-      "y": 647.2794587300434,
+      "x": -287.2944578166797,
+      "y": 656.1683476189323,
       "width": 535.9995727539062,
       "height": 225,
       "angle": 0,
@@ -1986,11 +1986,11 @@
       "index": "b0j",
       "roundness": null,
       "seed": 12742487,
-      "version": 4551,
-      "versionNonce": 718477791,
+      "version": 4571,
+      "versionNonce": 757417630,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1786029838792,
+      "updated": 1786364699393,
       "link": null,
       "locked": false,
       "text": "     --- Chimie et formulation ---\nTechnicien de laboratoire jusqu'en 2014\n\nConception et mise en œuvre de protocoles\nexpérimentaux pour le développement et l'analyse de\nnouvelles formulations (lessives, soins du corps, agents\nviscosifiants, etc.), avec une forte approche axée sur\nla digitalisation et la miniaturisation des procédés, via\nla maîtrise de nombreux outils analytiques.",
@@ -2009,7 +2009,7 @@
       "x": 241.6892558001426,
       "y": 105.44899996980433,
       "width": 12.774099658887877,
-      "height": 545.9902063068337,
+      "height": 541.6846085083296,
       "angle": 0,
       "strokeColor": "#343a40",
       "backgroundColor": "transparent",
@@ -2025,11 +2025,11 @@
         "type": 2
       },
       "seed": 658496055,
-      "version": 2572,
-      "versionNonce": 527003295,
+      "version": 2592,
+      "versionNonce": 1547616990,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1786029838798,
+      "updated": 1786364699393,
       "link": null,
       "locked": false,
       "points": [
@@ -2042,8 +2042,8 @@
           433.00266240808725
         ],
         [
-          7.365582648027129,
-          545.9902063068337
+          11.821946899729454,
+          541.6846085083296
         ]
       ],
       "lastCommittedPoint": null,
@@ -2458,10 +2458,10 @@
     {
       "id": "TYJQqNalK6hh2RdOhG8oe",
       "type": "arrow",
-      "x": -422.2350020623804,
-      "y": 286.4115766210494,
-      "width": 199.52212902679042,
-      "height": 4.067220085933286,
+      "x": -422.24952075310307,
+      "y": 285.3782453842192,
+      "width": 199.50761033606773,
+      "height": 5.100551322763465,
       "angle": 0,
       "strokeColor": "#343a40",
       "backgroundColor": "transparent",
@@ -2477,11 +2477,11 @@
         "type": 2
       },
       "seed": 1589522777,
-      "version": 1346,
-      "versionNonce": 282668081,
+      "version": 1347,
+      "versionNonce": 1197091458,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1786029838798,
+      "updated": 1786364667361,
       "link": null,
       "locked": false,
       "points": [
@@ -2490,8 +2490,8 @@
           0
         ],
         [
-          -199.52212902679042,
-          4.067220085933286
+          -199.50761033606773,
+          5.100551322763465
         ]
       ],
       "lastCommittedPoint": null,
@@ -2644,20 +2644,20 @@
       "index": "b15",
       "roundness": null,
       "seed": 1761848473,
-      "version": 4743,
-      "versionNonce": 1136921311,
+      "version": 4770,
+      "versionNonce": 379614636,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1786029838792,
+      "updated": 1786612820519,
       "link": null,
       "locked": false,
-      "text": "     --- Personnalité ---\nEnthousiaste, curieux et pragmatique\n\nÀ l'origine de l'achat d'une Switch et de l'installation d'un terrain de\npétanque au laboratoire.\nÀ l'initiative de sorties karting et randonnées cyclistes en montagne\navec le CSE.\n\nHakatons organisés → 1 objectif, 2 jours, pizzas/redbull\n    ↳ Création d'une API python à partir d'un DLL\n    ↳ Découverte du Universal Robot 3e",
+      "text": "     --- Personnalité ---\nEnthousiaste, curieux et pragmatique\n\nÀ l'origine de l'achat d'une Switch et de l'installation d'un terrain de\npétanque au laboratoire.\nÀ l'initiative de sorties karting et randonnées cyclistes en montagne\navec le CSE.\n\nHackathons organisés → 1 objectif, 2 jours, pizzas/redbull\n    ↳ Création d'une API python à partir d'un DLL de profilomètre\n    ↳ Découverte du cobot Universal Robot 3e",
       "fontSize": 20,
       "fontFamily": 5,
       "textAlign": "left",
       "verticalAlign": "middle",
       "containerId": "BZG9nuCDmTM9VoffADMYb",
-      "originalText": "     --- Personnalité ---\nEnthousiaste, curieux et pragmatique\n\nÀ l'origine de l'achat d'une Switch et de l'installation d'un terrain de pétanque au laboratoire.\nÀ l'initiative de sorties karting et randonnées cyclistes en montagne avec le CSE.\n\nHakatons organisés → 1 objectif, 2 jours, pizzas/redbull\n    ↳ Création d'une API python à partir d'un DLL\n    ↳ Découverte du Universal Robot 3e",
+      "originalText": "     --- Personnalité ---\nEnthousiaste, curieux et pragmatique\n\nÀ l'origine de l'achat d'une Switch et de l'installation d'un terrain de pétanque au laboratoire.\nÀ l'initiative de sorties karting et randonnées cyclistes en montagne avec le CSE.\n\nHackathons organisés → 1 objectif, 2 jours, pizzas/redbull\n    ↳ Création d'une API python à partir d'un DLL de profilomètre\n    ↳ Découverte du cobot Universal Robot 3e",
       "autoResize": true,
       "lineHeight": 1.25
     },
@@ -3138,7 +3138,7 @@
       "version": 363,
       "versionNonce": 1480413649,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1786109525820,
       "link": null,
       "locked": false,
@@ -3192,7 +3192,7 @@
       "version": 371,
       "versionNonce": 1381380031,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1786109525820,
       "link": null,
       "locked": false,

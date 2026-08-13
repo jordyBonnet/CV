@@ -1,3 +1,9 @@
+<!-- 
+  Pour lancer cette page localement :
+    python -m http.server 8000
+  Puis ouvrir dans votre navigateur :
+    http://localhost:8000/futur_index.html
+-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -141,9 +147,40 @@
       width: 3px; height: calc(100% - 8px);
       background: var(--blue-light);
     }
-    .timeline-item:last-child::after { display: none; }
+    /* .timeline-item:last-child::after { display: none; } */
     .timeline-item h4 { color: var(--blue-dark); font-size: 1rem; margin-bottom: 2px; }
     .timeline-item span.date { font-size: .85rem; color: var(--muted); }
+
+    /* ── Collapsible timeline content ─────────────── */
+    .tl-content {
+      max-height: 5.2em;    /* ← limite la hauteur à ~3 lignes */
+      overflow: hidden;
+      position: relative;
+      transition: max-height .4s ease;
+    }
+    .tl-content.collapsed::after {
+      content: '';
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      height: 60px;
+      background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, #ffffff 100%);
+      pointer-events: none;
+    }
+    .tl-content.expanded { max-height: 3000px; }
+
+    .tl-toggle {
+      display: block;
+      margin: 8px auto 0;
+      background: var(--blue-dark);
+      color: #fff;
+      border: none;
+      padding: 2px 12px;
+      border-radius: 6px;
+      font-size: .8rem;
+      cursor: pointer;
+      transition: opacity .2s;
+    }
+    .tl-toggle:hover { opacity: .85; }
 
     /* ── Contact bar (inside header) ───────────── */
     .contact-bar {
@@ -222,8 +259,8 @@
     <div>
       <h1>Jordy Bonnet</h1>
       <p class="tagline">
-        <span data-lang="en">17 years at the intersection of physical chemistry, lab automation, AI, and data-driven R&amp;D innovation</span>
-        <span data-lang="fr">17 ans à l'intersection de la Physique-chimie, de l'IA, de l'automatisation en laboratoire, et de l'innovation R&amp;D</span>
+        <span data-lang="en" id="expYearsEn"></span>
+        <span data-lang="fr" id="expYearsFr"></span>
       </p>
       <div class="contact-bar">
         <a href="tel:+33606 76 76 80 93">06 76 76 80 93</a>
@@ -254,30 +291,32 @@
           Transitioning to <strong>Python</strong>, I joined a newly created team in 2014 to build highly customized automated laboratory systems — and later contributed to the group's data-science initiatives from 2018 onward.
         </span>
         <span data-lang="fr">
-          Débutant ma carrière au <strong>Laboratory of the Future</strong> (LoF) — <strong>Syensqo</strong> (ex-Solvay, ex-Rhodia), 
-          une <a href="https://www.lof.cnrs.fr/en/">unité mixte de recherche</a> (CNRS / Université de Bordeaux), 
-          comme technicien en chimie et formulation, je me suis rapidement formé à la programmation en autodidacte, fasciné par le pouvoir qu'offrait 
+          Démarrant ma carrière au <strong>Laboratory of the Future</strong> (LoF) — <strong>Syensqo</strong> (ex-Solvay, ex-Rhodia), 
+          une unité mixte de recherche (CNRS / Université de Bordeaux), 
+          comme <strong>technicien en chimie et formulation</strong>, je me suis rapidement formé à la programmation en autodidacte, fasciné par le pouvoir qu'offrait 
           le code pour maîtriser toute la chaine de la donnée dans un environnement R&D : de l'acquisition à l'analyse, en passant par son stockage et comment la visualiser. 
           <br/><br/>
-          Pendant ces 22 ans d'existence (2004-2026), ce laboratoire de taille modeste (moins de 70 personnes), axé sur la miniaturisation et 
-          le haut débit, m'a permis d'élargir le spectre de mes compétences. J'ai ainsi commencé par de simples programmes de <strong>traitement de données</strong>, 
-          et d'<strong>instrumentation</strong> d'équipements de laboratoire (spectromètres, caméras, pH-mètres, modules Peltier, viscosimètres, etc.), avant d'intégrer 
-          une équipe locale dédiée, nouvellement créée en 2012, pour concevoir des systèmes automatisés sur-mesure.
+          Pendant ces 22 ans d'existence (2004-2026), ce laboratoire axé sur la miniaturisation et le haut débit, m'a permis d'élargir le spectre de mes 
+          compétences. J'ai ainsi commencé par de simples programmes de <strong>traitement de données</strong>, 
+          et d'<strong>instrumentation</strong> d'équipements de laboratoire, 
+          avant d'intégrer une équipe locale dédiée, nouvellement créée en 2012, pour concevoir des systèmes automatisés sur-mesure.
           <br/><br/>
-          Cette époque marque une forte croissance dans la digitalisation des laboratoires du groupe, notamment avec l'arrivée des <strong>cobots 6 axes</strong> 
-          (Doosan, Universal Robots, uFactory). Notre petite équipe de 3 personnes, à Bordeaux, passe à une 20aine de collaborateurs à l'international,
-          en 2022 (Shenghai - Chine, Bristol - US et Lyon) où en plus des projets qui me sont attribués, j'<strong>assiste mes collègues</strong> dans 
-          la méthodologie, le mindset et les bonnes pratiques pour la conception de systèmes robotisés, ainsi que dans le développement d'outils 
-          logiciels.<br>
-          On parle ici de platformes développées dans des architectures robustes et évolutives codées en Python, avec des interfaces
+          Cette époque marque une forte croissance dans la digitalisation de la R&D du groupe, notamment avec l'arrivée des <strong>cobots 6 axes</strong>. 
+          Notre équipe de 3 personnes, à Bordeaux, passe à une vingtaine de collaborateurs à l'international en une 
+          dizaine d'années (Shanghai - Chine, Bristol - US et Lyon). Dans ce cadre, en plus des projets qui me sont attribués, j'accompagne mes collègues 
+          sur les méthodologies, la culture technique et les bonnes pratiques de conception robotique et de développement logiciel.<br>
+          On parle ici de platformes développées dans des <strong>architectures robustes et évolutives</strong> codées en Python, avec des interfaces
           utilisateurs souvent construites avec Plotly Dash, avec une forte composante prototypage (CAO, 3D printing) et instrumentation.
+          Ces platformes robotiques sont ensuite déployées dans les différents laboratoires du groupe pour des applications de 
+          <strong>formulation, synthèse et caractérisation</strong> de produits chimiques, avec un accompagnement complet : installation, 
+          formation et SAV, assurant un transfert efficace.
           <br/><br/>
           En parrallèle, ma curiosité pour les algorithmes de pointes dans le traitement des données m'a conduit à me former sur les techniques de 
           <strong>Machine Learning et Deep Learning</strong>, ainsi que sur les outils pour rendre nos systèmes robotisés plus intelligents et autonomes, 
-          notamment via l'<strong>optimisation bayésienne</strong> et les algorithmes de <strong><a href="https://flowers.inria.fr/" target="_blank">
-          motivation intrinsèque</a></strong>.<br>
-          J'intègre donc, en 2018, pour une partie de mon temps, l'équipe Data Science du groupe pour contribuer à la mise en place de solutions 
-          d'<strong>IA et d'agentic AI (LLMs)</strong> pour différents services du groupe.<br>
+          notamment via l'<strong>optimisation bayésienne</strong> et les algorithmes de <strong>
+          motivation intrinsèque</strong>.<br>
+          J'intègre donc, en 2018, l'équipe <strong>Data Science</strong> du groupe, pour une partie de mon temps, pour contribuer au déploiement de solutions d'IA 
+          appliquées à la chémoinformatique, à l'analyse d'images et aux assistants LLM agentiques.
           <br/><br/>
           D'un tempérament enthousiaste, curieux et pragmatique, j'aime le partage de la connaissance. J'ai ainsi eu l'opportunité de former et 
           d'encadrer des stagiaires, alternants et une apprentie ingénieur (ENSIM), et d'intervenir comme expert métier pour le workshop ai4industry 
@@ -298,31 +337,60 @@
     <div class="card-grid" style="margin-top:16px;">
       <div class="card">
         <h3>
-          <span data-lang="en">🤖 Lab Automation &amp; Robotics</span>
-          <span data-lang="fr">🤖 Automatisation Labo &amp; Robotique</span>
+          <span data-lang="en">AI, Data & Software</span>
+          <span data-lang="fr">IA, Data & Software</span>
         </h3>
-        <p>UR5e, UR3e, Doosan-A0509s, MECA500, xArm, uArm · CAD (SolidWorks, OpenSCAD, FreeCAD) · 3D printing (Raise3D, UltiMaker) · Arduino / Raspberry Pi</p>
+        <p>
+          Chatbots agentiques — LLMs<br>
+          <span style="font-size:.8em; color:var(--muted);">RAG, GraphRAG, Microsoft Azure, LangChain</span><br>
+          Machine Learning / Deep Learning<br>
+          <span style="font-size:.8em; color:var(--muted);">Chémoinformatique, Tensorflow/Pytorch,<br> Scikit-learn, Pandas/Polars, Dataiku</span><br>
+          Computer vision<br>
+          <span style="font-size:.8em; color:var(--muted);">SAM, Detectron2, open-cv, scikit-image</span><br>
+          Self-driving laboratories<br>
+          <span style="font-size:.8em; color:var(--muted);">Optimisation bayésienne, curiosité intrinsèque</span><br>
+          Interfaces Hommes-Machines<br>
+          <span style="font-size:.8em; color:var(--muted);">Plotly-Dash, Streamlit, Bokeh</span><br>
+        Gestion de la donnée<br>
+          <span style="font-size:.8em; color:var(--muted);">SQL, GoogleCP, fichiers en local (spectres, images, tableurs, etc.)</span><br>
+        </p>
       </div>
       <div class="card">
         <h3>
-          <span data-lang="en">📊 Data Science &amp; AI</span>
-          <span data-lang="fr">📊 Data Science &amp; IA</span>
+          <span data-lang="en">Robotic, Prototyping & Hardware</span>
+          <span data-lang="fr">Robotique, Prototypage & Hardware</span>
         </h3>
-        <p>Machine Learning / Deep Learning · Bayesian Optimization · Web Scraping · Agentic AI (RAG, GraphRAG, LangChain) · Chemoinformatics</p>
+        <p>
+          Cobots 6 axes<br>
+          <span style="font-size:.8em; color:var(--muted);">UR familly, Doosan A0509s, xArm, Meca 500</span><br>
+          Instrumentation de laboratoire<br>
+          <span style="font-size:.8em; color:var(--muted);">axes linéaires, moteurs, sondes (pH, T°C, η, etc.), spectro, modules Peltier, caméras, profilomètres, 
+            pousses-seringues, agitateurs, débitmètres, DLLs, APIs, etc.</span><br>
+          Cartes électroniques<br>
+          <span style="font-size:.8em; color:var(--muted);">ESP32, Raspberry Pi, Arduino</span><br>
+          CAO & impression 3D<br>
+          <span style="font-size:.8em; color:var(--muted);">SolidWorks, FreeCAD, Ultimaker, FormLabs</span><br>
+        </p>
       </div>
       <div class="card">
         <h3>
-          <span data-lang="en">🔬 Instrumentation &amp; Analysis</span>
-          <span data-lang="fr">🔬 Instrumentation &amp; Analyse</span>
+          <span data-lang="en">Project management, Management & HSE</span>
+          <span data-lang="fr">Management</span>
         </h3>
-        <p>Image analysis · Signal processing · Cameras, pH-meters, spectrometers, Peltier modules, flowmeters, viscometers</p>
-      </div>
-      <div class="card">
-        <h3>
-          <span data-lang="en">💻 Software &amp; UI</span>
-          <span data-lang="fr">💻 Logiciels &amp; UI</span>
-        </h3>
-        <p>Python (primary) · MATLAB · Plotly Dash · Streamlit · TensorFlow · Dataiku · OpenCV · scikit-image</p>
+        <p>
+          Gestion de Projet<br>
+          <span style="font-size:.8em; color:var(--muted);">Recueil des besoins clients<br>
+            Analyse de la faisabilité technique et financière<br>
+          Pilotage budgétaire et calendaire<br>
+          Rédaction des différentes notices et rapports<br>
+          Mise en service chez les clients et sav<br>
+          Animation des formations sur sites<br></span>
+          Transmission<br>
+          <span style="font-size:.8em; color:var(--muted);">Expert métier pour le workshop ai4industry<br>
+          Formation et encadrement des stagiaires, alternants et une apprentie ingénieur (ENSIM)</span><br>
+          Responsable HSE<br>
+          <span style="font-size:.8em; color:var(--muted);">conformité réglementaire<br>gestion des risques<br>
+        </p>
       </div>
     </div>
   </section>
@@ -337,47 +405,100 @@
     <div style="margin-top:16px;">
       <div class="timeline-item">
         <h4>
-          <span data-lang="en">Intelligent Shampoo Formulation Platform (Self-Driving Labs)</span>
-          <span data-lang="fr">Plateforme de Formulation Intelligente de Shampoing (Self-Driving Labs)</span>
+          <span data-lang="en">Intelligent Shampoo Formulation Platform — Self-Driving Labs</span>
+          <span data-lang="fr">Plateforme de Formulation Intelligente de Shampoing — Self-Driving Labs</span>
         </h4>
-        <span class="date">2023 · Bayesian Optimization</span>
-        <p style="margin-top:8px; color:var(--muted); font-size:.95rem;">
-          <span data-lang="en">Autonomous decision-making via Bayesian optimization on a robotic platform (Doosan arm + electronic pipette). Discovered <strong>5× more good candidates in 3× fewer formulations</strong> vs. classic DOE for tertiary mixtures.</span>
-          <span data-lang="fr">Décision autonome par optimisation bayésienne sur une plateforme robotique (bras Doosan + pipette électronique). Découverte de <strong>5× plus de bons candidats avec 3× moins de formulations</strong> vs. DOE classique pour mélanges tertiaires.</span>
-        </p>
+        <span class="date">2023 · Bras robotique, Pipette électronique, Optimisation par méthodes bayésiennes, Surfactants</span>
+        <div class="tl-content collapsed" id="tl-1">
+          <p style="margin-top:8px; color:var(--muted); font-size:.95rem;">
+            <span data-lang="en">Autonomous decision-making via Bayesian optimization on a robotic platform (Doosan arm + electronic pipette). Discovered <strong>5× more good candidates in 3× fewer formulations</strong> vs. classic DOE for tertiary mixtures.</span>
+            <span data-lang="fr">En parallèle d'une démarche expérimentale classique combinant plan d'expérience et expertise métier, 
+              une étude comparative pilotée par un algorithme d'optimisation bayésienne, est menée. L'objectif étant d'évaluer la capacité du 
+              modèle à proposer de manière autonome la formulation suivante la plus pertinente pour converger rapidement vers la viscosité cible.<br>
+              Techniquement, la plateforme robotique, composée d'un bras 6 axes, d'une micro-pipette électronique (avec mesure de pression in situ et 
+              modifiée pour être sans fils) et d'un système d'agitation, est guidée de façon autonome par le modèle bayésien pour formuler les mélanges 
+              ternaires de tensioactifs – Quelle proportion pour chaque tensioactif, et quelle vitesse d'agitation ?<br>
+              Ce guidage a un but: découvrir le plus rapidement possible les formulations les plus performantes (viscosité cible) en minimisant le 
+              nombre d'expériences à réaliser.<br>
+              <img src="bayesian_optim_01.png" width="750"><br>
+               <br>
+              Le gain affiché entre les deux approches, illustré par le slide ci-dessous, est de 5× plus de bonnes formulations trouvées en 
+              3× moins d'expériences :<br>
+              <img src="bayesian_optim_02.png" width="750"><br>
+            </span>
+          </p>
+        </div>
+        <button class="tl-toggle" onclick="toggleTL('tl-1')">+</button>
       </div>
       <div class="timeline-item">
         <h4>
           <span data-lang="en">EOR Surfactant Salinity Predictor (Chemoinformatics)</span>
-          <span data-lang="fr">Prédicteur de Salinité pour Tensioactifs EOR (Chimioinformatique)</span>
+          <span data-lang="fr">Modèle prédictif de salinité optimale pour la Récupération Assistée du Pétrole (EOR) — chémoinformatique</span>
         </h4>
-        <span class="date">2019 · TensorFlow CNN + NN</span>
-        <p style="margin-top:8px; color:var(--muted); font-size:.95rem;">
-          <span data-lang="en">Predicted optimal salinity for surfactant mixtures in Enhanced Oil Recovery using molecular SMILES and process parameters. Deployed on Dataiku.</span>
-          <span data-lang="fr">Prédiction de la salinité optimale pour des mélanges tensioactifs en Récupération Assistée du Pétrole (EOR) à partir de SMILES moléculaires et paramètres de procédé. Déployé sur Dataiku.</span>
-        </p>
+        <span class="date">2019 · Dataiku, XGboost, TensorFlow, SMILES, Surfactants</span>
+        <div class="tl-content collapsed" id="tl-2">
+          <p style="margin-top:8px; color:var(--muted); font-size:.95rem;">
+            <span data-lang="en">Predicted optimal salinity for surfactant mixtures in Enhanced Oil Recovery using molecular SMILES and process parameters. Deployed on Dataiku.</span>
+            <span data-lang="fr">
+              Evaluation de deux approches différentes pour prédire la salinité optimale de mélanges de tensioactifs, s'appuyant sur les structures moléculaires 
+              (SMILES transformés en images/matrices) et les paramètres de procédé, sur un dataset interne d'environ 1000 données expérimentales :<br>
+              1. Shallow Learning – Un modèles d'assemblage d'arbres de décision (XGboost)<br>
+              2. Deep Learning – Un réseau de neurones convolutifs (CNN, pour les structures moléculaires) combiné à un réseau dense (pour les paramètres de procédé)<br>
+              <img src="CNN_NN_EOR.png" width="750"><br>
+              Présentant une performance légèrement supérieure, le modèle XGBoost sera retenu et déployé sur la plateforme Dataiku, après confirmation des tendances 
+              (effet de la température ou de la longueur de chaine carbonée par exemple) par les experts métier.<br>
+              Le modèle permet finalement de prédire – avec un degré d'incertitude explicitement montré à l'utilisateur – la salinité optimale pour de nouveaux mélanges de 
+              tensioactifs dans des conditions opérationnelles non explorées, accélérant ainsi le processus de développement de formulations.
+            </span>
+          </p>
+        </div>
+        <button class="tl-toggle" onclick="toggleTL('tl-2')">+</button>
       </div>
       <div class="timeline-item">
         <h4>
           <span data-lang="en">HSE Chatbot Assistant (GraphRAG)</span>
-          <span data-lang="fr">Assistant Chatbot HSE (GraphRAG)</span>
+          <span data-lang="fr">Chatbot assitant HSE — Large Language Model enrichi</span>
         </h4>
-        <span class="date">2025–2026 · LLM, RAG, Agent Orchestration</span>
-        <p style="margin-top:8px; color:var(--muted); font-size:.95rem;">
-          <span data-lang="en">Webapp assistant for HSE teams built on tens of thousands of natural-language researcher feedback entries. Pipeline: translation → anonymization → entity extraction → GraphRAG → specialized agents.</span>
-          <span data-lang="fr">Assistant webapp pour les équipes HSE basé sur des dizaines de milliers d'entrées de feedback chercheurs en langage naturel. Pipeline : traduction → anonymisation → extraction d'entités → GraphRAG → agents spécialisés.</span>
-        </p>
+        <span class="date">2025–2026 · RAG, GraphRAG, Microsoft Azure, Orchestration agentique</span>
+        <div class="tl-content collapsed" id="tl-3">
+          <p style="margin-top:8px; color:var(--muted); font-size:.95rem;">
+            <span data-lang="en">Webapp assistant for HSE teams built on tens of thousands of natural-language researcher feedback entries. Pipeline: translation → anonymization → entity extraction → GraphRAG → specialized agents.</span>
+            <span data-lang="fr">Assistant HSE à architecture agentique, conçu après analyse du besoin métier HSE, de l'état de l'art des LLM agentiques et des contraintes 
+              techniques et réglementaires. Nourri de dizaines de milliers de retours de chercheurs, exprimés en langage naturel, le pipeline intègre traduction, anonymisation 
+              et extraction d’entités pour structurer les données dans un RAG et un GraphRAG sur Microsoft Azure, puis orchestre 
+              des agents spécialisés (tendances statistiques, prédictions par rapport aux seuils historiques) via un routage dynamique (LangGraph).<br>
+              Par recherche sémantique, l’outil permet de retrouver instantanément et de synthétiser les informations pertinentes issues des retours terrain, 
+              qui concernent directement la question de l'utilisateur. Il permet ainsi de capitaliser sur l'historique de l'entreprise en proposant des réponses contextualisées, 
+              tout en fournissant des tendances et des prédictions sur le sujet abordé.
+            </span>
+          </p>
+        </div>
+        <button class="tl-toggle" onclick="toggleTL('tl-3')">+</button>
       </div>
       <div class="timeline-item">
         <h4>
           <span data-lang="en">Contact-Angle Measurement Robot</span>
-          <span data-lang="fr">Robot de Mesure d'Angle de Contact</span>
+          <span data-lang="fr">Banc robotisé de caractérisation de l'énergie de surface</span>
         </h4>
-        <span class="date">2022 · MECA500 + Plotly-Dash + Computer Vision</span>
-        <p style="margin-top:8px; color:var(--muted); font-size:.95rem;">
-          <span data-lang="en">Robotic platform for high-throughput surface-energy measurement on metal plates. Handles 10 plates × 12 solvents — no equivalent solution existed at the time.</span>
-          <span data-lang="fr">Plateforme robotique pour la mesure à haut débit de l'énergie de surface sur plaques métalliques. Gère 10 plaques × 12 solvants — aucune solution équivalente n'existait à l'époque.</span>
-        </p>
+        <span class="date">2022 · Bras robotique, Computer Vision, Solvants et Traitements de surface</span>
+        <div class="tl-content collapsed" id="tl-4">
+          <p style="margin-top:8px; color:var(--muted); font-size:.95rem;">
+            <span data-lang="en">Robotic platform for high-throughput surface-energy measurement on metal plates. Handles 10 plates × 12 solvents — no equivalent solution existed at the time.</span>
+            <span data-lang="fr">
+              Dans le cadre d'une demande de l'équipe Industrial Coatings pour ...<br>
+              &emsp;&emsp;1. monter en capacité sur la caractérisation de l'énergie de surface de plaques métalliques<br>
+              &emsp;&emsp;2. accroitre nos connaissances scientifiques sur les corrélations entre énergie de surface et propriétés d'adhésion<br>
+              ... un projet est initié pour automatiser la mesure d'angle de contact de différents solvants sur une disaine de plaques métalliques traitées.<br>
+              Après recueil des besoins et analyse de faisabilité, une plateforme robotique compacte est conceptualisée et simulée:
+              <img src="robotic_plateforme1.gif" alt="Robotique Plateforme 1" style="max-width:100%; height:auto;"><br>
+              Après validation du concept, la plateforme est développée autour d'une expérience utilisateur simple et guidée (tunneling design pattern sous Plotly-Dash).
+              Un programme Python orchestre un MECA500, une caméra microscopique et un pousse-seringue pour venir présenter les différentes plaques, y déposer
+              les gouttes de solvants, puis mesurer l'angle de contact avec un algorithme d'analyse d'image. L'ensemble des éléments de supports sont dessinés et imprimés en 3D.<br>
+              <img src="Surfu2.gif" alt="Robotique Plateforme 1" style="max-width:100%; height:auto;"><br>
+            </span>
+          </p>
+        </div>
+        <button class="tl-toggle" onclick="toggleTL('tl-4')">+</button>
       </div>
     </div>
   </section>
@@ -454,10 +575,6 @@
       <span data-lang="en">Mind Map</span>
       <span data-lang="fr">Carte Mentale</span>
     </h2>
-    <p style="margin-top:8px; color:var(--muted); font-size:.95rem;">
-      <span data-lang="en">Interactive CV mind map generated from Excalidraw.</span>
-      <span data-lang="fr">Carte mentale interactive du CV générée depuis Excalidraw.</span>
-    </p>
     <div id="excalidraw-root"></div>
   </section>
 
@@ -471,6 +588,17 @@
 
 <!-- ════════ SCRIPTS ════════ -->
 <script>
+  /* ── Dynamic years of experience ─────────────── */
+  (function() {
+    const startYear = 2009; // Career start year (2026 - 17 = 2009)
+    const currentYear = new Date().getFullYear();
+    const years = currentYear - startYear;
+    document.getElementById('expYearsEn').textContent =
+      `${years} years at the intersection of physical chemistry, lab automation, AI, and data-driven R&D innovation`;
+    document.getElementById('expYearsFr').textContent =
+      `${years} ans à l'intersection de la Physique-chimie, de l'IA, de l'automatisation en laboratoire, et de l'innovation R&D`;
+  })();
+
   /* ── Language switch ─────────────────────────── */
   function setLang(lang) {
     document.body.classList.toggle('show-en', lang === 'en');
@@ -497,6 +625,21 @@
       btn.textContent = '+';
     }
   }
+
+  /* ── Timeline expand/collapse ─────────────────── */
+  function toggleTL(id) {
+    const content = document.getElementById(id);
+    const btn = content.nextElementSibling;
+    if (content.classList.contains('collapsed')) {
+      content.classList.remove('collapsed');
+      content.classList.add('expanded');
+      btn.textContent = '−';
+    } else {
+      content.classList.add('collapsed');
+      content.classList.remove('expanded');
+      btn.textContent = '+';
+    }
+  }
 </script>
 
 <script>
@@ -510,7 +653,7 @@
   const diagramSrc = "jordy_bonnet.excalidraw";
 
   const initialData = async () => {
-    const res = await fetch(diagramSrc);
+    const res = await fetch(`${diagramSrc}?v=${Date.now()}`);
     if (!res.ok) throw new Error(`Failed to load ${diagramSrc}: ${res.status}`);
     const raw = await res.json();
     const restored = restore(raw, null, null);
@@ -534,11 +677,6 @@
     })
   );
 </script>
-
-<footer>
-  <span data-lang="en">© 2026 Jordy Bonnet — All rights reserved.</span>
-  <span data-lang="fr">© 2026 Jordy Bonnet — Tous droits réservés.</span>
-</footer>
 
 </body>
 </html>
