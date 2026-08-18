@@ -825,9 +825,9 @@
     const raw = await res.json();
     const restored = restore(raw, null, null);
 
-    // Center on the "Jordy Bonnet" photo (id kz3PmhYwBSFyssh9D7uDJ) at 100% zoom
+    // Center on the "Jordy Bonnet" photo (id kz3PmhYwBSFyssh9D7uDJ) at 60% zoom
     const photo = restored.elements.find((el) => el.id === "kz3PmhYwBSFyssh9D7uDJ" && !el.isDeleted);
-    const zoom = 1;
+    const zoom = 0.6;
     const container = document.getElementById("excalidraw-root");
     const cw = container?.clientWidth || 1080;
     const ch = container?.clientHeight || 600;
@@ -836,8 +836,9 @@
     if (photo) {
       const centerX = photo.x + photo.width / 2;
       const centerY = photo.y + photo.height / 2;
-      scrollX = cw / 2 - centerX * zoom;
-      scrollY = ch / 2 - centerY * zoom;
+      // Excalidraw: screen = (world + scroll) * zoom  →  scroll = screen/zoom - world
+      scrollX = cw / 2 / zoom - centerX;
+      scrollY = ch / 2 / zoom - centerY;
     }
 
     return {
