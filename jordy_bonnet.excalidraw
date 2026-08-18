@@ -2607,8 +2607,8 @@
         "type": 3
       },
       "seed": 18582457,
-      "version": 3724,
-      "versionNonce": 401865695,
+      "version": 3725,
+      "versionNonce": 1806171602,
       "isDeleted": false,
       "boundElements": [
         {
@@ -2618,9 +2618,13 @@
         {
           "id": "hm_oD9vl_QTGIwddV539V",
           "type": "arrow"
+        },
+        {
+          "id": "98Tlsd9SprmXF0OYgfSwr",
+          "type": "arrow"
         }
       ],
-      "updated": 1786029838792,
+      "updated": 1787010313409,
       "link": null,
       "locked": false
     },
@@ -3220,6 +3224,106 @@
       "startArrowhead": null,
       "endArrowhead": "arrow",
       "elbowed": false
+    },
+    {
+      "id": "98Tlsd9SprmXF0OYgfSwr",
+      "type": "arrow",
+      "x": 1364.9112801843833,
+      "y": -250.71095364050439,
+      "width": 75.79187116640855,
+      "height": 73.67774087021752,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b1O",
+      "roundness": {
+        "type": 2
+      },
+      "seed": 447762126,
+      "version": 199,
+      "versionNonce": 249235538,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1787010462858,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -43.42123993100017,
+          -16
+        ],
+        [
+          -75.79187116640855,
+          -73.67774087021752
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "2Vy3Un52fS-hNY8SB1BRG",
+        "focus": -0.3093017628024168,
+        "gap": 10.123857138238781
+      },
+      "endBinding": {
+        "elementId": "BZG9nuCDmTM9VoffADMYb",
+        "focus": -0.3913640290159239,
+        "gap": 5.348663806301886
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+    },
+    {
+      "id": "2Vy3Un52fS-hNY8SB1BRG",
+      "type": "text",
+      "x": 1366.490040253383,
+      "y": -240.71095364050439,
+      "width": 459.8396911621094,
+      "height": 75,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b1P",
+      "roundness": null,
+      "seed": 1262741650,
+      "version": 283,
+      "versionNonce": 1823041486,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "id": "98Tlsd9SprmXF0OYgfSwr",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1787010460740,
+      "link": null,
+      "locked": false,
+      "text": "ajouter la curiosité technologique algorithmique\nRéseau neuronneaux, Transformers, DIY,\nAlgorithmes évolutionnistes",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "ajouter la curiosité technologique algorithmique\nRéseau neuronneaux, Transformers, DIY,\nAlgorithmes évolutionnistes",
+      "autoResize": true,
+      "lineHeight": 1.25
     }
   ],
   "appState": {
