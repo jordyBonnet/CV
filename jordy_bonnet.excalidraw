@@ -122,10 +122,10 @@
     {
       "id": "CuihvbCh8KbJFZll5Wj60",
       "type": "arrow",
-      "x": 209.3718911741314,
-      "y": -24.377266232950944,
-      "width": 397.8615802576008,
-      "height": 339.489040969922,
+      "x": 210.57279539008726,
+      "y": -21.81218936448292,
+      "width": 389.857671205054,
+      "height": 449.9669309758558,
       "angle": 0,
       "strokeColor": "#343a40",
       "backgroundColor": "transparent",
@@ -141,11 +141,11 @@
         "type": 2
       },
       "seed": 673972119,
-      "version": 1493,
-      "versionNonce": 478776497,
+      "version": 1654,
+      "versionNonce": 678621559,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1786029838798,
+      "updated": 1787052239228,
       "link": null,
       "locked": false,
       "points": [
@@ -154,24 +154,24 @@
           0
         ],
         [
-          -147.18054874854272,
-          -213.0804478892698
+          -128.38145296449858,
+          -274.21695332916636
         ],
         [
-          -397.8615802576008,
-          -339.489040969922
+          -389.857671205054,
+          -449.9669309758558
         ]
       ],
       "lastCommittedPoint": null,
       "startBinding": {
         "elementId": "rYTlDKBnUV6hIH3Im2vcZ",
-        "focus": -0.4173016551415424,
-        "gap": 4.910259381991182
+        "focus": -0.5410693057050966,
+        "gap": 2.8858808163031426
       },
       "endBinding": {
         "elementId": "rgjiV2vnFquKC_w2e-RdK",
-        "focus": 0.28633963580058647,
-        "gap": 1.2071607270554523
+        "focus": 0.14339368148226841,
+        "gap": 3.234264062204943
       },
       "startArrowhead": null,
       "endArrowhead": "arrow",
@@ -298,8 +298,8 @@
       "type": "arrow",
       "x": 209.38680198597163,
       "y": 32.066540892974416,
-      "width": 78.02076115982763,
-      "height": 11.451560997393742,
+      "width": 71.38166350217327,
+      "height": 12.151250044989396,
       "angle": 0,
       "strokeColor": "#343a40",
       "backgroundColor": "transparent",
@@ -315,11 +315,11 @@
         "type": 2
       },
       "seed": 1732868921,
-      "version": 3289,
-      "versionNonce": 1281470673,
+      "version": 3413,
+      "versionNonce": 1372221369,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1786109530021,
+      "updated": 1787052257544,
       "link": null,
       "locked": false,
       "points": [
@@ -332,8 +332,8 @@
           11.451560997393742
         ],
         [
-          -78.02076115982763,
-          3.7093561668449553
+          -71.38166350217327,
+          -0.6996890475956548
         ]
       ],
       "lastCommittedPoint": null,
@@ -356,8 +356,8 @@
       "type": "arrow",
       "x": 318.0708730699437,
       "y": -43.69971589176056,
-      "width": 141.18119283378445,
-      "height": 110.34098809111019,
+      "width": 135.46690711949879,
+      "height": 112.68694949294128,
       "angle": 0,
       "strokeColor": "#343a40",
       "backgroundColor": "transparent",
@@ -373,11 +373,11 @@
         "type": 2
       },
       "seed": 1268529625,
-      "version": 3009,
-      "versionNonce": 270586993,
+      "version": 3021,
+      "versionNonce": 1918200471,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1786029838798,
+      "updated": 1787052133335,
       "link": null,
       "locked": false,
       "points": [
@@ -390,8 +390,8 @@
           -58.67134405054354
         ],
         [
-          141.18119283378445,
-          -110.34098809111019
+          135.46690711949879,
+          -112.68694949294128
         ]
       ],
       "lastCommittedPoint": null,
@@ -764,10 +764,10 @@
     {
       "id": "w06XKTuM8c9gBJvz4YR-3",
       "type": "rectangle",
-      "x": -399.94784727637244,
-      "y": -287.2109536405044,
+      "x": -392.947847276372,
+      "y": -416.06809649764716,
       "width": 527.8757750595112,
-      "height": 415,
+      "height": 535,
       "angle": 0,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "#ffffff",
@@ -783,8 +783,8 @@
         "type": 3
       },
       "seed": 1626115513,
-      "version": 1883,
-      "versionNonce": 1093908209,
+      "version": 2012,
+      "versionNonce": 1618991609,
       "isDeleted": false,
       "boundElements": [
         {
@@ -796,17 +796,17 @@
           "type": "arrow"
         }
       ],
-      "updated": 1786109530020,
+      "updated": 1787052257544,
       "link": null,
       "locked": false
     },
     {
       "id": "235lV1lAgINdiDb-GNgGP",
       "type": "text",
-      "x": -394.94784727637244,
-      "y": -267.2109536405044,
+      "x": -387.947847276372,
+      "y": -411.06809649764716,
       "width": 516.7796630859375,
-      "height": 375,
+      "height": 525,
       "angle": 0,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "#ffec99",
@@ -820,20 +820,20 @@
       "index": "b06",
       "roundness": null,
       "seed": 1801744025,
-      "version": 1911,
-      "versionNonce": 1715219615,
+      "version": 2087,
+      "versionNonce": 1919947545,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1786109530020,
+      "updated": 1787052273576,
       "link": null,
       "locked": false,
-      "text": "     --- Partage de la connaissance ---\n\nExpert métier pour le workshop ai4industry depuis\n2023 (20 étudiants sur une semaine)\n\nConception et animation de la formation Python pour\nl'ensemble du personnel du laboratoire (~30\ncollaborateurs)\n\nAccompagnement et mentorat d'une apprentie\ningénieure mécatronicienne (ENSIM — sur 3 ans)\n\nSupervision et accompagnement de la montée en\ncompétences de nombreux stagiaires\n(CentraleSupélec, University of Waterloo, ...)",
+      "text": "     --- Partage de la connaissance ---\n\nExpert métier pour le workshop ai4industry depuis\n2023 (20 étudiants sur une semaine)\n\nConception et animation de la formation Python pour\nl'ensemble du personnel du laboratoire (~30\ncollaborateurs)\n\nAccompagnement et mentorat d'une apprentie\ningénieure mécatronicienne (ENSIM — sur 3 ans)\n\nCoach Digital Researchers Community — 7 profils\ninternationnaux accompagnés pendant 3 mois\n\nPrésentations techniques au sein du cluster Data\nScientists du groupe\n\nSupervision et accompagnement de la montée en\ncompétences de nombreux stagiaires\n(CentraleSupélec, University of Waterloo, ...)",
       "fontSize": 20,
       "fontFamily": 5,
       "textAlign": "left",
       "verticalAlign": "middle",
       "containerId": "w06XKTuM8c9gBJvz4YR-3",
-      "originalText": "     --- Partage de la connaissance ---\n\nExpert métier pour le workshop ai4industry depuis 2023 (20 étudiants sur une semaine)\n\nConception et animation de la formation Python pour l'ensemble du personnel du laboratoire (~30 collaborateurs)\n\nAccompagnement et mentorat d'une apprentie ingénieure mécatronicienne (ENSIM — sur 3 ans)\n\nSupervision et accompagnement de la montée en compétences de nombreux stagiaires (CentraleSupélec, University of Waterloo, ...)",
+      "originalText": "     --- Partage de la connaissance ---\n\nExpert métier pour le workshop ai4industry depuis 2023 (20 étudiants sur une semaine)\n\nConception et animation de la formation Python pour l'ensemble du personnel du laboratoire (~30 collaborateurs)\n\nAccompagnement et mentorat d'une apprentie ingénieure mécatronicienne (ENSIM — sur 3 ans)\n\nCoach Digital Researchers Community — 7 profils internationnaux accompagnés pendant 3 mois\n\nPrésentations techniques au sein du cluster Data Scientists du groupe\n\nSupervision et accompagnement de la montée en compétences de nombreux stagiaires (CentraleSupélec, University of Waterloo, ...)",
       "autoResize": true,
       "lineHeight": 1.25
     },
@@ -1224,8 +1224,8 @@
     {
       "id": "2tyE53diEqnX3SFBWxE5w",
       "type": "rectangle",
-      "x": -19.105490737488026,
-      "y": -524.8512822513412,
+      "x": -7.676919308916467,
+      "y": -651.9941393941986,
       "width": 637.8924464059729,
       "height": 226,
       "angle": 0,
@@ -1243,8 +1243,8 @@
         "type": 3
       },
       "seed": 1055371897,
-      "version": 2784,
-      "versionNonce": 1701075185,
+      "version": 2905,
+      "versionNonce": 1220371767,
       "isDeleted": false,
       "boundElements": [
         {
@@ -1256,15 +1256,15 @@
           "type": "arrow"
         }
       ],
-      "updated": 1786029838792,
+      "updated": 1787052242510,
       "link": null,
       "locked": false
     },
     {
       "id": "3-4zxgAFcczajz6fd84dL",
       "type": "text",
-      "x": 9.090946088545309,
-      "y": -511.8512822513412,
+      "x": 20.519517517116867,
+      "y": -638.9941393941986,
       "width": 581.4995727539062,
       "height": 200,
       "angle": 0,
@@ -1280,11 +1280,11 @@
       "index": "b0P",
       "roundness": null,
       "seed": 1344076633,
-      "version": 2815,
-      "versionNonce": 1008806111,
+      "version": 2936,
+      "versionNonce": 1281992279,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1786029838792,
+      "updated": 1787052242510,
       "link": null,
       "locked": false,
       "text": " Syensqo (ex-Solvay)\nLoF — Laboratory of the Future\n2008 à ce jour (CDI en 2010)\n\nUnité Mixte de Recherche (UMR) :\nSyensqo + CNRS + Université de Bordeaux 1\n\nPhysico-chimie, miniaturisation, automatisation et robotique",
@@ -1300,8 +1300,8 @@
     {
       "id": "-OqimimlBO63qW0_xutmu",
       "type": "image",
-      "x": -6.365282198214686,
-      "y": -515.1307141149732,
+      "x": 19.349003516070866,
+      "y": -640.844999829259,
       "width": 95.55007259196998,
       "height": 57.80779391814183,
       "angle": 0,
@@ -1317,11 +1317,11 @@
       "index": "b0Q",
       "roundness": null,
       "seed": 160141753,
-      "version": 870,
-      "versionNonce": 1888065681,
+      "version": 931,
+      "versionNonce": 549168569,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1786029838792,
+      "updated": 1787052244888,
       "link": null,
       "locked": false,
       "status": "pending",
@@ -1337,8 +1337,8 @@
       "type": "arrow",
       "x": 233.32431729596763,
       "y": -85.08470825368582,
-      "width": 19.44474345507399,
-      "height": 213.43093358778893,
+      "width": 19.43682138763168,
+      "height": 340.57379073064624,
       "angle": 0,
       "strokeColor": "#343a40",
       "backgroundColor": "transparent",
@@ -1354,11 +1354,11 @@
         "type": 2
       },
       "seed": 1086972281,
-      "version": 1342,
-      "versionNonce": 509191967,
+      "version": 1463,
+      "versionNonce": 1328595831,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1786029838798,
+      "updated": 1787052242511,
       "link": null,
       "locked": false,
       "points": [
@@ -1371,8 +1371,8 @@
           -66.3383982673075
         ],
         [
-          -19.44474345507399,
-          -213.43093358778893
+          -11.947556027292507,
+          -340.57379073064624
         ]
       ],
       "lastCommittedPoint": null,
@@ -1720,8 +1720,8 @@
     {
       "id": "bEfj_y80OyXLqtzjJa05r",
       "type": "rectangle",
-      "x": 462.4565353434143,
-      "y": -287.0382434937717,
+      "x": 456.74224962912854,
+      "y": -299.8953863509146,
       "width": 639.5096107255482,
       "height": 216.22194203584104,
       "angle": 0,
@@ -1739,8 +1739,8 @@
         "type": 3
       },
       "seed": 51895097,
-      "version": 3324,
-      "versionNonce": 990282015,
+      "version": 3336,
+      "versionNonce": 1870353495,
       "isDeleted": false,
       "boundElements": [
         {
@@ -1752,15 +1752,15 @@
           "type": "arrow"
         }
       ],
-      "updated": 1786029838792,
+      "updated": 1787052133335,
       "link": null,
       "locked": false
     },
     {
       "id": "B2qTG6tJNuQImA4G_ofCP",
       "type": "text",
-      "x": 467.4565353434143,
-      "y": -278.92727247585117,
+      "x": 461.74224962912854,
+      "y": -291.78441533299406,
       "width": 571.8946533203125,
       "height": 200,
       "angle": 0,
@@ -1776,11 +1776,11 @@
       "index": "b0b",
       "roundness": null,
       "seed": 365562905,
-      "version": 3542,
-      "versionNonce": 1296244209,
+      "version": 3554,
+      "versionNonce": 1071427959,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1786029838792,
+      "updated": 1787052133335,
       "link": null,
       "locked": false,
       "text": "     --- Gestion de projets ---\nGestion de projets avec jusqu'à 2 ingénieurs juniors et 1\nalternant.\n    ↳ faisabilité, chiffrage (Capex/Opex) et planification de\nnouveaux projets après évaluation des besoins\n    ↳ planification, préparation et tenue des réunions\n    ↳ décision des orientations techniques à suivre\n    ↳ compte rendus et arbitrages au comité de pilotage",
@@ -1815,8 +1815,8 @@
         "type": 3
       },
       "seed": 1023674679,
-      "version": 3996,
-      "versionNonce": 2103808177,
+      "version": 3997,
+      "versionNonce": 1811787193,
       "isDeleted": false,
       "boundElements": [
         {
@@ -1826,9 +1826,13 @@
         {
           "id": "ss6JX2zF6jFOlbLBG7FLq",
           "type": "arrow"
+        },
+        {
+          "id": "bMB2jpsls2YlzonuTWC7v",
+          "type": "arrow"
         }
       ],
-      "updated": 1786029838792,
+      "updated": 1787064129802,
       "link": null,
       "locked": false
     },
@@ -2064,8 +2068,8 @@
     {
       "id": "rgjiV2vnFquKC_w2e-RdK",
       "type": "rectangle",
-      "x": -359.0586575744113,
-      "y": -457.99342840793497,
+      "x": -364.772943288697,
+      "y": -566.5648569793634,
       "width": 290.00000000000006,
       "height": 93.75000000000001,
       "angle": 0,
@@ -2083,8 +2087,8 @@
         "type": 3
       },
       "seed": 507239255,
-      "version": 656,
-      "versionNonce": 652202015,
+      "version": 726,
+      "versionNonce": 890442551,
       "isDeleted": false,
       "boundElements": [
         {
@@ -2096,15 +2100,15 @@
           "type": "arrow"
         }
       ],
-      "updated": 1786029838792,
+      "updated": 1787052239228,
       "link": null,
       "locked": false
     },
     {
       "id": "JkLW5KCwXRXFpH9OY97Hs",
       "type": "text",
-      "x": -334.0185651061496,
-      "y": -448.61842840793497,
+      "x": -339.73285082043526,
+      "y": -557.1898569793634,
       "width": 239.91981506347656,
       "height": 75,
       "angle": 0,
@@ -2120,11 +2124,11 @@
       "index": "b0lV",
       "roundness": null,
       "seed": 137402265,
-      "version": 656,
-      "versionNonce": 681581937,
+      "version": 726,
+      "versionNonce": 1037669463,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1786029838792,
+      "updated": 1787052239228,
       "link": null,
       "locked": false,
       "text": "06 76 76 80 93\njordy.bonnet@gmail.com\nSt Jean d'Illac - Gironde",
@@ -3228,10 +3232,10 @@
     {
       "id": "98Tlsd9SprmXF0OYgfSwr",
       "type": "arrow",
-      "x": 1364.9112801843833,
-      "y": -250.71095364050439,
-      "width": 75.79187116640855,
-      "height": 73.67774087021752,
+      "x": 1353.6389103878716,
+      "y": -265.7176666371876,
+      "width": 67.11722704800309,
+      "height": 63.16485900388528,
       "angle": 0,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "transparent",
@@ -3247,11 +3251,11 @@
         "type": 2
       },
       "seed": 447762126,
-      "version": 199,
-      "versionNonce": 249235538,
+      "version": 349,
+      "versionNonce": 1459384503,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1787010462858,
+      "boundElements": [],
+      "updated": 1787064080205,
       "link": null,
       "locked": false,
       "points": [
@@ -3260,24 +3264,24 @@
           0
         ],
         [
-          -43.42123993100017,
-          -16
+          -37.60341558903406,
+          -15.538741548771327
         ],
         [
-          -75.79187116640855,
-          -73.67774087021752
+          -67.11722704800309,
+          -63.16485900388528
         ]
       ],
       "lastCommittedPoint": null,
       "startBinding": {
         "elementId": "2Vy3Un52fS-hNY8SB1BRG",
-        "focus": -0.3093017628024168,
-        "gap": 10.123857138238781
+        "focus": -0.8090752059575649,
+        "gap": 10.12385713823869
       },
       "endBinding": {
         "elementId": "BZG9nuCDmTM9VoffADMYb",
-        "focus": -0.3913640290159239,
-        "gap": 5.348663806301886
+        "focus": -0.3634544143100765,
+        "gap": 2.148605550656157
       },
       "startArrowhead": null,
       "endArrowhead": "arrow",
@@ -3286,9 +3290,9 @@
     {
       "id": "2Vy3Un52fS-hNY8SB1BRG",
       "type": "text",
-      "x": 1366.490040253383,
-      "y": -240.71095364050439,
-      "width": 459.8396911621094,
+      "x": 1363.7627675261103,
+      "y": -307.98368091323164,
+      "width": 542.2596435546875,
       "height": 75,
       "angle": 0,
       "strokeColor": "#1e1e1e",
@@ -3303,8 +3307,8 @@
       "index": "b1P",
       "roundness": null,
       "seed": 1262741650,
-      "version": 283,
-      "versionNonce": 1823041486,
+      "version": 404,
+      "versionNonce": 1433533335,
       "isDeleted": false,
       "boundElements": [
         {
@@ -3312,17 +3316,117 @@
           "type": "arrow"
         }
       ],
-      "updated": 1787010460740,
+      "updated": 1787064080204,
       "link": null,
       "locked": false,
-      "text": "ajouter la curiosité technologique algorithmique\nRéseau neuronneaux, Transformers, DIY,\nAlgorithmes évolutionnistes",
+      "text": "Ajouter la curiosité technologique :\nRéseaux de neuronnes, Transformers, LLMs locaux, DIY,\nAlgorithmes évolutionnistes, Recherche opérationnelle",
       "fontSize": 20,
       "fontFamily": 5,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "ajouter la curiosité technologique algorithmique\nRéseau neuronneaux, Transformers, DIY,\nAlgorithmes évolutionnistes",
+      "originalText": "Ajouter la curiosité technologique :\nRéseaux de neuronnes, Transformers, LLMs locaux, DIY,\nAlgorithmes évolutionnistes, Recherche opérationnelle",
       "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "bMB2jpsls2YlzonuTWC7v",
+      "type": "arrow",
+      "x": 1118.0167357800783,
+      "y": 16.18262500307719,
+      "width": 200.00000000000023,
+      "height": 66.36363636363637,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b1Q",
+      "roundness": {
+        "type": 2
+      },
+      "seed": 314765047,
+      "version": 202,
+      "versionNonce": 184123543,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1787064157234,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          120.90909090909099,
+          1.818181818181813
+        ],
+        [
+          200.00000000000023,
+          -64.54545454545456
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "Imyk0rcoECsAJcx7SjUCe",
+        "focus": -0.35222367900864876,
+        "gap": 14
+      },
+      "endBinding": {
+        "elementId": "RebbN-h8Bmvh682iqRZ9j",
+        "focus": 0.8252921443948952,
+        "gap": 7.229221605695754
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+    },
+    {
+      "id": "RebbN-h8Bmvh682iqRZ9j",
+      "type": "text",
+      "x": 1325.068732184553,
+      "y": -74.95373863328643,
+      "width": 252.25964355468744,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b1R",
+      "roundness": null,
+      "seed": 995889625,
+      "version": 613,
+      "versionNonce": 1534667063,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "id": "bMB2jpsls2YlzonuTWC7v",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1787064156982,
+      "link": null,
+      "locked": false,
+      "text": "Finallement non exploité",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "Finallement non exploité",
+      "autoResize": false,
       "lineHeight": 1.25
     }
   ],
