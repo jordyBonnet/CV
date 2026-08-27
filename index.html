@@ -278,6 +278,59 @@
       background: var(--blue-dark); color: var(--white);
     }
 
+    /* ── CV download button & modal ───────────────── */
+    .cv-open-btn {
+      display: inline-block;
+      background: var(--blue-dark); color: #fff;
+      padding: 8px 24px; border-radius: 6px;
+      border: none; cursor: pointer;
+      font-weight: 600; font-size: 1rem; font-family: inherit;
+      transition: background .15s ease;
+    }
+    .cv-open-btn:hover { background: var(--blue-mid); }
+
+    .cv-modal-backdrop {
+      position: fixed; inset: 0;
+      background: rgba(13, 39, 68, .55);
+      display: flex; align-items: center; justify-content: center;
+      z-index: 1000;
+      opacity: 0; visibility: hidden;
+      transition: opacity .2s ease, visibility .2s ease;
+    }
+    .cv-modal-backdrop.open { opacity: 1; visibility: visible; }
+    .cv-modal {
+      position: relative;
+      background: #fff; border-radius: 12px;
+      width: min(440px, calc(100vw - 32px));
+      padding: 28px 24px 24px;
+      box-shadow: 0 12px 40px rgba(13, 39, 68, .35);
+      transform: translateY(12px);
+      transition: transform .2s ease;
+    }
+    .cv-modal-backdrop.open .cv-modal { transform: translateY(0); }
+    .cv-modal h3 { color: var(--blue-dark); font-size: 1.15rem; margin-bottom: 4px; }
+    .cv-modal .cv-modal-sub { color: var(--muted); font-size: .9rem; margin-bottom: 18px; }
+    .cv-modal-close {
+      position: absolute; top: 10px; right: 12px;
+      background: none; border: none; cursor: pointer;
+      font-size: 1.4rem; line-height: 1; color: var(--muted);
+    }
+    .cv-modal-close:hover { color: var(--blue-dark); }
+    .cv-option {
+      display: flex; align-items: center; gap: 12px;
+      width: 100%; text-align: left;
+      padding: 12px 14px; margin-bottom: 10px;
+      border: 1px solid var(--blue-light); border-radius: 8px;
+      background: var(--grey); color: var(--text);
+      text-decoration: none; font-size: .95rem;
+      transition: background .15s ease, border-color .15s ease;
+    }
+    .cv-option:last-child { margin-bottom: 0; }
+    .cv-option:hover { background: var(--blue-light); border-color: var(--blue-mid); }
+    .cv-option .cv-option-icon { font-size: 1.5rem; }
+    .cv-option strong { display: block; color: var(--blue-dark); }
+    .cv-option small { color: var(--muted); }
+
     /* ── Responsive ───────────────────────────────── */
     @media (max-width: 640px) {
       header { flex-direction: column; text-align: center; gap: 16px; padding: 56px 0 24px; }
@@ -309,8 +362,10 @@
 
   <!-- ════════ DOWNLOAD BUTTONS ════════ -->
   <section class="section" style="text-align:center;">
-    <a href="Jordy_Bonnet_CV.pdf" download style="display:inline-block; background:var(--blue-dark); color:#fff; padding:8px 24px; border-radius:6px; text-decoration:none; font-weight:600; margin:0 12px;">Curriculum Vitae (PDF)</a>
-    <!-- <a href="Jordy Bonnet CV Mécatronicien.pdf" download style="display:inline-block; background:var(--blue-dark); color:#fff; padding:8px 24px; border-radius:6px; text-decoration:none; font-weight:600; margin:0 12px;">CV orienté Robotique et Instrumentation (PDF)</a> -->
+    <button class="cv-open-btn" onclick="openCVModal()">
+      <span data-lang="en">Curriculum Vitae (PDF)</span>
+      <span data-lang="fr">Curriculum Vitae (PDF)</span>
+    </button>
   </section>
 
   <!-- ════════ ABOUT ════════ -->
@@ -515,16 +570,16 @@
             </span>
             <span data-lang="fr">
               En parallèle d'une démarche expérimentale classique combinant plan d'expérience et expertise métier, 
-              une étude comparative pilotée par un algorithme d'optimisation bayésienne, est menée. L'objectif étant d'évaluer la capacité du 
+              je mets en place une étude comparative pilotée par un algorithme d'optimisation bayésienne. L'objectif étant d'évaluer la capacité du 
               modèle à proposer de manière autonome la formulation suivante la plus pertinente pour converger rapidement vers la viscosité cible.<br>
               Techniquement, la plateforme robotique, composée d'un bras 6 axes, d'une micro-pipette électronique (avec mesure de pression in situ et 
-              modifiée pour être sans fils) et d'un système d'agitation, est guidée de façon autonome par le modèle bayésien pour formuler les mélanges 
+              modifiée pour être sans fil) et d'un système d'agitation, est guidée de façon autonome par le modèle bayésien pour formuler les mélanges 
               ternaires de tensioactifs – Quelle proportion pour chaque tensioactif, et quelle vitesse d'agitation ?<br>
-              Ce guidage a un but: découvrir le plus rapidement possible les formulations les plus performantes (viscosité cible) en minimisant le 
+              Ce guidage a un but : découvrir le plus rapidement possible les formulations les plus performantes (viscosité cible) en minimisant le 
               nombre d'expériences à réaliser.<br>
               <img src="bayesian_optim_01.png" width="750"><br>
                <br>
-              Le gain affiché entre les deux approches, illustré par le diapositive ci-dessous, est de 5× plus de bonnes formulations trouvées en 
+              Le gain affiché entre les deux approches, illustré par la diapositive ci-dessous, est de 5× plus de bonnes formulations trouvées en 
               3× moins d'expériences :<br>
               <img src="bayesian_optim_02.png" width="750"><br>
             </span>
@@ -547,12 +602,12 @@
               Showing slightly superior performance, the XGBoost model was selected and deployed on the Dataiku platform, after confirmation of the trends (e.g. effect of temperature or carbon chain length) by domain experts.<br>
               The model ultimately predicts — with a degree of uncertainty explicitly shown to the user — the optimal salinity for new surfactant mixtures under unexplored operating conditions, thereby accelerating the formulation development process.</span>
             <span data-lang="fr">
-              Evaluation de deux approches différentes pour prédire la salinité optimale de mélanges de tensioactifs, s'appuyant sur les structures moléculaires 
+              J'évalue deux approches différentes pour prédire la salinité optimale de mélanges de tensioactifs, en m'appuyant sur les structures moléculaires 
               (SMILES transformés en images/matrices) et les paramètres de procédé, sur un dataset interne d'environ 1000 données expérimentales :<br>
-              &emsp;&emsp;1. Shallow Learning – Un modèle d'assemblage d'arbres de décision (XGboost)<br>
+              &emsp;&emsp;1. Shallow Learning – Un modèle d'ensemble d'arbres de décision (XGBoost)<br>
               &emsp;&emsp;2. Deep Learning – Un réseau de neurones convolutif (CNN, pour les structures moléculaires) combiné à un réseau dense (pour les paramètres de procédé)<br>
               <img src="CNN_NN_EOR.png" width="750"><br>
-              Présentant une performance légèrement supérieure, le modèle XGBoost sera retenu et déployé sur la plateforme Dataiku, après confirmation des tendances 
+              Le modèle XGBoost, qui présente une performance légèrement supérieure, est sélectionné et déployé sur la plateforme Dataiku, après confirmation des tendances 
               (effet de la température ou de la longueur de chaîne carbonée par exemple) par les experts métier.<br>
               Le modèle permet finalement de prédire – avec un degré d'incertitude explicitement montré à l'utilisateur – la salinité optimale pour de nouveaux mélanges de 
               tensioactifs dans des conditions opérationnelles non explorées, accélérant ainsi le processus de développement de formulations.
@@ -575,11 +630,11 @@
             <span data-lang="en">Agentic-architecture HSE assistant, designed following an analysis of the HSE business need, the state of the art in agentic LLMs and technical/regulatory constraints. Fed with tens of thousands of researcher feedback entries expressed in natural language, the pipeline integrates translation, anonymization and entity extraction to structure the data into a RAG and a GraphRAG on Microsoft Azure, then orchestrates specialized agents (statistical trends, predictions against historical thresholds) via dynamic routing (LangGraph).<br>
               Through semantic search, the tool instantly retrieves and synthesizes the relevant information from field feedback that directly concerns the user's question. It thus leverages the company's history by providing contextualized answers while also offering trends and predictions on the topic addressed.</span>
             <span data-lang="fr">
-              Assistant HSE à architecture agentique, conçu après analyse du besoin métier HSE, de l'état de l'art des LLM agentiques et des contraintes 
-              techniques et réglementaires. Nourri de dizaines de milliers de retours de chercheurs, exprimés en langage naturel, le pipeline intègre traduction, anonymisation 
-              et extraction d’entités pour structurer les données dans un RAG et un GraphRAG sur Microsoft Azure, puis orchestre 
+              Je conçois un Assistant HSE à architecture agentique, après analyse du besoin métier HSE, de l'état de l'art des LLM agentiques et des contraintes 
+              techniques et réglementaires. Alimenté par des dizaines de milliers de retours de chercheurs, exprimés en langage naturel, le pipeline intègre la traduction, l'anonymisation 
+              et l'extraction d'entités pour structurer les données dans un RAG et un GraphRAG sur Microsoft Azure, puis orchestre 
               des agents spécialisés (tendances statistiques, prédictions par rapport aux seuils historiques) via un routage dynamique (LangGraph).<br>
-              Par recherche sémantique, l’outil permet de retrouver instantanément et de synthétiser les informations pertinentes issues des retours terrain, 
+              Par recherche sémantique, l'outil permet de retrouver instantanément et de synthétiser les informations pertinentes issues des retours de terrain, 
               qui concernent directement la question de l'utilisateur. Il permet ainsi de capitaliser sur l'historique de l'entreprise en proposant des réponses contextualisées, 
               tout en fournissant des tendances et des prédictions sur le sujet abordé.
             </span>
@@ -611,12 +666,12 @@
               Dans le cadre d'une demande de l'équipe Industrial Coatings pour ...<br>
               &emsp;&emsp;1. monter en capacité sur la caractérisation de l'énergie de surface de plaques métalliques<br>
               &emsp;&emsp;2. accroître nos connaissances scientifiques sur les corrélations entre énergie de surface et propriétés d'adhésion<br>
-              ... un projet est initié pour automatiser la mesure d'angle de contact de différents solvants sur une dizaine de plaques métalliques traitées.<br>
-              Après recueil des besoins et analyse de faisabilité, une plateforme robotique compacte est conceptualisée et simulée:
+              ... Je gère un projet initié pour automatiser la mesure d'angle de contact de différents solvants sur une dizaine de plaques métalliques traitées.<br>
+              Après recueil des besoins et analyse de faisabilité, une plateforme robotique compacte est conceptualisée et simulée :
               <img src="robotic_plateforme1.webp" alt="Robotique Plateforme 1" style="max-width:100%; height:auto;"><br>
               Après validation du concept, la plateforme est développée autour d'une expérience utilisateur simple et guidée (tunneling design pattern sous Plotly-Dash).
               Un programme Python orchestre un MECA500, une caméra microscopique et un pousse-seringue pour présenter les différentes plaques, y déposer
-              les gouttes de solvants, puis mesurer l'angle de contact avec un algorithme d'analyse d'image. L'ensemble des éléments de supports est dessiné et imprimé en 3D.<br>
+              des gouttes de solvant, puis mesurer l'angle de contact avec un algorithme d'analyse d'image. L'ensemble des éléments de support est dessiné et imprimé en 3D.<br>
               <img src="Surfu2.webp" alt="Robotique Plateforme 1" style="max-width:100%; height:auto;"><br>
               Le projet a été livré et installé chez le client, avec une certification CE (analyse IDAR), l'ensemble de la documentation technique et la formation des 
               utilisateurs.
@@ -650,7 +705,7 @@
               une épreuve de toxicité aiguë pour évaluer les effets des produits chimiques sur les daphnies. Pour déterminer si un produit est toxique pour 
               l'environnement, une exposition de ces daphnies au produit chimique en développement est faite pendant 48h, et l'analyse de la mortalité est 
               réalisée par observation visuelle. Une expérience de laboratoire est alors développée, je suis en charge de la partie analyse d'image de celle-ci.<br>
-              A l'aide du framework Detectron2 (META), un modèle de segmentation d'instance est entraîné pour détecter les daphnies dans les vidéos acquises par caméra. 
+              À l'aide du framework Detectron2 (META), un modèle de segmentation d'instance est entraîné pour détecter les daphnies dans les vidéos acquises par caméra. 
               Les différents éléments suivants sont développés pour mener à bien le projet conformément aux exigences demandées :<br>
               &emsp;&emsp;· Système d'annotation – vidéo explicative d'outil en ligne produite et formation utilisateur<br>
               &emsp;&emsp;· Phase d'apprentissage – ingestion des centaines d'images annotées pour la création du modèle<br>
@@ -747,6 +802,42 @@
 
 </div><!-- /container -->
 
+<!-- ════════ CV DOWNLOAD MODAL ════════ -->
+<div class="cv-modal-backdrop" id="cvModal" onclick="if (event.target === this) closeCVModal()">
+  <div class="cv-modal" role="dialog" aria-modal="true" aria-labelledby="cvModalTitle">
+    <button class="cv-modal-close" onclick="closeCVModal()" aria-label="Close">×</button>
+    <h3 id="cvModalTitle">
+      <span data-lang="en">Choose a CV to download</span>
+      <span data-lang="fr">Choisissez un CV à télécharger</span>
+    </h3>
+    <p class="cv-modal-sub">
+      <span data-lang="en">Three versions are available (PDF).</span>
+      <span data-lang="fr">Trois versions sont disponibles (PDF).</span>
+    </p>
+    <a class="cv-option" href="Jordy_Bonnet_CV.pdf" download>
+      <span class="cv-option-icon">📄</span>
+      <span>
+        <span data-lang="en"><strong>Generalist CV</strong><small>Full profile — Data, AI & Robotics</small></span>
+        <span data-lang="fr"><strong>CV généraliste</strong><small>Profil complet — Data, IA & Robotique</small></span>
+      </span>
+    </a>
+    <a class="cv-option" href="Jordy_Bonnet_CV_IA.pdf" download>
+      <span class="cv-option-icon">🤖</span>
+      <span>
+        <span data-lang="en"><strong>AI-focused CV</strong><small>Machine Learning, Deep Learning & LLMs</small></span>
+        <span data-lang="fr"><strong>CV orienté IA</strong><small>Machine Learning, Deep Learning & LLMs</small></span>
+      </span>
+    </a>
+    <a class="cv-option" href="Jordy_Bonnet_CV_Mécatronicien.pdf" download>
+      <span class="cv-option-icon">⚙️</span>
+      <span>
+        <span data-lang="en"><strong>Mecatronics-focused CV</strong><small>Robotics, instrumentation & prototyping</small></span>
+        <span data-lang="fr"><strong>CV orienté Mécatronique</strong><small>Robotique, instrumentation & prototypage</small></span>
+      </span>
+    </a>
+  </div>
+</div>
+
 <!-- ════════ LANGUAGE SWITCH ════════ -->
 <div class="lang-switch">
   <button id="btn-fr" onclick="setLang('fr')">FR</button>
@@ -792,6 +883,19 @@
       btn.textContent = '+';
     }
   }
+
+  /* ── CV download modal ────────────────────────── */
+  function openCVModal() {
+    document.getElementById('cvModal').classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+  function closeCVModal() {
+    document.getElementById('cvModal').classList.remove('open');
+    document.body.style.overflow = '';
+  }
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') closeCVModal();
+  });
 
   /* ── Timeline expand/collapse ─────────────────── */
   function toggleTL(id) {
