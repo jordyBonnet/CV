@@ -244,8 +244,16 @@
       box-shadow: 0 4px 20px rgba(13,59,110,.1);
     }
 
-    /* Hide Excalidraw's floating menus (broken white box with ☰ on mobile) */
-    #excalidraw-root .App-menu { display: none; }
+    /* Hide ALL Excalidraw floating UI (menus/zoom/zen — the white box with ☰ that
+       shows up when the window is narrow). The drawing canvas lives outside these
+       wrappers, so it stays fully usable (pan + pinch/ctrl-zoom). */
+    #excalidraw-root .layer-ui__wrapper,
+    #excalidraw-root .Island,
+    #excalidraw-root .App-menu,
+    #excalidraw-root .App-mobile-menu,
+    #excalidraw-root .App-toolbar--mobile,
+    #excalidraw-root .mobile-misc-tools-container,
+    #excalidraw-root .dropdown-menu--mobile { display: none !important; }
 
     /* ── Footer ───────────────────────────────────── */
     footer {
