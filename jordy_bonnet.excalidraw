@@ -6,10 +6,10 @@
     {
       "id": "H9u-o_SMgGUL9opOy7L-i",
       "type": "arrow",
-      "x": -420.1725603652263,
-      "y": 501.16526597887764,
-      "width": 121.89080441439364,
-      "height": 426.3004337203063,
+      "x": -420.664917947584,
+      "y": 479.4420025952911,
+      "width": 125.27106134772316,
+      "height": 448.0236971038928,
       "angle": 0,
       "strokeColor": "#343a40",
       "backgroundColor": "transparent",
@@ -25,11 +25,11 @@
         "type": 2
       },
       "seed": 21048503,
-      "version": 1707,
-      "versionNonce": 1970637378,
+      "version": 2066,
+      "versionNonce": 1131689517,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1786364667361,
+      "updated": 1788690170295,
       "link": null,
       "locked": false,
       "points": [
@@ -38,23 +38,23 @@
           0
         ],
         [
-          -13.942868561107218,
-          133.27827677102903
+          -16.83076791207901,
+          81.4809518546989
         ],
         [
-          107.94793585328642,
-          426.3004337203063
+          108.44029343564415,
+          448.0236971038928
         ]
       ],
       "lastCommittedPoint": null,
       "startBinding": {
         "elementId": "aH68rXkbTtkZRjmRReQQB",
-        "focus": 0.9018191144639635,
-        "gap": 5.237919726441987
+        "focus": 0.8200393252590558,
+        "gap": 4.7252254980975295
       },
       "endBinding": {
         "elementId": "OtJmE8n_5lIXi-zE5S0aw",
-        "focus": -0.6074142163447382,
+        "focus": -0.6447736199458305,
         "gap": 1
       },
       "startArrowhead": null,
@@ -238,10 +238,10 @@
     {
       "id": "iaiZvxwM-EfkHki9cIDW9",
       "type": "arrow",
-      "x": 208.3424068083624,
-      "y": 63.83181860737149,
-      "width": 55.1294206458644,
-      "height": 75.72622171759907,
+      "x": 208.34240680837226,
+      "y": 63.83181860739175,
+      "width": 52.737392185514665,
+      "height": 71.75032469914048,
       "angle": 0,
       "strokeColor": "#343a40",
       "backgroundColor": "transparent",
@@ -257,11 +257,11 @@
         "type": 2
       },
       "seed": 1251913305,
-      "version": 2700,
-      "versionNonce": 730108930,
+      "version": 2842,
+      "versionNonce": 876833517,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1786364667360,
+      "updated": 1788690113666,
       "link": null,
       "locked": false,
       "points": [
@@ -270,12 +270,12 @@
           0
         ],
         [
-          -36.175751041497165,
-          32.53062511478434
+          -36.17575104150703,
+          32.53062511476409
         ],
         [
-          -55.1294206458644,
-          75.72622171759907
+          -52.737392185514665,
+          71.75032469914048
         ]
       ],
       "lastCommittedPoint": null,
@@ -356,8 +356,8 @@
       "type": "arrow",
       "x": 318.0708730699437,
       "y": -43.69971589176056,
-      "width": 135.46690711949879,
-      "height": 112.68694949294128,
+      "width": 158.80024045283216,
+      "height": 125.74350914870469,
       "angle": 0,
       "strokeColor": "#343a40",
       "backgroundColor": "transparent",
@@ -373,11 +373,11 @@
         "type": 2
       },
       "seed": 1268529625,
-      "version": 3021,
-      "versionNonce": 1918200471,
+      "version": 3049,
+      "versionNonce": 219646563,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1787052133335,
+      "updated": 1788611988376,
       "link": null,
       "locked": false,
       "points": [
@@ -390,8 +390,8 @@
           -58.67134405054354
         ],
         [
-          135.46690711949879,
-          -112.68694949294128
+          158.80024045283216,
+          -125.74350914870469
         ]
       ],
       "lastCommittedPoint": null,
@@ -412,10 +412,10 @@
     {
       "id": "2KgsRpTac6PhPtAmCKWvt",
       "type": "arrow",
-      "x": -417.29299304469066,
-      "y": 456.8397394022815,
-      "width": 59.58367346347535,
-      "height": 252.53586580988195,
+      "x": -419.05786074349265,
+      "y": 429.1939835163324,
+      "width": 50.64717571364946,
+      "height": 367.41913838160076,
       "angle": 0,
       "strokeColor": "#343a40",
       "backgroundColor": "transparent",
@@ -431,11 +431,11 @@
         "type": 2
       },
       "seed": 394892985,
-      "version": 3559,
-      "versionNonce": 194429890,
+      "version": 3931,
+      "versionNonce": 894523875,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1786364667360,
+      "updated": 1788690293271,
       "link": null,
       "locked": false,
       "points": [
@@ -444,24 +444,24 @@
           0
         ],
         [
-          -41.02346515798308,
-          39.88043662577962
+          -46.762957047567284,
+          46.87036309595442
         ],
         [
-          -59.58367346347535,
-          252.53586580988195
+          -50.64717571364946,
+          367.41913838160076
         ]
       ],
       "lastCommittedPoint": null,
       "startBinding": {
         "elementId": "aH68rXkbTtkZRjmRReQQB",
-        "focus": 0.4145086970288581,
-        "gap": 1.6722170606158215
+        "focus": 0.4836439209365525,
+        "gap": 3.118168294006182
       },
       "endBinding": {
         "elementId": "gv5B0UhCl56QU7YV1A-kW",
-        "focus": 0.6526746751392438,
-        "gap": 2.6673634551627856
+        "focus": 0.6601164380314466,
+        "gap": 7.461477181570899
       },
       "startArrowhead": null,
       "endArrowhead": "arrow",
@@ -470,10 +470,10 @@
     {
       "id": "gv5B0UhCl56QU7YV1A-kW",
       "type": "rectangle",
-      "x": -975.511072404752,
-      "y": 710.2896574304982,
+      "x": -957.0457204974595,
+      "y": 804.0745990795041,
       "width": 585.0021860991117,
-      "height": 210,
+      "height": 165.47751024999377,
       "angle": 0,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "#ffec99",
@@ -489,8 +489,8 @@
         "type": 3
       },
       "seed": 997742489,
-      "version": 1481,
-      "versionNonce": 1314359231,
+      "version": 1580,
+      "versionNonce": 1291292493,
       "isDeleted": false,
       "boundElements": [
         {
@@ -502,15 +502,15 @@
           "type": "arrow"
         }
       ],
-      "updated": 1786029838792,
+      "updated": 1788690290729,
       "link": null,
       "locked": false
     },
     {
       "id": "aGJEf462uDeOZKHW2SWKX",
       "type": "text",
-      "x": -970.511072404752,
-      "y": 752.7896574304982,
+      "x": -952.0457204974595,
+      "y": 824.313354204501,
       "width": 558.51953125,
       "height": 125,
       "angle": 0,
@@ -526,11 +526,11 @@
       "index": "az",
       "roundness": null,
       "seed": 2040265849,
-      "version": 1493,
-      "versionNonce": 177543089,
+      "version": 1592,
+      "versionNonce": 1262624173,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1786029838792,
+      "updated": 1788690290729,
       "link": null,
       "locked": false,
       "text": "- Dégradation de granulats de bois au cours du temps \n- Cinétique de croissance d'algues\n- Quantification du gel / dégel sur plaques métalliques\n- Tracking de stabilité de mousses, par temps de demi-vie\n- ...",
@@ -546,8 +546,8 @@
     {
       "id": "hiYmesjb5i5atui9WEoSI",
       "type": "rectangle",
-      "x": -916.6106779379602,
-      "y": 602.8430474414906,
+      "x": -907.65984130326,
+      "y": 701.3022504231933,
       "width": 412.3355194324449,
       "height": 85,
       "angle": 0,
@@ -565,8 +565,8 @@
         "type": 3
       },
       "seed": 28837209,
-      "version": 1450,
-      "versionNonce": 785225311,
+      "version": 1701,
+      "versionNonce": 930139331,
       "isDeleted": false,
       "boundElements": [
         {
@@ -584,17 +584,21 @@
         {
           "id": "cAU-YUsiWdMqTWJnUE20F",
           "type": "arrow"
+        },
+        {
+          "id": "2KgsRpTac6PhPtAmCKWvt",
+          "type": "arrow"
         }
       ],
-      "updated": 1786109524793,
+      "updated": 1788690138561,
       "link": null,
       "locked": false
     },
     {
       "id": "S7-71dgryb1l4WKDBu1Qw",
       "type": "text",
-      "x": -911.6106779379602,
-      "y": 620.3430474414906,
+      "x": -902.65984130326,
+      "y": 718.8022504231933,
       "width": 394.03973388671875,
       "height": 50,
       "angle": 0,
@@ -610,11 +614,11 @@
       "index": "b01",
       "roundness": null,
       "seed": 1059058233,
-      "version": 1263,
-      "versionNonce": 1990816383,
+      "version": 1513,
+      "versionNonce": 178075491,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1786109524793,
+      "updated": 1788690022400,
       "link": null,
       "locked": false,
       "text": "Tracking de daphnies pour des tests\néco-toxicologiques de produits chimiques",
@@ -630,10 +634,10 @@
     {
       "id": "T0WYBUPduAeZBYpWy5H7K",
       "type": "arrow",
-      "x": -418.111517536855,
-      "y": 429.81967085170663,
-      "width": 91.98384083007022,
-      "height": 174.19466559169837,
+      "x": -418.9142071049502,
+      "y": 404.5723310828858,
+      "width": 90.67041252842563,
+      "height": 295.9026886086164,
       "angle": 0,
       "strokeColor": "#343a40",
       "backgroundColor": "transparent",
@@ -649,11 +653,11 @@
         "type": 2
       },
       "seed": 1723286297,
-      "version": 4388,
-      "versionNonce": 1363999618,
+      "version": 4878,
+      "versionNonce": 1628772749,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1786364667360,
+      "updated": 1788690154671,
       "link": null,
       "locked": false,
       "points": [
@@ -662,24 +666,24 @@
           0
         ],
         [
-          -55.17583362996794,
-          36.02810726873372
+          -61.133657928531704,
+          34.23339157091851
         ],
         [
-          -91.98384083007022,
-          174.19466559169837
+          -90.67041252842563,
+          295.9026886086164
         ]
       ],
       "lastCommittedPoint": null,
       "startBinding": {
         "elementId": "aH68rXkbTtkZRjmRReQQB",
-        "focus": 0.34085701672282226,
-        "gap": 2.684740070943917
+        "focus": 0.36640002815341766,
+        "gap": 2.974514655463736
       },
       "endBinding": {
         "elementId": "hiYmesjb5i5atui9WEoSI",
-        "focus": 0.8705575156173363,
-        "gap": 4.2741556361075315
+        "focus": 0.886482069565583,
+        "gap": 1.488204939348084
       },
       "startArrowhead": null,
       "endArrowhead": "arrow",
@@ -840,8 +844,8 @@
     {
       "id": "CBPYBDjK7pATVRk_b82u_",
       "type": "rectangle",
-      "x": -1209.1606551496175,
-      "y": 415.6527197264612,
+      "x": -1048.045595725013,
+      "y": 616.1514603437467,
       "width": 431.30337053227584,
       "height": 64,
       "angle": 0,
@@ -859,8 +863,8 @@
         "type": 3
       },
       "seed": 569193337,
-      "version": 1849,
-      "versionNonce": 1104748735,
+      "version": 2046,
+      "versionNonce": 1517923907,
       "isDeleted": false,
       "boundElements": [
         {
@@ -880,15 +884,15 @@
           "type": "arrow"
         }
       ],
-      "updated": 1786029838792,
+      "updated": 1788690022400,
       "link": null,
       "locked": false
     },
     {
       "id": "xzWa8ACccpc0kkFELd0yT",
       "type": "text",
-      "x": -1204.1606551496175,
-      "y": 422.6527197264612,
+      "x": -1043.045595725013,
+      "y": 623.1514603437467,
       "width": 417.8396301269531,
       "height": 50,
       "angle": 0,
@@ -904,11 +908,11 @@
       "index": "b08",
       "roundness": null,
       "seed": 415915097,
-      "version": 1732,
-      "versionNonce": 1901056095,
+      "version": 1929,
+      "versionNonce": 1414589923,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1786029838792,
+      "updated": 1788690022400,
       "link": null,
       "locked": false,
       "text": "Détection automatique de particules\nd'argyrodite sur des images de microscopes",
@@ -924,10 +928,10 @@
     {
       "id": "k-qtDMDLtsCNK7tEeVGIU",
       "type": "arrow",
-      "x": -416.7492003061085,
-      "y": 403.76207733429476,
-      "width": 358.7662652530438,
-      "height": 60.411595764728474,
+      "x": -419.84288382166375,
+      "y": 375.9727364483472,
+      "width": 204.23029657055696,
+      "height": 240.6012848284115,
       "angle": 0,
       "strokeColor": "#343a40",
       "backgroundColor": "transparent",
@@ -943,11 +947,11 @@
         "type": 2
       },
       "seed": 265251129,
-      "version": 4921,
-      "versionNonce": 988166978,
+      "version": 5343,
+      "versionNonce": 1340575405,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1786364667360,
+      "updated": 1788690156617,
       "link": null,
       "locked": false,
       "points": [
@@ -956,24 +960,24 @@
           0
         ],
         [
-          -70.89067300372056,
-          6.975624429985942
+          -77.93776028815381,
+          30.539644149271624
         ],
         [
-          -358.7662652530438,
-          60.411595764728474
+          -204.23029657055696,
+          240.6012848284115
         ]
       ],
       "lastCommittedPoint": null,
       "startBinding": {
         "elementId": "aH68rXkbTtkZRjmRReQQB",
-        "focus": -0.008784960312399196,
-        "gap": 1
+        "focus": 0.3518197953850698,
+        "gap": 3.9031913721772753
       },
       "endBinding": {
-        "elementId": "CBPYBDjK7pATVRk_b82u_",
-        "focus": 0.7911374066770568,
-        "gap": 2.3711071736300506
+        "elementId": "jLnJykk-wK6_zXAmGkSkp",
+        "focus": 0,
+        "gap": 30.340983838046423
       },
       "startArrowhead": null,
       "endArrowhead": "arrow",
@@ -1032,10 +1036,10 @@
     {
       "id": "hrXrmkpC_hXeQys8NXFUj",
       "type": "arrow",
-      "x": -417.37690345721325,
-      "y": 230.99960657208058,
-      "width": 103.79398350733544,
-      "height": 374.1886298124301,
+      "x": -419.5567566423334,
+      "y": 255.75294437370485,
+      "width": 101.61413032221526,
+      "height": 398.9419676140544,
       "angle": 0,
       "strokeColor": "#343a40",
       "backgroundColor": "transparent",
@@ -1051,11 +1055,11 @@
         "type": 2
       },
       "seed": 299013047,
-      "version": 4295,
-      "versionNonce": 1723958018,
+      "version": 4479,
+      "versionNonce": 764596131,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1786364667361,
+      "updated": 1788690270231,
       "link": null,
       "locked": false,
       "points": [
@@ -1064,23 +1068,23 @@
           0
         ],
         [
-          -43.054943292738244,
-          -27.956130319319442
+          -40.875090107618064,
+          -52.70946812094371
         ],
         [
-          -103.79398350733544,
-          -374.1886298124301
+          -101.61413032221526,
+          -398.9419676140544
         ]
       ],
       "lastCommittedPoint": null,
       "startBinding": {
         "elementId": "aH68rXkbTtkZRjmRReQQB",
-        "focus": -0.15578444007400852,
-        "gap": 1.7759768757953793
+        "focus": -0.44514533659747535,
+        "gap": 3.6170641928469536
       },
       "endBinding": {
         "elementId": "2ESuOWzaVGbiLBqxzM_iS",
-        "focus": -0.6998622094626313,
+        "focus": -0.6998622094626321,
         "gap": 1
       },
       "startArrowhead": null,
@@ -1166,10 +1170,10 @@
     {
       "id": "gnuXTfpJAPzgGXMR60sGz",
       "type": "arrow",
-      "x": -418.897568384221,
-      "y": 231.0905831707035,
-      "width": 163.54042742009085,
-      "height": 94.29890737337604,
+      "x": -417.7360305324719,
+      "y": 252.16477953611772,
+      "width": 164.70196527183998,
+      "height": 115.37310373879026,
       "angle": 0,
       "strokeColor": "#343a40",
       "backgroundColor": "transparent",
@@ -1185,11 +1189,11 @@
         "type": 2
       },
       "seed": 2047787545,
-      "version": 4340,
-      "versionNonce": 1331548866,
+      "version": 4531,
+      "versionNonce": 772704739,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1786364667361,
+      "updated": 1788690272348,
       "link": null,
       "locked": false,
       "points": [
@@ -1198,24 +1202,24 @@
           0
         ],
         [
-          -37.8767400476882,
-          -0.21536017427803245
+          -45.66217626234078,
+          -15.76964123727268
         ],
         [
-          -163.54042742009085,
-          -94.29890737337604
+          -164.70196527183998,
+          -115.37310373879026
         ]
       ],
       "lastCommittedPoint": null,
       "startBinding": {
         "elementId": "aH68rXkbTtkZRjmRReQQB",
-        "focus": 0.5920162359359834,
-        "gap": 3.6578711959735983
+        "focus": 0.047938439819955596,
+        "gap": 1.7963380829854145
       },
       "endBinding": {
         "elementId": "cWBQFQ2Pn04oeNvggvuti",
-        "focus": -0.2953902632750477,
-        "gap": 7.305105625657916
+        "focus": -0.3446252151814853,
+        "gap": 7.109750190381055
       },
       "startArrowhead": null,
       "endArrowhead": "arrow",
@@ -1394,9 +1398,9 @@
       "id": "aH68rXkbTtkZRjmRReQQB",
       "type": "rectangle",
       "x": -415.9396924494865,
-      "y": 140.14514936941384,
+      "y": 136.19053255201038,
       "width": 635.0070999571329,
-      "height": 485,
+      "height": 486.31820560580115,
       "angle": 0,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "#ffffff",
@@ -1412,8 +1416,8 @@
         "type": 3
       },
       "seed": 1565331929,
-      "version": 2556,
-      "versionNonce": 1641535874,
+      "version": 2698,
+      "versionNonce": 359236749,
       "isDeleted": false,
       "boundElements": [
         {
@@ -1451,9 +1455,13 @@
         {
           "id": "H9u-o_SMgGUL9opOy7L-i",
           "type": "arrow"
+        },
+        {
+          "id": "LSW_XQB2wWJotJAI1FzBK",
+          "type": "arrow"
         }
       ],
-      "updated": 1786364668799,
+      "updated": 1788690113666,
       "link": null,
       "locked": false
     },
@@ -1461,9 +1469,9 @@
       "id": "90A32wnn5ZvV_utGSv6bJ",
       "type": "text",
       "x": -410.9396924494865,
-      "y": 145.14514936941384,
-      "width": 604.9395751953125,
-      "height": 475,
+      "y": 191.84963535491096,
+      "width": 592.5595092773438,
+      "height": 375,
       "angle": 0,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "#ffec99",
@@ -1477,20 +1485,20 @@
       "index": "b0T",
       "roundness": null,
       "seed": 1490134871,
-      "version": 2689,
-      "versionNonce": 463823298,
+      "version": 2842,
+      "versionNonce": 2049812557,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1786364668799,
+      "updated": 1788690113666,
       "link": null,
       "locked": false,
-      "text": "     --- Ingénierie de l'IA & Analyse Avancée de la Donnée ---\n\nAssistants LLM agentiques — RAG, GraphRAG, Bases de\nconnaissances \n\nModèle d'IA de chémoinformatique pour la prédiction des\nperformances de mélanges de produits chimiques en\nRécupération Assistée du Pétrole (EOR)\n\nComputer Vision\n    ↳ Segment Anything (SAM) pipelines\n    ↳ Detectron 2 — annotation → training → segmentation\n    ↳ Analyse d'image — opencv, scikit-image, Matlab\n\nOptimisation bayésienne sur plateforme robotique (Self-driving\nlabs) pour la formulation de shampoings\n\nTravaille exploratoire dans le domaine des algorithmes de\nmotivation intrinsèque",
+      "text": "     --- Ingénierie de l'IA & Analyse Avancée de la Donnée ---\n\nAssistants LLM agentiques\n\nModèles d'IA\n\nComputer Vision\n    ↳ Segment Anything (SAM) pipelines\n    ↳ Detectron 2 — annotation → training → segmentation\n    ↳ Analyse d'image — opencv, scikit-image, Matlab\n\nOptimisation bayésienne\n\nTravaille exploratoire dans le domaine des algorithmes de\nmotivation intrinsèque",
       "fontSize": 20,
       "fontFamily": 5,
       "textAlign": "left",
       "verticalAlign": "middle",
       "containerId": "aH68rXkbTtkZRjmRReQQB",
-      "originalText": "     --- Ingénierie de l'IA & Analyse Avancée de la Donnée ---\n\nAssistants LLM agentiques — RAG, GraphRAG, Bases de connaissances \n\nModèle d'IA de chémoinformatique pour la prédiction des performances de mélanges de produits chimiques en Récupération Assistée du Pétrole (EOR)\n\nComputer Vision\n    ↳ Segment Anything (SAM) pipelines\n    ↳ Detectron 2 — annotation → training → segmentation\n    ↳ Analyse d'image — opencv, scikit-image, Matlab\n\nOptimisation bayésienne sur plateforme robotique (Self-driving labs) pour la formulation de shampoings\n\nTravaille exploratoire dans le domaine des algorithmes de motivation intrinsèque",
+      "originalText": "     --- Ingénierie de l'IA & Analyse Avancée de la Donnée ---\n\nAssistants LLM agentiques\n\nModèles d'IA\n\nComputer Vision\n    ↳ Segment Anything (SAM) pipelines\n    ↳ Detectron 2 — annotation → training → segmentation\n    ↳ Analyse d'image — opencv, scikit-image, Matlab\n\nOptimisation bayésienne\n\nTravaille exploratoire dans le domaine des algorithmes de motivation intrinsèque",
       "autoResize": true,
       "lineHeight": 1.25
     },
@@ -1498,7 +1506,7 @@
       "id": "Pawcs7TzrVSDSnogD2KjY",
       "type": "line",
       "x": -415.8021834708993,
-      "y": 408.0048531927648,
+      "y": 379.0048531927648,
       "width": 34.454395848433194,
       "height": 0.6264435608804888,
       "angle": 0,
@@ -1516,11 +1524,11 @@
         "type": 2
       },
       "seed": 1689069911,
-      "version": 509,
-      "versionNonce": 2137077378,
+      "version": 522,
+      "versionNonce": 1882978797,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1786363220194,
+      "updated": 1788690130033,
       "link": null,
       "locked": false,
       "points": [
@@ -1543,7 +1551,7 @@
       "id": "VuPLDSLZYwrYnxtNRuvcA",
       "type": "line",
       "x": -417.0550705926605,
-      "y": 433.44684256575874,
+      "y": 404.44684256575874,
       "width": 33.51473050711229,
       "height": 0.3132217804404718,
       "angle": 0,
@@ -1561,11 +1569,11 @@
         "type": 2
       },
       "seed": 1983319383,
-      "version": 609,
-      "versionNonce": 190114462,
+      "version": 622,
+      "versionNonce": 1024108387,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1786363220194,
+      "updated": 1788690130033,
       "link": null,
       "locked": false,
       "points": [
@@ -1588,7 +1596,7 @@
       "id": "zAX0EK2d1r5ouZgUfYbgI",
       "type": "line",
       "x": -415.6934586704612,
-      "y": 458.096121390965,
+      "y": 429.096121390965,
       "width": 32.88828694623169,
       "height": 0.6264435608807162,
       "angle": 0,
@@ -1606,11 +1614,11 @@
         "type": 2
       },
       "seed": 1283600089,
-      "version": 660,
-      "versionNonce": 817567298,
+      "version": 673,
+      "versionNonce": 1809855565,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1786363220194,
+      "updated": 1788690130033,
       "link": null,
       "locked": false,
       "points": [
@@ -1651,8 +1659,8 @@
         "type": 3
       },
       "seed": 1710332791,
-      "version": 3625,
-      "versionNonce": 188752145,
+      "version": 3626,
+      "versionNonce": 1303787331,
       "isDeleted": false,
       "boundElements": [
         {
@@ -1674,9 +1682,13 @@
         {
           "id": "MlQSiLHbCEGWxIOr4Zo_b",
           "type": "arrow"
+        },
+        {
+          "id": "qDbYoUp7NpDrH4IrZ03Mc",
+          "type": "arrow"
         }
       ],
-      "updated": 1786029838792,
+      "updated": 1788613787783,
       "link": null,
       "locked": false
     },
@@ -1720,8 +1732,8 @@
     {
       "id": "bEfj_y80OyXLqtzjJa05r",
       "type": "rectangle",
-      "x": 456.74224962912854,
-      "y": -299.8953863509146,
+      "x": 480.0755829624619,
+      "y": -308.7842752398035,
       "width": 639.5096107255482,
       "height": 216.22194203584104,
       "angle": 0,
@@ -1739,8 +1751,8 @@
         "type": 3
       },
       "seed": 51895097,
-      "version": 3337,
-      "versionNonce": 1514517983,
+      "version": 3365,
+      "versionNonce": 1878439715,
       "isDeleted": false,
       "boundElements": [
         {
@@ -1756,15 +1768,15 @@
           "type": "arrow"
         }
       ],
-      "updated": 1787823689982,
+      "updated": 1788611988375,
       "link": null,
       "locked": false
     },
     {
       "id": "B2qTG6tJNuQImA4G_ofCP",
       "type": "text",
-      "x": 461.74224962912854,
-      "y": -291.78441533299406,
+      "x": 485.0755829624619,
+      "y": -300.673304221883,
       "width": 571.8946533203125,
       "height": 200,
       "angle": 0,
@@ -1780,11 +1792,11 @@
       "index": "b0b",
       "roundness": null,
       "seed": 365562905,
-      "version": 3554,
-      "versionNonce": 1071427959,
+      "version": 3582,
+      "versionNonce": 1257888451,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1787052133335,
+      "updated": 1788611988375,
       "link": null,
       "locked": false,
       "text": "     --- Gestion de projets ---\nGestion de projets avec jusqu'à 2 ingénieurs juniors et 1\nalternant.\n    ↳ faisabilité, chiffrage (Capex/Opex) et planification de\nnouveaux projets après évaluation des besoins\n    ↳ planification, préparation et tenue des réunions\n    ↳ décision des orientations techniques à suivre\n    ↳ compte rendus et arbitrages au comité de pilotage",
@@ -1801,9 +1813,9 @@
       "id": "Imyk0rcoECsAJcx7SjUCe",
       "type": "rectangle",
       "x": 429.3401749675327,
-      "y": -58.92031254343351,
+      "y": -74.47586809898908,
       "width": 831.2920218512195,
-      "height": 226,
+      "height": 241.55555555555557,
       "angle": 0,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "#ffffff",
@@ -1819,8 +1831,8 @@
         "type": 3
       },
       "seed": 1023674679,
-      "version": 3997,
-      "versionNonce": 1811787193,
+      "version": 4044,
+      "versionNonce": 147967181,
       "isDeleted": false,
       "boundElements": [
         {
@@ -1830,13 +1842,9 @@
         {
           "id": "ss6JX2zF6jFOlbLBG7FLq",
           "type": "arrow"
-        },
-        {
-          "id": "bMB2jpsls2YlzonuTWC7v",
-          "type": "arrow"
         }
       ],
-      "updated": 1787064129802,
+      "updated": 1788613901748,
       "link": null,
       "locked": false
     },
@@ -1844,9 +1852,9 @@
       "id": "hZ4MqfR4WrF7GezWZAER3",
       "type": "text",
       "x": 434.3401749675327,
-      "y": -45.92031254343351,
+      "y": -66.1980903212113,
       "width": 806.5003662109375,
-      "height": 200,
+      "height": 225,
       "angle": 0,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "#ffec99",
@@ -1860,20 +1868,20 @@
       "index": "b0d",
       "roundness": null,
       "seed": 1211877975,
-      "version": 4148,
-      "versionNonce": 267139025,
+      "version": 4211,
+      "versionNonce": 2140664451,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1786029838792,
+      "updated": 1788613901748,
       "link": null,
       "locked": false,
-      "text": "     --- Formation ---\nAI coding agents with Github copilot | Microsoft – Sr. Dev. Come Redon – 2026 \nROS – Robot Operating System | Bordeaux INP (Y. Mollard) – 2021\nRéglementation Directive Machine | CETIM  – 2021\nMachine Learning – TensorFlow | Ambient IT – 2019\nAnalyse d’images | CPE Lyon – 2016\nLicence pro – Gestion de projets innovants | Université de Bordeaux 1 – 2009 🎓\nDUT – Sciences et Génie des Matériaux | Université de Bordeaux 1 – 2008 🎓",
+      "text": "     --- Formation ---\nAI coding agents with Github copilot | Microsoft – Sr. Dev. Come Redon – 2026 \nROS – Robot Operating System | Bordeaux INP (Y. Mollard) – 2021\nRéglementation Directive Machine | CETIM  – 2021\nMachine Learning – TensorFlow | Ambient IT – 2019\nDataiku | DSS – 2018\nAnalyse d’images | CPE Lyon – 2016\nLicence pro – Gestion de projets innovants | Université de Bordeaux 1 – 2009 🎓\nDUT – Sciences et Génie des Matériaux | Université de Bordeaux 1 – 2008 🎓",
       "fontSize": 20,
       "fontFamily": 5,
       "textAlign": "left",
       "verticalAlign": "middle",
       "containerId": "Imyk0rcoECsAJcx7SjUCe",
-      "originalText": "     --- Formation ---\nAI coding agents with Github copilot | Microsoft – Sr. Dev. Come Redon – 2026 \nROS – Robot Operating System | Bordeaux INP (Y. Mollard) – 2021\nRéglementation Directive Machine | CETIM  – 2021\nMachine Learning – TensorFlow | Ambient IT – 2019\nAnalyse d’images | CPE Lyon – 2016\nLicence pro – Gestion de projets innovants | Université de Bordeaux 1 – 2009 🎓\nDUT – Sciences et Génie des Matériaux | Université de Bordeaux 1 – 2008 🎓",
+      "originalText": "     --- Formation ---\nAI coding agents with Github copilot | Microsoft – Sr. Dev. Come Redon – 2026 \nROS – Robot Operating System | Bordeaux INP (Y. Mollard) – 2021\nRéglementation Directive Machine | CETIM  – 2021\nMachine Learning – TensorFlow | Ambient IT – 2019\nDataiku | DSS – 2018\nAnalyse d’images | CPE Lyon – 2016\nLicence pro – Gestion de projets innovants | Université de Bordeaux 1 – 2009 🎓\nDUT – Sciences et Génie des Matériaux | Université de Bordeaux 1 – 2008 🎓",
       "autoResize": true,
       "lineHeight": 1.25
     },
@@ -1882,7 +1890,7 @@
       "type": "arrow",
       "x": 317.71475790344937,
       "y": 41.920377209047615,
-      "width": 103.96013629062719,
+      "width": 103.99820514285682,
       "height": 10.96122042245554,
       "angle": 0,
       "strokeColor": "#343a40",
@@ -1899,11 +1907,11 @@
         "type": 2
       },
       "seed": 2121159639,
-      "version": 1852,
-      "versionNonce": 1255087697,
+      "version": 1899,
+      "versionNonce": 2107419171,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1786029838798,
+      "updated": 1788613901748,
       "link": null,
       "locked": false,
       "points": [
@@ -1916,8 +1924,8 @@
           10.96122042245554
         ],
         [
-          103.96013629062719,
-          5.331690732576433
+          103.99820514285682,
+          3.826445442266376
         ]
       ],
       "lastCommittedPoint": null,
@@ -2470,10 +2478,10 @@
     {
       "id": "TYJQqNalK6hh2RdOhG8oe",
       "type": "arrow",
-      "x": -422.24952075310307,
-      "y": 285.3782453842192,
-      "width": 199.50761033606773,
-      "height": 5.100551322763465,
+      "x": -423.2321350773835,
+      "y": 301.59179103782174,
+      "width": 198.52499601178744,
+      "height": 9.614679387985916,
       "angle": 0,
       "strokeColor": "#343a40",
       "backgroundColor": "transparent",
@@ -2489,11 +2497,11 @@
         "type": 2
       },
       "seed": 1589522777,
-      "version": 1347,
-      "versionNonce": 1197091458,
+      "version": 1510,
+      "versionNonce": 209324845,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1786364667361,
+      "updated": 1788690261080,
       "link": null,
       "locked": false,
       "points": [
@@ -2502,20 +2510,20 @@
           0
         ],
         [
-          -199.50761033606773,
-          5.100551322763465
+          -198.52499601178744,
+          -9.614679387985916
         ]
       ],
       "lastCommittedPoint": null,
       "startBinding": {
         "elementId": "aH68rXkbTtkZRjmRReQQB",
-        "focus": 0.3907547169237974,
-        "gap": 7.816026698377129
+        "focus": 0.2399193633905846,
+        "gap": 7.292442627897003
       },
       "endBinding": {
         "elementId": "GHzwQxqWo9MxdfcY2hRgJ",
-        "focus": 0.12377486465757705,
-        "gap": 4.539149682298785
+        "focus": -0.036537599843261236,
+        "gap": 4.232921935861782
       },
       "startArrowhead": null,
       "endArrowhead": "arrow",
@@ -2580,20 +2588,20 @@
       "index": "b12",
       "roundness": null,
       "seed": 1807286521,
-      "version": 3690,
-      "versionNonce": 1514837713,
+      "version": 3692,
+      "versionNonce": 355993997,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1786029838792,
+      "updated": 1788612919286,
       "link": null,
       "locked": false,
-      "text": "Une plateforme robotique intelligente de formulation de shampoings\navec prise de décision autonome via optimisation bayésienne.\nReposant sur un bras 6 axes Doosan et une pipette électronique\n(matériel), et sur scikit-optimize (logiciel), la solution optimise sans\nintervention humaine la viscosité du mélange final, avec une\narchitecture Python modulaire développée pour piloter l’ensemble du\ndispositif (orchestration, contrôle équipements,\nacquisition/traçabilité des données et boucle d’optimisation). 2024",
+      "text": "Une plateforme robotique intelligente de formulation de shampoings\navec prise de décision autonome via optimisation bayésienne.\nReposant sur un bras 6 axes Doosan et une pipette électronique\n(matériel), et sur scikit-optimize (logiciel), la solution optimise sans\nintervention humaine la viscosité du mélange final, avec une\narchitecture Python modulaire développée pour piloter l’ensemble du\ndispositif (orchestration, contrôle équipements,\nacquisition/traçabilité des données et boucle d’optimisation). 2023",
       "fontSize": 20,
       "fontFamily": 5,
       "textAlign": "left",
       "verticalAlign": "middle",
       "containerId": "OtJmE8n_5lIXi-zE5S0aw",
-      "originalText": "Une plateforme robotique intelligente de formulation de shampoings avec prise de décision autonome via optimisation bayésienne. Reposant sur un bras 6 axes Doosan et une pipette électronique (matériel), et sur scikit-optimize (logiciel), la solution optimise sans intervention humaine la viscosité du mélange final, avec une architecture Python modulaire développée pour piloter l’ensemble du dispositif (orchestration, contrôle équipements, acquisition/traçabilité des données et boucle d’optimisation). 2024",
+      "originalText": "Une plateforme robotique intelligente de formulation de shampoings avec prise de décision autonome via optimisation bayésienne. Reposant sur un bras 6 axes Doosan et une pipette électronique (matériel), et sur scikit-optimize (logiciel), la solution optimise sans intervention humaine la viscosité du mélange final, avec une architecture Python modulaire développée pour piloter l’ensemble du dispositif (orchestration, contrôle équipements, acquisition/traçabilité des données et boucle d’optimisation). 2023",
       "autoResize": true,
       "lineHeight": 1.25
     },
@@ -2680,10 +2688,10 @@
     {
       "id": "mXef1a9tSFCiGm0qLGApb",
       "type": "rectangle",
-      "x": 1323.2542513937892,
+      "x": 1324.5042513937892,
       "y": 13.098752769068597,
-      "width": 723.7158811287813,
-      "height": 307,
+      "width": 759.9658811287813,
+      "height": 310,
       "angle": 0,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "#ffec99",
@@ -2699,8 +2707,8 @@
         "type": 3
       },
       "seed": 803253689,
-      "version": 3605,
-      "versionNonce": 1522822143,
+      "version": 3638,
+      "versionNonce": 1620101517,
       "isDeleted": false,
       "boundElements": [
         {
@@ -2712,16 +2720,16 @@
           "type": "arrow"
         }
       ],
-      "updated": 1786029838792,
+      "updated": 1788613424898,
       "link": null,
       "locked": false
     },
     {
       "id": "6JQ_bGCcY0dhO1Y5_-rJJ",
       "type": "text",
-      "x": 1328.2542513937892,
-      "y": 29.098752769068597,
-      "width": 713.6395263671875,
+      "x": 1329.5042513937892,
+      "y": 30.598752769068597,
+      "width": 745.6395263671875,
       "height": 275,
       "angle": 0,
       "strokeColor": "#1e1e1e",
@@ -2736,20 +2744,20 @@
       "index": "b18",
       "roundness": null,
       "seed": 114593433,
-      "version": 5224,
-      "versionNonce": 2111657727,
+      "version": 5248,
+      "versionNonce": 365884461,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1786029838792,
+      "updated": 1788613424523,
       "link": null,
       "locked": false,
-      "text": "Quoi ? Outil de vieillissement accéléré de formulations dans des cellules\nmillimétriques, par détection précoce de déphasage, par analyse d'images\néclairées de différentes manières.\nPour qui ? Client externe L'OREAL et notre Service Home & Personal Care\nComment ? Un boitier contenant un module peltier pour contrôler la\ntempérature de -5 à 80°C, associé à différents types d'éclairages LED\n(différents angles, lumière polarisée ou non), et associé à 2 caméras\nGiGE 16bits. Logiciels développés sous MATLAB\nGain ? La miniaturisation (échelle millimétrique) et la parallélisation du\nprocédé (18 cellules), permettent un gain mesuré par rapport à l'ancienne\nméthode d'un facteur 3. 2012 - 2013",
+      "text": "    Quoi ? Outil de vieillissement accéléré de formulations dans des cellules\nmillimétriques, par détection précoce de déphasage, par analyse d'images\néclairées par différentes sources.\n    Pour qui ? Client externe L'OREAL et notre Service Home & Personal Care\n    Comment ? Un boitier contenant un module peltier pour contrôler la\ntempérature de -5 à 80°C, associé à différents types d'éclairages LED\n(différents angles, lumière polarisée ou non), et associé à 2 caméras GiGE\n16bits. Logiciels développés sous MATLAB\n    Gain ? La miniaturisation (échelle millimétrique) et la parallélisation du\nprocédé (18 cellules), permettent un gain mesuré par rapport à l'ancienne\nméthode d'un facteur 3. 2012 - 2013",
       "fontSize": 20,
       "fontFamily": 5,
       "textAlign": "left",
       "verticalAlign": "middle",
       "containerId": "mXef1a9tSFCiGm0qLGApb",
-      "originalText": "Quoi ? Outil de vieillissement accéléré de formulations dans des cellules millimétriques, par détection précoce de déphasage, par analyse d'images éclairées de différentes manières.\nPour qui ? Client externe L'OREAL et notre Service Home & Personal Care \nComment ? Un boitier contenant un module peltier pour contrôler la température de -5 à 80°C, associé à différents types d'éclairages LED (différents angles, lumière polarisée ou non), et associé à 2 caméras GiGE 16bits. Logiciels développés sous MATLAB\nGain ? La miniaturisation (échelle millimétrique) et la parallélisation du procédé (18 cellules), permettent un gain mesuré par rapport à l'ancienne méthode d'un facteur 3. 2012 - 2013",
+      "originalText": "    Quoi ? Outil de vieillissement accéléré de formulations dans des cellules millimétriques, par détection précoce de déphasage, par analyse d'images éclairées par différentes sources.\n    Pour qui ? Client externe L'OREAL et notre Service Home & Personal Care \n    Comment ? Un boitier contenant un module peltier pour contrôler la température de -5 à 80°C, associé à différents types d'éclairages LED (différents angles, lumière polarisée ou non), et associé à 2 caméras GiGE 16bits. Logiciels développés sous MATLAB\n    Gain ? La miniaturisation (échelle millimétrique) et la parallélisation du procédé (18 cellules), permettent un gain mesuré par rapport à l'ancienne méthode d'un facteur 3. 2012 - 2013",
       "autoResize": true,
       "lineHeight": 1.25
     },
@@ -2801,7 +2809,7 @@
       "type": "text",
       "x": 1289.0671214570464,
       "y": 337.3870902791475,
-      "width": 706.1395263671875,
+      "width": 714.779541015625,
       "height": 300,
       "angle": 0,
       "strokeColor": "#1e1e1e",
@@ -2816,20 +2824,20 @@
       "index": "b1A",
       "roundness": null,
       "seed": 1331693945,
-      "version": 6255,
-      "versionNonce": 456662815,
+      "version": 6259,
+      "versionNonce": 1612197731,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1786029838792,
+      "updated": 1788613409448,
       "link": null,
       "locked": false,
-      "text": "Quoi ? Outil robotisé de mesure d'angle de contact de différents\nsolvents sur plaques métalliques, pour de la mesure haut débit d’énergies\nde surface.\nPour qui ? Service Industrial Coatings\nComment ? La plateforme se compose d'un bras 6 axes de précision\n(MECA 500), d'un pousse-seringue et d'un microscope. Le tout piloté par\nun programme python à l'aide d'une interface Plotly-Dash. La mesure\nd'angle de contact se fait par un algorithme d'analyse d'image.\nGain ? Le système permet la manipulation de 10 plaques métalliques, et le\ndépôt de jusqu'à 12 solvents différents, en huile ou à l'air. Le gain,\ndifficilement quantifiable, est important, il n'existe pas de solutions\néquivalentes à notre connaissance. 2022",
+      "text": "    Quoi ? Outil robotisé de mesure d'angle de contact de différents\nsolvents sur plaques métalliques, pour de la mesure haut débit d’énergies\nde surface.\n    Pour qui ? Service Industrial Coatings\n    Comment ? La plateforme se compose d'un bras 6 axes de précision\n(MECA 500), d'un pousse-seringue et d'un microscope. Le tout piloté par\nun programme python à l'aide d'une interface Plotly-Dash. La mesure\nd'angle de contact se fait par un algorithme d'analyse d'image.\n    Gain ? Le système permet la manipulation de 10 plaques métalliques, et\nle dépôt de jusqu'à 12 solvents différents, en huile ou à l'air. Le gain,\ndifficilement quantifiable, est important, il n'existe pas de solutions\néquivalentes à notre connaissance. 2022",
       "fontSize": 20,
       "fontFamily": 5,
       "textAlign": "left",
       "verticalAlign": "middle",
       "containerId": "uesdtuD1MlC3m9BQCKBYV",
-      "originalText": "Quoi ? Outil robotisé de mesure d'angle de contact de différents solvents sur plaques métalliques, pour de la mesure haut débit d’énergies de surface.\nPour qui ? Service Industrial Coatings\nComment ? La plateforme se compose d'un bras 6 axes de précision (MECA 500), d'un pousse-seringue et d'un microscope. Le tout piloté par un programme python à l'aide d'une interface Plotly-Dash. La mesure d'angle de contact se fait par un algorithme d'analyse d'image.\nGain ? Le système permet la manipulation de 10 plaques métalliques, et le dépôt de jusqu'à 12 solvents différents, en huile ou à l'air. Le gain, difficilement quantifiable, est important, il n'existe pas de solutions équivalentes à notre connaissance. 2022",
+      "originalText": "    Quoi ? Outil robotisé de mesure d'angle de contact de différents solvents sur plaques métalliques, pour de la mesure haut débit d’énergies de surface.\n    Pour qui ? Service Industrial Coatings\n    Comment ? La plateforme se compose d'un bras 6 axes de précision (MECA 500), d'un pousse-seringue et d'un microscope. Le tout piloté par un programme python à l'aide d'une interface Plotly-Dash. La mesure d'angle de contact se fait par un algorithme d'analyse d'image.\n    Gain ? Le système permet la manipulation de 10 plaques métalliques, et le dépôt de jusqu'à 12 solvents différents, en huile ou à l'air. Le gain, difficilement quantifiable, est important, il n'existe pas de solutions équivalentes à notre connaissance. 2022",
       "autoResize": true,
       "lineHeight": 1.25
     },
@@ -2838,8 +2846,8 @@
       "type": "arrow",
       "x": 1052.480963696837,
       "y": 402.5981901075605,
-      "width": 264.1842960247611,
-      "height": 236.15657933725333,
+      "width": 265.39488474640166,
+      "height": 232.9017801932005,
       "angle": 0,
       "strokeColor": "#343a40",
       "backgroundColor": "transparent",
@@ -2855,11 +2863,11 @@
         "type": 2
       },
       "seed": 1317080311,
-      "version": 1465,
-      "versionNonce": 1880418175,
+      "version": 1497,
+      "versionNonce": 70914029,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1786029838798,
+      "updated": 1788613424898,
       "link": null,
       "locked": false,
       "points": [
@@ -2872,8 +2880,8 @@
           -16.66586048158854
         ],
         [
-          264.1842960247611,
-          -236.15657933725333
+          265.39488474640166,
+          -232.9017801932005
         ]
       ],
       "lastCommittedPoint": null,
@@ -2952,7 +2960,7 @@
     {
       "id": "7sc3GHPTx1bKZnDMlvgth",
       "type": "rectangle",
-      "x": 1186.5887738326405,
+      "x": 1181.9300650170824,
       "y": 656.5433839705404,
       "width": 784.1685507186705,
       "height": 334,
@@ -2971,8 +2979,8 @@
         "type": 3
       },
       "seed": 1057369241,
-      "version": 3816,
-      "versionNonce": 1629156479,
+      "version": 3839,
+      "versionNonce": 1657443747,
       "isDeleted": false,
       "boundElements": [
         {
@@ -2982,18 +2990,22 @@
         {
           "id": "MlQSiLHbCEGWxIOr4Zo_b",
           "type": "arrow"
+        },
+        {
+          "id": "qDbYoUp7NpDrH4IrZ03Mc",
+          "type": "arrow"
         }
       ],
-      "updated": 1786029838792,
+      "updated": 1788613997878,
       "link": null,
       "locked": false
     },
     {
       "id": "KqyDUgMLYgNub4lRQwfHK",
       "type": "text",
-      "x": 1191.5887738326405,
+      "x": 1186.9300650170824,
       "y": 673.5433839705404,
-      "width": 773.5193481445312,
+      "width": 771.359375,
       "height": 300,
       "angle": 0,
       "strokeColor": "#1e1e1e",
@@ -3008,30 +3020,30 @@
       "index": "b1H",
       "roundness": null,
       "seed": 1453797753,
-      "version": 7304,
-      "versionNonce": 660874079,
+      "version": 7341,
+      "versionNonce": 617474371,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1786029838792,
+      "updated": 1788613997878,
       "link": null,
       "locked": false,
-      "text": "Quoi ? Interface de gestion de centaines de têtes bluetooth (OxiTop) pour le\nsuivi de la biodégradabilité de produits chimiques.\nPour qui ? Plateforme Biomatech\nComment ? Production d'un logiciel d'acquisition de données basée sur l'API d'un\nappareil ne disposant pas d'interface utilisateur. Production d'un logiciel\nd'analyse à posteriori des données historiques, pour le calcul de la\nbiodégradabilité. Sous Plotly-Dash.\nGain ? Gestion simplifiée de centaines de têtes Oxitop (les utilisateurs\ndevaient gérer manuellement les têtes, et sauvegarder les données tous les\njours) avec sauvegarde et relevé des données toutes les 6h.\nSimplification de la navigation et du calcul de biodégradabilité dans les données\nprécédemment acquises. 2023",
+      "text": "    Quoi ? Interface de gestion de centaines de têtes bluetooth (OxiTop)\npour le suivi de la biodégradabilité de produits chimiques.\n    Pour qui ? Plateforme Biomatech\n    Comment ? Production d'un logiciel d'acquisition de données basée sur l'API\nd'un appareil ne disposant pas d'interface utilisateur. Production d'un logiciel\nd'analyse à posteriori des données historiques, pour le calcul de la\nbiodégradabilité. Sous Plotly-Dash.\n    Gain ? Gestion simplifiée de centaines de têtes Oxitop (les utilisateurs\ndevaient gérer manuellement les têtes, et sauvegarder les données tous les\njours) avec sauvegarde et relevé des données toutes les 6h.\nSimplification de la navigation et du calcul de biodégradabilité dans les données\nprécédemment acquises. 2023",
       "fontSize": 20,
       "fontFamily": 5,
       "textAlign": "left",
       "verticalAlign": "middle",
       "containerId": "7sc3GHPTx1bKZnDMlvgth",
-      "originalText": "Quoi ? Interface de gestion de centaines de têtes bluetooth (OxiTop) pour le suivi de la biodégradabilité de produits chimiques.\nPour qui ? Plateforme Biomatech\nComment ? Production d'un logiciel d'acquisition de données basée sur l'API d'un appareil ne disposant pas d'interface utilisateur. Production d'un logiciel d'analyse à posteriori des données historiques, pour le calcul de la biodégradabilité. Sous Plotly-Dash.\nGain ? Gestion simplifiée de centaines de têtes Oxitop (les utilisateurs devaient gérer manuellement les têtes, et sauvegarder les données tous les jours) avec sauvegarde et relevé des données toutes les 6h.\nSimplification de la navigation et du calcul de biodégradabilité dans les données précédemment acquises. 2023",
+      "originalText": "    Quoi ? Interface de gestion de centaines de têtes bluetooth (OxiTop) pour le suivi de la biodégradabilité de produits chimiques.\n    Pour qui ? Plateforme Biomatech\n    Comment ? Production d'un logiciel d'acquisition de données basée sur l'API d'un appareil ne disposant pas d'interface utilisateur. Production d'un logiciel d'analyse à posteriori des données historiques, pour le calcul de la biodégradabilité. Sous Plotly-Dash.\n    Gain ? Gestion simplifiée de centaines de têtes Oxitop (les utilisateurs devaient gérer manuellement les têtes, et sauvegarder les données tous les jours) avec sauvegarde et relevé des données toutes les 6h.\nSimplification de la navigation et du calcul de biodégradabilité dans les données précédemment acquises. 2023",
       "autoResize": true,
       "lineHeight": 1.25
     },
     {
       "id": "MlQSiLHbCEGWxIOr4Zo_b",
       "type": "arrow",
-      "x": 1062.503669777148,
-      "y": 402.68271246258473,
-      "width": 122.38444037111685,
-      "height": 264.09432684512035,
+      "x": 1062.415737054573,
+      "y": 402.73719727183374,
+      "width": 120.02118394628906,
+      "height": 262.0631979141316,
       "angle": 6.230535373789087,
       "strokeColor": "#343a40",
       "backgroundColor": "transparent",
@@ -3047,11 +3059,11 @@
         "type": 2
       },
       "seed": 417495831,
-      "version": 2237,
-      "versionNonce": 1898553247,
+      "version": 2259,
+      "versionNonce": 1583728867,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1786029838799,
+      "updated": 1788613997879,
       "link": null,
       "locked": false,
       "points": [
@@ -3060,12 +3072,12 @@
           0
         ],
         [
-          73.08461650593586,
-          53.26736808528108
+          73.12021260822848,
+          53.27836294149472
         ],
         [
-          122.38444037111685,
-          264.09432684512035
+          120.02118394628906,
+          262.0631979141316
         ]
       ],
       "lastCommittedPoint": null,
@@ -3086,8 +3098,8 @@
     {
       "id": "CaTl6kMEkmlRhG4efIuii",
       "type": "text",
-      "x": -1115.2549507688584,
-      "y": 567.7362966283544,
+      "x": -1083.0319388839375,
+      "y": 728.8513560529587,
       "width": 97.39993286132812,
       "height": 25,
       "angle": 0,
@@ -3103,8 +3115,8 @@
       "index": "b1L",
       "roundness": null,
       "seed": 530081489,
-      "version": 186,
-      "versionNonce": 658490239,
+      "version": 484,
+      "versionNonce": 1725971181,
       "isDeleted": false,
       "boundElements": [
         {
@@ -3116,7 +3128,7 @@
           "type": "arrow"
         }
       ],
-      "updated": 1786109525820,
+      "updated": 1788690025400,
       "link": null,
       "locked": false,
       "text": "à détailler",
@@ -3132,10 +3144,10 @@
     {
       "id": "zDdTj7JyoZgVEWuWnUlWE",
       "type": "arrow",
-      "x": -1020.6072882831058,
-      "y": 560.1362294896825,
-      "width": 26.38817015644213,
-      "height": 77.953421351631,
+      "x": -978.0319388839375,
+      "y": 744.2628371208682,
+      "width": 49.404089018263676,
+      "height": 61.58128836553112,
       "angle": 0,
       "strokeColor": "#343a40",
       "backgroundColor": "#ffffff",
@@ -3151,11 +3163,11 @@
         "type": 2
       },
       "seed": 1821772991,
-      "version": 363,
-      "versionNonce": 1480413649,
+      "version": 858,
+      "versionNonce": 1716802893,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1786109525820,
+      "updated": 1788690025400,
       "link": null,
       "locked": false,
       "points": [
@@ -3164,8 +3176,8 @@
           0
         ],
         [
-          -26.38817015644213,
-          -77.953421351631
+          49.404089018263676,
+          -61.58128836553112
         ]
       ],
       "lastCommittedPoint": null,
@@ -3186,10 +3198,10 @@
     {
       "id": "cAU-YUsiWdMqTWJnUE20F",
       "type": "arrow",
-      "x": -1010.2549507688586,
-      "y": 589.5760082101439,
-      "width": 86.84738816393326,
-      "height": 40.40509369209428,
+      "x": -978.0319388839374,
+      "y": 741.8592396399612,
+      "width": 63.57521291371222,
+      "height": 12.337573787627889,
       "angle": 0,
       "strokeColor": "#343a40",
       "backgroundColor": "#ffffff",
@@ -3205,11 +3217,11 @@
         "type": 2
       },
       "seed": 1773958431,
-      "version": 371,
-      "versionNonce": 1381380031,
+      "version": 919,
+      "versionNonce": 1763058605,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1786109525820,
+      "updated": 1788690025400,
       "link": null,
       "locked": false,
       "points": [
@@ -3218,8 +3230,8 @@
           0
         ],
         [
-          86.84738816393326,
-          40.40509369209428
+          63.57521291371222,
+          12.337573787627889
         ]
       ],
       "lastCommittedPoint": null,
@@ -3240,10 +3252,10 @@
     {
       "id": "98Tlsd9SprmXF0OYgfSwr",
       "type": "arrow",
-      "x": 1353.6389103878716,
-      "y": -265.7176666371876,
-      "width": 67.11722704800377,
-      "height": 63.16485900388528,
+      "x": 1353.6389103878714,
+      "y": -257.9051311641736,
+      "width": 67.11722704800354,
+      "height": 70.97739447689929,
       "angle": 0,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "transparent",
@@ -3259,11 +3271,11 @@
         "type": 2
       },
       "seed": 447762126,
-      "version": 365,
-      "versionNonce": 2033433137,
+      "version": 629,
+      "versionNonce": 1788764493,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1787823790356,
+      "updated": 1788613968108,
       "link": null,
       "locked": false,
       "points": [
@@ -3272,12 +3284,12 @@
           0
         ],
         [
-          -37.60341558903406,
-          -15.538741548771327
+          -37.60341558903383,
+          -23.351277021785336
         ],
         [
-          -67.11722704800377,
-          -63.16485900388528
+          -67.11722704800354,
+          -70.97739447689929
         ]
       ],
       "lastCommittedPoint": null,
@@ -3299,9 +3311,9 @@
       "id": "2Vy3Un52fS-hNY8SB1BRG",
       "type": "text",
       "x": 1363.7627675261103,
-      "y": -307.98368091323164,
-      "width": 542.2596435546875,
-      "height": 75,
+      "y": -309.3018865190328,
+      "width": 552.7942759875247,
+      "height": 100,
       "angle": 0,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "transparent",
@@ -3315,8 +3327,8 @@
       "index": "b1P",
       "roundness": null,
       "seed": 1262741650,
-      "version": 420,
-      "versionNonce": 1591962705,
+      "version": 682,
+      "versionNonce": 1316734701,
       "isDeleted": false,
       "boundElements": [
         {
@@ -3324,26 +3336,26 @@
           "type": "arrow"
         }
       ],
-      "updated": 1787823790356,
+      "updated": 1788613968108,
       "link": null,
       "locked": false,
-      "text": "Ajouter la curiosité technologique et informatique :\nRéseaux de neuronnes, Transformers, LLMs locaux, DIY,\nAlgorithmes évolutionnistes, Recherche opérationnelle",
+      "text": "Ajouter la curiosité technologique et informatique :\nLLMs locaux (Pi + Qwen 3.8 27B + RTX 4090), Réseaux\nde neuronnes, DIY, Algorithmes évolutionnistes,\nRecherche opérationnelle",
       "fontSize": 20,
       "fontFamily": 5,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Ajouter la curiosité technologique et informatique :\nRéseaux de neuronnes, Transformers, LLMs locaux, DIY,\nAlgorithmes évolutionnistes, Recherche opérationnelle",
-      "autoResize": true,
+      "originalText": "Ajouter la curiosité technologique et informatique :\nLLMs locaux (Pi + Qwen 3.8 27B + RTX 4090), Réseaux de neuronnes, DIY, Algorithmes évolutionnistes, Recherche opérationnelle",
+      "autoResize": false,
       "lineHeight": 1.25
     },
     {
       "id": "bMB2jpsls2YlzonuTWC7v",
       "type": "arrow",
-      "x": 1118.0167357800783,
-      "y": 16.18262500307719,
-      "width": 200.00000000000023,
-      "height": 66.36363636363637,
+      "x": 1121.1140232199652,
+      "y": -4.232789342943221,
+      "width": 196.51912516799263,
+      "height": 60.51335649489077,
       "angle": 0,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "transparent",
@@ -3359,11 +3371,11 @@
         "type": 2
       },
       "seed": 314765047,
-      "version": 202,
-      "versionNonce": 184123543,
+      "version": 369,
+      "versionNonce": 81354403,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1787064157234,
+      "updated": 1788611947753,
       "link": null,
       "locked": false,
       "points": [
@@ -3372,24 +3384,20 @@
           0
         ],
         [
-          120.90909090909099,
-          1.818181818181813
+          149.1282738778938,
+          16.678040608646622
         ],
         [
-          200.00000000000023,
-          -64.54545454545456
+          196.51912516799263,
+          -43.83531588624415
         ]
       ],
       "lastCommittedPoint": null,
-      "startBinding": {
-        "elementId": "Imyk0rcoECsAJcx7SjUCe",
-        "focus": -0.35222367900864876,
-        "gap": 14
-      },
+      "startBinding": null,
       "endBinding": {
         "elementId": "RebbN-h8Bmvh682iqRZ9j",
-        "focus": 0.8252921443948952,
-        "gap": 7.229221605695754
+        "focus": 0.8997947129650938,
+        "gap": 7.670952987135526
       },
       "startArrowhead": null,
       "endArrowhead": "arrow",
@@ -3415,8 +3423,8 @@
       "index": "b1R",
       "roundness": null,
       "seed": 995889625,
-      "version": 613,
-      "versionNonce": 1534667063,
+      "version": 614,
+      "versionNonce": 1111310851,
       "isDeleted": false,
       "boundElements": [
         {
@@ -3424,16 +3432,16 @@
           "type": "arrow"
         }
       ],
-      "updated": 1787064156982,
+      "updated": 1788611940906,
       "link": null,
       "locked": false,
-      "text": "Finallement non exploité",
+      "text": "Finalement non exploité",
       "fontSize": 20,
       "fontFamily": 5,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Finallement non exploité",
+      "originalText": "Finalement non exploité",
       "autoResize": false,
       "lineHeight": 1.25
     },
@@ -3532,6 +3540,278 @@
         "elementId": "sAxQTN6ilAazLy81bRC90",
         "focus": -0.23253849739562446,
         "gap": 5.185482799071451
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+    },
+    {
+      "id": "XD5l71__RxUJKNhlxAXCQ",
+      "type": "rectangle",
+      "x": 795.7544811252205,
+      "y": 1000.3849797123953,
+      "width": 1002.9185507186705,
+      "height": 270.4538318259654,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#ffec99",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b1U",
+      "roundness": {
+        "type": 3
+      },
+      "seed": 1560411853,
+      "version": 4243,
+      "versionNonce": 1553195661,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "t0vyRgEPGHd9N3bU03FVp"
+        },
+        {
+          "id": "qDbYoUp7NpDrH4IrZ03Mc",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1788619822652,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "t0vyRgEPGHd9N3bU03FVp",
+      "type": "text",
+      "x": 800.7544811252205,
+      "y": 1010.611895625378,
+      "width": 990.4593505859375,
+      "height": 250,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#ffec99",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b1V",
+      "roundness": null,
+      "seed": 1599249709,
+      "version": 8072,
+      "versionNonce": 712794957,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1788619822652,
+      "link": null,
+      "locked": false,
+      "text": "    Quoi ? Plateforme robotisée d'application de peinture en poudre sur plaques métalliques, pour un\ndépôt homogène et reproductible et l'étude fiable de l'adhésion des revêtements de surface.\n    Pour qui ? Équipe IPS (Business Unit Novecare) du centre de recherche d'Aubervilliers                \n    Comment ? Un robot 6 axes Doosan équipé d'un pistolet automatique GEMA, monté sur un chariot\nmobile avec système de guidage au sol pour un positionnement précis face à la hotte aspirante.\nSimulations numériques de l'encombrement et détection des singularités, campagne de caractérisation\nde la vitesse et l'accélération du robot par analyse d'image\n    Gain ? Élimination de la variabilité du geste opérateur et du bruit dans les résultats d'adhésion,\ndépôt plus homogène (épaisseur constante, sans zones non couvertes ni marques de reprise), gain\nsignificatif en sécurité (moins d'exposition). 2024",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "middle",
+      "containerId": "XD5l71__RxUJKNhlxAXCQ",
+      "originalText": "    Quoi ? Plateforme robotisée d'application de peinture en poudre sur plaques métalliques, pour un dépôt homogène et reproductible et l'étude fiable de l'adhésion des revêtements de surface.\n    Pour qui ? Équipe IPS (Business Unit Novecare) du centre de recherche d'Aubervilliers                                                                                                                                  \n    Comment ? Un robot 6 axes Doosan équipé d'un pistolet automatique GEMA, monté sur un chariot mobile avec système de guidage au sol pour un positionnement précis face à la hotte aspirante. Simulations numériques de l'encombrement et détection des singularités, campagne de caractérisation de la vitesse et l'accélération du robot par analyse d'image\n    Gain ? Élimination de la variabilité du geste opérateur et du bruit dans les résultats d'adhésion, dépôt plus homogène (épaisseur constante, sans zones non couvertes ni marques de reprise), gain significatif en sécurité (moins d'exposition). 2024",
+      "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "qDbYoUp7NpDrH4IrZ03Mc",
+      "type": "arrow",
+      "x": 1074.1087865651539,
+      "y": 403.2889637368884,
+      "width": 51.029704734904726,
+      "height": 596.7557412506096,
+      "angle": 6.230535373789087,
+      "strokeColor": "#343a40",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b1W",
+      "roundness": {
+        "type": 2
+      },
+      "seed": 105420227,
+      "version": 2616,
+      "versionNonce": 577898733,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1788619822652,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          51.029704734904726,
+          101.51714172613163
+        ],
+        [
+          50.23686082470226,
+          596.7557412506096
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "URoPEyH5vzqzN9QGRF-i2",
+        "focus": -0.7645397781550357,
+        "gap": 8.57027472536879
+      },
+      "endBinding": {
+        "elementId": "XD5l71__RxUJKNhlxAXCQ",
+        "focus": -0.29533725092738106,
+        "gap": 7.401184402264789
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+    },
+    {
+      "id": "jLnJykk-wK6_zXAmGkSkp",
+      "type": "rectangle",
+      "x": -1356.2231997866943,
+      "y": 413.99654421702627,
+      "width": 723.3320190523908,
+      "height": 185,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#ffec99",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b1X",
+      "roundness": {
+        "type": 3
+      },
+      "seed": 2056545581,
+      "version": 3273,
+      "versionNonce": 1806938861,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "Hyp33Ue68cdMnzOCkc2fT"
+        },
+        {
+          "id": "LSW_XQB2wWJotJAI1FzBK",
+          "type": "arrow"
+        },
+        {
+          "id": "k-qtDMDLtsCNK7tEeVGIU",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1788690146541,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "Hyp33Ue68cdMnzOCkc2fT",
+      "type": "text",
+      "x": -1351.2231997866943,
+      "y": 418.99654421702627,
+      "width": 710.1195068359375,
+      "height": 175,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#ffec99",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b1Y",
+      "roundness": null,
+      "seed": 1049180045,
+      "version": 3571,
+      "versionNonce": 984118413,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1788690246675,
+      "link": null,
+      "locked": false,
+      "text": "Conception et intégration dans la chaîne de décision d'un modèle de\nprédiction des flux d'effluents azotés de l'usine de La Rochelle. Un sujet\nde Machine Learning (PyCaret, SHAP) s'appuyant sur la mise en relation\ndes mesures continues des capteurs IoT (Conductivité, pH, Redox, O₂\ndissous, Turbidité) avec les analyses de laboratoire ponctuelles (azote,\nammonium, nitrates), qui permet de disposer de prévisions continues des\neffluents et de piloter l'unité de concentration.",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "middle",
+      "containerId": "jLnJykk-wK6_zXAmGkSkp",
+      "originalText": "Conception et intégration dans la chaîne de décision d'un modèle de prédiction des flux d'effluents azotés de l'usine de La Rochelle. Un sujet de Machine Learning (PyCaret, SHAP) s'appuyant sur la mise en relation des mesures continues des capteurs IoT (Conductivité, pH, Redox, O₂ dissous, Turbidité) avec les analyses de laboratoire ponctuelles (azote, ammonium, nitrates), qui permet de disposer de prévisions continues des effluents et de piloter l'unité de concentration.",
+      "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "LSW_XQB2wWJotJAI1FzBK",
+      "type": "arrow",
+      "x": -421.00320160122686,
+      "y": 300.55993315863424,
+      "width": 201.37221703074914,
+      "height": 137.7458777689195,
+      "angle": 0,
+      "strokeColor": "#343a40",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b1Z",
+      "roundness": {
+        "type": 2
+      },
+      "seed": 1016043683,
+      "version": 1643,
+      "versionNonce": 9557037,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1788690262929,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -114.3760692991496,
+          35.93305757624785
+        ],
+        [
+          -201.37221703074914,
+          137.7458777689195
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "aH68rXkbTtkZRjmRReQQB",
+        "focus": 0.5252992796826068,
+        "gap": 5.063509151740391
+      },
+      "endBinding": {
+        "elementId": "jLnJykk-wK6_zXAmGkSkp",
+        "focus": 0.7123019003571963,
+        "gap": 10.948767847666295
       },
       "startArrowhead": null,
       "endArrowhead": "arrow",
