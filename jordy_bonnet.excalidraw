@@ -3252,10 +3252,10 @@
     {
       "id": "98Tlsd9SprmXF0OYgfSwr",
       "type": "arrow",
-      "x": 1353.6389103878714,
-      "y": -257.9051311641736,
-      "width": 67.11722704800354,
-      "height": 70.97739447689929,
+      "x": 1376.6389103878714,
+      "y": -239.5938715887492,
+      "width": 90.20505450111864,
+      "height": 97.08450096081992,
       "angle": 0,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "transparent",
@@ -3271,11 +3271,11 @@
         "type": 2
       },
       "seed": 447762126,
-      "version": 629,
-      "versionNonce": 1788764493,
+      "version": 1369,
+      "versionNonce": 1883856068,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1788613968108,
+      "updated": 1792767184298,
       "link": null,
       "locked": false,
       "points": [
@@ -3284,24 +3284,24 @@
           0
         ],
         [
-          -37.60341558903383,
-          -23.351277021785336
+          -71.60341558903383,
+          7.337463402790263
         ],
         [
-          -67.11722704800354,
-          -70.97739447689929
+          -90.20505450111864,
+          -89.74703755802966
         ]
       ],
       "lastCommittedPoint": null,
       "startBinding": {
         "elementId": "2Vy3Un52fS-hNY8SB1BRG",
-        "focus": -0.8090752059575649,
-        "gap": 10.12385713823869
+        "focus": 0.41706916720782944,
+        "gap": 11.123857138238918
       },
       "endBinding": {
         "elementId": "BZG9nuCDmTM9VoffADMYb",
-        "focus": -0.3634544143100765,
-        "gap": 2.148605550656157
+        "focus": -0.5964045249825023,
+        "gap": 1
       },
       "startArrowhead": null,
       "endArrowhead": "arrow",
@@ -3310,10 +3310,10 @@
     {
       "id": "2Vy3Un52fS-hNY8SB1BRG",
       "type": "text",
-      "x": 1363.7627675261103,
-      "y": -309.3018865190328,
-      "width": 552.7942759875247,
-      "height": 100,
+      "x": 1387.7627675261103,
+      "y": -321.3018865190328,
+      "width": 745.7942759875245,
+      "height": 200,
       "angle": 0,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "transparent",
@@ -3327,8 +3327,8 @@
       "index": "b1P",
       "roundness": null,
       "seed": 1262741650,
-      "version": 682,
-      "versionNonce": 1316734701,
+      "version": 1341,
+      "versionNonce": 1648796996,
       "isDeleted": false,
       "boundElements": [
         {
@@ -3336,16 +3336,16 @@
           "type": "arrow"
         }
       ],
-      "updated": 1788613968108,
+      "updated": 1792767184298,
       "link": null,
       "locked": false,
-      "text": "Ajouter la curiosité technologique et informatique :\nLLMs locaux (Pi + Qwen 3.8 27B + RTX 4090), Réseaux\nde neuronnes, DIY, Algorithmes évolutionnistes,\nRecherche opérationnelle",
+      "text": "Ajouter la curiosité technologique et informatique :\nLLMs locaux\n    ↳ engines   : Strata, Llama.cpp, LM studio, ...\n    ↳ harnais   : Pi, DeepSeek Harness, Copilot, ...\n    ↳ modèles  : Qwen 3.8, Qwen flash next, Gemma 4...  \n    ↳ hardware : RTX 4090, DGX Spark, Strix Halo, ...\n    ↳ projet de jeu de carte online (7500+ cartes) full vibe codé en IA locale\nRéseaux de neuronnes, DIY, Algorithmes évolutionnistes, Science vulgarisée",
       "fontSize": 20,
       "fontFamily": 5,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Ajouter la curiosité technologique et informatique :\nLLMs locaux (Pi + Qwen 3.8 27B + RTX 4090), Réseaux de neuronnes, DIY, Algorithmes évolutionnistes, Recherche opérationnelle",
+      "originalText": "Ajouter la curiosité technologique et informatique :\nLLMs locaux\n    ↳ engines   : Strata, Llama.cpp, LM studio, ...\n    ↳ harnais   : Pi, DeepSeek Harness, Copilot, ...\n    ↳ modèles  : Qwen 3.8, Qwen flash next, Gemma 4...  \n    ↳ hardware : RTX 4090, DGX Spark, Strix Halo, ...\n    ↳ projet de jeu de carte online (7500+ cartes) full vibe codé en IA locale\nRéseaux de neuronnes, DIY, Algorithmes évolutionnistes, Science vulgarisée",
       "autoResize": false,
       "lineHeight": 1.25
     },
